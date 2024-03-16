@@ -1,0 +1,65 @@
+---
+title: "Talks"
+subtitle: "Palestras, workshops e outras apresentações que eu participei"
+page-layout: full
+title-block-banner: true
+image: /assets/images/social-profile.png
+listing:
+  sort: "date desc"
+  type: grid
+  sort-ui: true
+  filter-ui: true
+  max-description-length: 300
+  fields: [title, date, description, image]
+  contents:
+    - path: https://www.youtube.com/watch?v=Fl4YwD_xgAo&ab_channel=Colabora-JornalismoSustent%C3%A1vel
+      title: "Uma introdução ao jornalismo de dados | Curso Inclusão e Diversidade"
+      date: "2024-02-23"
+      description: "Esta aula faz parte do curso de formação em jornalismo independente e empreendedorismo promovido pelo #Colabora no programa Inclusão e Diversidade. Nesta aula introdutória são discutidos conceitos, técnicas e ferramentas para analisar e apresentar informações através de dados. O módulo apresenta diferentes etapas do fluxo de trabalho no jornalismo de dados como: coleta, limpeza, análise e visualização. Além disso, apresenta referências jornalísticas para se ambientar e se inspirar na produção de reportagens orientadas por dados."
+      image: thumbcolabora.jpg
+    - path: https://www.youtube.com/watch?v=eJCF_pi-bkc&t=2314s&ab_channel=Abraji
+      title: "Visualizações de dados revelam problemas sociais"
+      date: "2023-07-02"
+      description: "Crimes graves, crises e outros problemas sociais são temas de trabalhos brasileiros recentes e premiados. Essas matérias ganharam forma graças ao uso revolucionário do Dataviz. Conheça os trabalhos de Rodolfo Almeida para visualizar um mundo em crise na pandemia e o Mapa dos Conflitos, da Agência Pública, finalista do Sigma Awards."
+      image: thumbddabrajia.jpg
+    - path: https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2
+      title: "Passo a passo de uma reportagem com dados"
+      date: "2023-11-23"
+      description: "Aula do treinamento sobre jornalismo ambiental e cobertura de conflitos socioambientais do Portal Assobiar "
+      image: https://portalassobiar.com.br/wp-content/uploads/2022/07/PORTAL-ASSOBIAR-_LOGO.png
+    - path: https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html
+      title: "Workshop: Python + R juntos com Quarto"
+      date: "2023-09-01"
+      description: "Workshop facilitado no Coda Amazônia 2023"
+      image: https://escoladedados.org/wp-content/uploads/2023/05/Captura-de-Tela-2023-05-08-a%CC%80s-13.37.31.png
+    - path: https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html
+      title: "Planilha: uma grande aliada da análise de dados"
+      date: "2023-09-02"
+      description: "Workshop facilitado no Coda Amazônia 2023"
+      image: https://escoladedados.org/wp-content/uploads/2023/05/Captura-de-Tela-2023-05-08-a%CC%80s-13.37.31.png
+    - path: https://biancamuniz.quarto.pub/ddj_rladiesrp/
+      title: "Trabalhando com R no Jornalismo de Dados"
+      date: "2023-10-21"
+      description: "Neste workshop, exploramos o uso do software R no jornalismo, acompanhando a produção de um relatório com Quarto que destrincha o fluxo de trabalho no jornalismo de dados."
+      image: ddj-rladiesrp.jpeg
+    - path: https://www.youtube.com/watch?v=Pt5lhsmjkOQ&ab_channel=EscoladeDados
+      title: "A Pública em dados e o ‘Mapa dos Conflitos’"
+      date: "2022-07-19"
+      description: "Webinar da Escola de Dados"
+      image: mapa-conflitos.jpg
+    - path: https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&loop=false&delayms=10000
+      title: "Jornalismo de Dados para mudar realidades"
+      date: "2022-08-07"
+      description: "Apresentação no 4° Domingo de Dados da Abraji, em 2022."
+      image: domingodedados2022.jpeg
+    - path: https://www.youtube.com/watch?v=HdH92Ih3fOs&ab_channel=EscoladeDados
+      title: "Jornalismo de Dados com editores de planilhas"
+      date: "2022-11-03"
+      description: "Com um editor de planilhas como o Google Sheets, Excel ou LibreOffice é possível fazer de uma contagem simples até busca por padrões em textos. Neste workshop, a partir de exercícios guiados, serão mostradas funções para “entrevistar uma planilha”, prós e contras do uso de editores e como aproveitar a ferramenta para além de suas funções comuns."
+      image: codabr22.jpg
+    - path: https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/
+      title: "Introdução ao R"
+      date: "2023-10-28"
+      description: "Meetup organizado pela R-Ladies São Paulo"
+      image: intro-r-2023.jpg
+---

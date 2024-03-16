@@ -1,0 +1,26 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projetos/mentindo-com-graficos/index.html",
+      "/projetos/oxigenio-manaus/index.html",
+      "/posts/rita-com-r/index.html",
+      "/posts/resistencia/index.html"
+    ]
+  },
+  {
+    "listing": "/publicacoes.html",
+    "items": []
+  },
+  {
+    "listing": "/projetos.html",
+    "items": [
+      "/projetos/mentindo-com-graficos/index.html",
+      "/projetos/oxigenio-manaus/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": []
+  }
+]
