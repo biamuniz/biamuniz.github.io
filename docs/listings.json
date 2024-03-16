@@ -22,5 +22,12 @@
   {
     "listing": "/talks/index.html",
     "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/rita-com-r/index.html",
+      "/posts/resistencia/index.html"
+    ]
   }
 ]
