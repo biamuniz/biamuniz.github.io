@@ -1,0 +1,72 @@
+project:
+  type: website
+  resources:
+    - _headers
+
+website:
+  title: "Bianca M"
+  description: "A data science blog and portfolio by Bianca Muniz"
+  favicon: /assets/images/logo.svg
+  image: /assets/images/social-profile.png
+  site-url: https://biamuni
+  repo-url: https://github.com/mcanouil/mickael.canouil.fr
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  page-footer:
+    border: true
+    left: |
+      Powered by [Quarto](https://quarto.org).
+    center: |
+      &copy; 2024 Bianca Muniz.
+    right: |
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+  navbar:
+    title: "BM"
+    search: true
+   # logo: assets/images/logo.svg
+    right:
+      - text: Sobre
+        href: sobre.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: Publicações
+        href: publicacoes.qmd
+      - text: Talks
+        href: talks/
+      - text: Projetos
+        href: projetos.qmd
+
+format:
+  html:
+    theme:
+      - assets/stylesheets/coeos.scss
+    lang: pt-br
+#    date-format: 'dddd[, the] Do [of] MMMM, YYYY'
+    highlight-style: github-dark
+    code-copy: true
+    code-link: true
+    anchor-sections: true
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    fig-align: center
+    code-tools:
+      source: false
+      toggle: false
+      caption: none
+    include-after-body:
+      - text: |
+          <script type="text/javascript">
+          const dateElements = document.querySelectorAll("p.date, div.listing-date, div.listing-file-modified");
+          dateElements.forEach((el) => {
+            el.innerHTML = el.innerHTML.replace(
+              /(\d+)(st|nd|rd|th)/g,
+              "$1<sup style='font-size:0.5em;font-style:italic;'>$2</sup>"
+            );
+          });
+          </script>
+
+lightbox: auto
+
+execute:
+  freeze: true
