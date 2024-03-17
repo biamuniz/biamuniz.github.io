@@ -5,6 +5,7 @@
       "/projetos/mentindo-com-graficos/index.html",
       "/projetos/oxigenio-manaus/index.html",
       "/posts/rita-com-r/index.html",
+      "/posts/biapalooza.html",
       "/posts/resistencia/index.html"
     ]
   },
@@ -27,6 +28,7 @@
     "listing": "/blog.html",
     "items": [
       "/posts/rita-com-r/index.html",
+      "/posts/biapalooza.html",
       "/posts/resistencia/index.html"
     ]
   }

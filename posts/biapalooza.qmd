@@ -1,0 +1,10 @@
+---
+title: "Biapalooza"
+subtitle: "uma análise de todos os shows que fui desde 2013."
+date: "2020-11-22"
+categories: 
+  - "Análise de dados"
+  - "Música"
+lang: pt
+toc: true 
+---

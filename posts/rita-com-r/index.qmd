@@ -23,9 +23,9 @@ Esse post contém alguns trocadilhos e referências musicais. Dá o play na play
 ```{=html}
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZFzKJSyLCAa?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ```
-# 1. Análise das músicas com spotifyR
+#  Análise das músicas com spotifyR
 
-## 1.1. Esse tal de R
+## Esse tal de R
 
 Para começar, é preciso carregar alguns pacotes:
 
@@ -57,7 +57,7 @@ rita_features <- read_csv("data-raw/rita_features.csv")
 glimpse(rita_features)
 ```
 
-### 
+ 
 
 Aqui já conseguimos ver que o dataframe resultante dessa requisição tem 39 colunas e 411 linhas, que correspondem a cada faixa da cantora. Há uma coluna com o formato errado, a `album_release_date`, que é a data de lançamento do álbum (não usaremos esse atributo na análise, mas é bom saber :D)
 
@@ -129,7 +129,7 @@ Para as próximas análises, vamos considerar apenas os álbuns da discografia e
 rita_filtrado <- subset(rita_features, album_name %in% c('Build Up', 'Hoje É O Primeiro Dia Do Resto Da Sua Vida', 'Atrás Do Porto Tem Uma Cidade', 'Fruto Proibido', 'Entradas E Bandeiras', 'Babilônia', 'Rita Lee', 'Rita Lee', 'Saúde', 'Flagra', 'Bombom', 'Rita E Roberto', 'Flerte Fatal', 'Zona Zen', 'Rita Lee E Roberto De Carvalho', 'Rita Lee', 'Santa Rita De Sampa', 'Rita Lee 3001', 'Aqui, Ali, Em Qualquer Lugar','Balacobaco','Reza'))
 ```
 
-## 1.2. "Mas louco é quem me diz e não é feliz"
+##  "Mas louco é quem me diz e não é feliz"
 
 A positividade de uma canção pode ser medida com a **valência** dela. De acordo com a documentação da API do Spotify, valência "é uma medida de 0.0 a 1.0 que descreve a positividade musical transmitida por uma faixa. Faixas com alta valência soam mais positivas (por exemplo, felizes, alegres, eufóricas), enquanto faixas com baixa valência soam mais negativas (por exemplo, tristes, deprimidas, irritadas)".
 
@@ -207,7 +207,7 @@ O gráfico mostra "uma onda" por álbum da Rita. Os picos são os valores com ma
 
 Olhando o gráfico, dá para perceber que os anos de 1981 e 1983 foram mais positivos musicalmente, de acordo com os atributos dos álbuns lançados nesses anos.
 
-## 1.3. "Pra pedir silêncio eu berro, pra fazer barulho eu mesma faço"
+## "Pra pedir silêncio eu berro, pra fazer barulho eu mesma faço"
 
 Vamos analisar a **energia** das músicas da rainha do rock. Diferentemente da energia espiritual e cósmica que uma padroeira da liberdade poderia exalar, a API descreve esse atributo como "uma escala de 0 a 1 e representa uma medida de intensidade e atividade. Normalmente, as faixas energéticas parecem rápidas, altas e barulhentas". Isso significa que uma faixa bem pesada, como um death metal, teria alta energia, enquanto uma baladinha suave pontua baixo na escala.
 
@@ -265,7 +265,7 @@ Aqui temos um empate entre "Erva Venenosa" e "Tratos À Bola". Vou trapacear na 
 ```{=html}
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6WKxX0jswMBKepsHF1n1c5?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 ```
-## 1.4. "Baila comigo"
+## "Baila comigo"
 
 O atributo **dançabilidade** ("danceability" em inglês - confesso não saber de uma palavra em português pra isso) descreve o quão adequada uma faixa é para dançar, baseado em uma combinação de elementos musicais incluindo tempo, estabilidade rítmica, força do beat e regularidade geral. Um valor de 0 é o menos dançável e 1 é o mais dançável.
 
@@ -332,7 +332,7 @@ rita_filtrado |>
 
 
 
-## 1.5. "E falo baixo nos meus decibéis"
+## "E falo baixo nos meus decibéis"
 
 Os atributos **fala** (speechiness) e **instrumentalidade** (instrumentalness) podem se complementar. Enquanto o primeiro trata da detecção da presença de palavras faladas em uma faixa musical, o segundo prevê se uma faixa não contém vocais.
 
@@ -361,9 +361,9 @@ rita_filtrado$track_name[which.min(rita_filtrado$instrumentalness)]
 ```
 
 
-# 2. Análise das letras
+# Análise das letras
 
-## 2.1. Raspagem com uma cobra cascavel
+## Raspagem com uma cobra cascavel
 
 Antes de passar para o R, vamos fazer a raspagem do site letras.mus.br com Python (aquela linguagem do logo de cobrinha). Para isso, é preciso importar algumas bibliotecas:
 
@@ -456,7 +456,7 @@ A página lista covers feito pela artista, ao vivo ou em álbuns. Considerar iss
 
 A música com mais versos no site é "Bad", originalmente cantada por Michael Jackson. Rita Lee já [homenageou o astro do pop ao vivo](https://revistaquem.globo.com/Revista/Quem/0,,ERT125693-9531,00.html) com um cover. Desconsiderando "Bad", a música da Rita com mais versos é "Mutante". "[Ai de mim que sou romântica](https://open.spotify.com/track/5rShS5dwU8nIe21jlQnbxK?si=6134d83208fc4b25)"...
 
-## 2.2. "O som das nuvens" (de palavras)
+## "O som das nuvens" (de palavras)
 
 Antes de analisar o texto, é preciso fazer uma série de ajustes, um pré-processamento. Aqui vamos deixar as letras em minúscula, faremos a remoção de algumas palavras (as stopwords) e o processo de tokenização.
 
@@ -696,7 +696,7 @@ letras |>
 
 
 
-## 3. "...um monte de gente feliz"
+## "...um monte de gente feliz"
 
 É difícil pensar em considerações finais sobre um legado tão vasto e uma pessoa tão cheia de adjetivos. Mas Rita pensou e acho que não há palavras melhores que as dela para finalizar esse post:
 

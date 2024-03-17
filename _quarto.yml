@@ -5,9 +5,9 @@ project:
     - _headers
 
 website:
-  title: "Bianca M"
- # description: "A data science blog and portfolio by Bianca Muniz"
-  favicon: /assets/images/logo.svg
+#  title: "Bianca M"
+  description: "A data science blog and portfolio by Bianca Muniz"
+  favicon: icons8-home-32.png
   image: /assets/images/social-profile.png
   site-url: https://biamuniz.github.io
   repo-url: https://github.com/mcanouil/biamuniz.github.io
@@ -23,9 +23,9 @@ website:
     right: |
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
   navbar:
-    title: "BM"
+   # title: "BM"
     search: true
-   # logo: assets/images/logo.svg
+    logo: assets/icons8-home-32.png
     right:
       - text: Sobre
         href: sobre.qmd
