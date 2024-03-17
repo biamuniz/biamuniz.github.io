@@ -1,1 +1,1 @@
-Sitemap: https://biamuni/sitemap.xml
+Sitemap: https://biamuniz.github.io/sitemap.xml

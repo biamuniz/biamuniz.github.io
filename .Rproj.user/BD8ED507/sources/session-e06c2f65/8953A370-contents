@@ -6,11 +6,11 @@ project:
 
 website:
   title: "Bianca M"
-  description: "A data science blog and portfolio by Bianca Muniz"
+ # description: "A data science blog and portfolio by Bianca Muniz"
   favicon: /assets/images/logo.svg
   image: /assets/images/social-profile.png
-  site-url: https://biamuni
-  repo-url: https://github.com/mcanouil/mickael.canouil.fr
+  site-url: https://biamuniz.github.io
+  repo-url: https://github.com/mcanouil/biamuniz.github.io
   open-graph: true
   twitter-card: true
   page-navigation: true
@@ -48,7 +48,7 @@ format:
     code-copy: true
     code-link: true
     anchor-sections: true
-    email-obfuscation: javascript
+   # email-obfuscation: javascript
     link-external-newwindow: true
     fig-align: center
     code-tools:
