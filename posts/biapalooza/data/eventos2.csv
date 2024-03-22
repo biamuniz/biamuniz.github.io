@@ -1,0 +1,119 @@
+﻿ID_EVENTO;Data;EVENTO;ARTISTAS;Local/Evento;Local;Endereço;Preço;Companhia;Quem foi;Latitude;Longitude
+IDE001;09/11/2013;Pocket Show: Móveis Coloniais de Acaju;Móveis Coloniais de Acaju;FNAC Paulista;FNAC Paulista;Av. Paulista, 901 - Bela Vista, São Paulo - SP, 01311-100;0;TRUE;Beatriz, Heloísa;-23.5659703;-46.6513863
+IDE002;10/05/2014;Show: Festival CCBB de Música Urbana;Vespas Mandarinas;Vale do Anhangabaú;Vale do Anhangabaú;Centro Histórico de São Paulo, São Paulo - SP, 01010-001;0;FALSE;Sozinha;-23.54541095;-46.63666383561210
+IDE003;06/12/2014;Show: Tiago Iorc;Tiago Iorc;Teatro Polytheama;Teatro Polytheama Jundiaí;R. Barão de Jundiaí, 176 - Centro, Jundiaí - SP, 13201-010;35;TRUE;Beatriz;-23.1923946;-46.880882082053100
+IDE004;18/04/2015;Show: Tulipa Ruiz;Tulipa Ruiz;SESC Jundiaí;SESC Jundiaí;Av. Antônio Frederico Ozanan, 6600 - Jardim Botânico, Jundiaí - SP, 13214-206;0;FALSE;Sozinha;-23.17373985;-46.897713364294900
+IDE005;24/04/2015;Pocket Show: Vivendo do Ócio;Vivendo do Ócio;Livraria Cultura Bourbon;Bourbon Shopping;Rua Palestra Itália, 500 - Piso 3 - Loja 211 - Perdizes, São Paulo - SP, 05005-030;0;FALSE;Sozinha;-23.5258835;-46.681107
+IDE006;13/06/2015;Show: A Banda Mais Bonita da Cidade (abertura: Tay Galega);A Banda Mais Bonita da Cidade e Tay Galega;Teatro Mars;Teatro Mars Bela Vista;Rua João Passalaqua, 80 - Bela Vista, São Paulo - SP, 01326-020;35;FALSE;Sozinha;-23.5538209;-46.64832
+IDE007;04/07/2015;Pocket Show: Supercombo;Supercombo;Monster Music Store;Monster Music Store;R. Teodoro Sampaio, 918 - Pinheiros, São Paulo - SP, 05406-050;0;FALSE;Sozinha;-23.5602687;-46.6820128
+IDE008;26/07/2015;Show: Supercombo;Supercombo;Aldeia Bar;Aldeia Bar Jundiaí;R. Dr. Torres Neves, 111 - Centro, Jundiaí - SP, 13201-058;30;FALSE;Sozinha;-23.186081;-46.8819953
+IDE009;28/08/2015;Pocket Show: Scalene;Scalene;Livraria Cultura Bourbon;Bourbon Shopping;Rua Palestra Itália, 500 - Piso 3 - Loja 211 - Perdizes, São Paulo - SP, 05005-030;0;FALSE;Sozinha;-23.5258835;-46.681107
+IDE010;18/10/2015;Show: Far From Alaska, Maglore e Supercombo;Far From Alaska, Maglore e Supercombo;Carioca Club;Carioca Club Pinheiros;Rua Cardeal Arcoverde, 2899 - Pinheiros, São Paulo - SP, 05407-004;30;FALSE;Sozinha;-23.5693038;-46.6949663
+IDE011;08/11/2015;Show: Vanguart;Vanguart;SESC Pinheiros;SESC Pinheiros;R. Paes Leme, 195 - Pinheiros, São Paulo - SP, 05424-150;15;TRUE;Rafaella;-23.5680244;-46.69780334024130
+IDE012;15/12/2015;Pocket Show: Maglore;Maglore;FNAC Paulista;FNAC Paulista;Av. Paulista, 901 - Bela Vista, São Paulo - SP, 01311-100;0;FALSE;Sozinha;-23.5659703;-46.6513863
+IDE013;24/01/2016;Show: Vanguart;Vanguart;SESC Santana;SESC Santana;Av. Luiz Dumont Villares, 579 - Santana, São Paulo - SP, 02085-100;15;FALSE;Sozinha;-23.4965872;-46.612798144322500
+IDE014;13/02/2016;Show: Dingo Bells e Maglore;Dingo Bells e Maglore;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;10;TRUE;Rafaella;-23.5700325;-46.64023039547910
+IDE015;02/04/2016;Show: Selvagens à Procura de Lei e Vivendo do Ócio;Selvagens à Procura de Lei, Vivendo do Ócio, Locus e Martin;Teatro Mars;Teatro Mars Bela Vista;Rua João Passalaqua, 80 - Bela Vista, São Paulo - SP, 01326-020;35;FALSE;Sozinha;-23.5538209;-46.64832
+IDE016;03/04/2016;Show: Tiago Iorc;Tiago Iorc;Teatro Polytheama;Teatro Polytheama Jundiaí;R. Barão de Jundiaí, 176 - Centro, Jundiaí - SP, 13201-010;50;FALSE;Sozinha;-23.1923946;-46.880882082053100
+IDE017;12/04/2016;Pocket Show: Vanguart;Vanguart;FNAC Paulista;FNAC Paulista;Av. Paulista, 901 - Bela Vista, São Paulo - SP, 01311-100;0;FALSE;Sozinha;-23.5659703;-46.6513863
+IDE018;21/04/2016;Show: Móveis Coloniais de Acaju;Móveis Coloniais de Acaju;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;0;TRUE;Ivan, Keilla, Simone;-23.5310528;-46.64327085
+IDE019;14/05/2016;Show: Festival Path;Dingo Bells e O Terno;Praça Professor Resende Puech;Praça Professor Resende Puech;Praça Prof. Resende Puech - PinheirosSão Paulo - SP, 05444-070;0;FALSE;Sozinha;-23.5592433;-46.69631958153240
+IDE020;12/06/2016;Show: Festival Pindorama Brasil 2;Marujos, Zimbra, Tubaranda, Rodrigo Alarcon, Ana Muller, Leo Fressato, Vivendo do Ócio, Rubel;Estúdio;Estúdio;Av. Pedroso de Morais, 1036 - Pinheiros, São Paulo - SP, 05420-001;50;FALSE;Sozinha;-23.5614752;-46.6930019
+IDE021;17/07/2016;Pocket show: Festival Fusão Matte Leão;Rodrigo Pitta e Thiago Pethit;Vale do Anhangabaú;Vale do Anhangabaú;Centro Histórico de São Paulo, São Paulo - SP, 01010-001;0;FALSE;Sozinha;-23.54541095;-46.63666383561210
+IDE022;25/07/2016;Show: Esteban;Esteban;SESC Carmo;SESC Carmo Sé;R. do Carmo, 147 - Sé, São Paulo - SP, 01019-020;6;FALSE;Sozinha;-23.5517077;-46.63008807870370
+IDE023;31/07/2016;Show: Vespas Mandarinas;Vespas Mandarinas;SESC Consolação;SESC Consolação;R. Dr. Vila Nova, 245 - Vila Buarque, São Paulo - SP, 01222-020;9;FALSE;Sozinha;-23.5460606;-46.6500548
+IDE024;19/08/2016;Pocket Show: Selvagens à Procura de Lei;Selvagens à Procura de Lei;Livraria Cultura Bourbon;Bourbon Shopping;Rua Palestra Itália, 500 - Piso 3 - Loja 211 - Perdizes, São Paulo - SP, 05005-030;0;TRUE;Isa;-23.5258835;-46.681107
+IDE025;20/08/2016;Show: A Banda Mais Bonita da Cidade;A Banda Mais Bonita da Cidade;Teatro Sérgio Cardoso;Teatro Sérgio Cardoso;R. Rui Barbosa, 153 - Bela Vista, São Paulo - SP, 01326-010;30;FALSE;Sozinha;-23.5566551;-46.644958994247100
+IDE026;26/08/2016;Pocket Show: O Terno;O Terno;Unibes Cultural;Unibes Cultural;R. Oscar Freire, 2500 - Sumaré, São Paulo - SP, 05409-012;0;FALSE;Sozinha;-23.5509384;-46.6784303
+IDE027;04/09/2016;Show: Baleia;Baleia;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;12,5;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE028;15/10/2016;Show: Vanguart;Vanguart;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE029;16/10/2016;Show: Festival Fuzzland;E a terra nunca me pareceu tão distante e Ventre;Estúdio;Estúdio;Av. Pedroso de Morais, 1036 - Pinheiros, São Paulo - SP, 05420-001;20;FALSE;Sozinha;-23.5614752;-46.6930019
+IDE030;19/11/2016;Show: Móveis Coloniais de Acaju;Móveis Coloniais de Acaju;Teatro Mars;Teatro Mars Bela Vista;Rua João Passalaqua, 80 - Bela Vista, São Paulo - SP, 01326-020;50;TRUE;Beatriz;-23.5538209;-46.64832
+IDE031;02/12/2016;Show: CCXP16;Supercombo;Comic Con Experience;Expo Imigrantes;1,5, Rod. dos Imigrantes - Vila Água Funda, 04329-900;0;FALSE;Sozinha;-23.64337205;-46.629625428148200
+IDE032;07/12/2016;Show: Simple Plan;Simple Plan;Citibank Hall;Citibank Hall;Av. das Nações Unidas, 17955 - Vila Almeida, São Paulo - SP, 04795-100;120;FALSE;Sozinha;-23.648192700000000;-46.72425395736150
+IDE033;15/12/2016;Show: O Terno;O Terno;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;12,5;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE034;20/01/2017;Show: Hierofante Púrpura + Ventre;Hierofante Púrpura + Ventre;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;10;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE035;25/01/2017;Show: Supercombo;Supercombo;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;6;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE036;12/03/2017;Show: Anavitória;Anavitória;Teatro Polytheama;Teatro Polytheama Jundiaí;R. Barão de Jundiaí, 176 - Centro, Jundiaí - SP, 13201-010;40;FALSE;Sozinha;-23.1923946;-46.880882082053100
+IDE037;15/03/2017;Show: Festival Sai da Rede 2017;Rubel;CCBB;Centro Cultural Banco do Brasil São Paulo;R. Álvares Penteado, 112 - Centro Histórico de São Paulo, São Paulo - SP, 01012-000;10;TRUE;Beatriz;-23.5475552;-46.6346871
+IDE038;19/03/2017;Show: Vanguart;Vanguart;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;12,5;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE039;13/04/2017;Show: E a terra nunca me pareceu tão distante e Ventre;E a terra nunca me pareceu tão distante e Ventre;Breve;Breve rua Clélia 470;R. Clélia, 470 - Pompeia, São Paulo - SP, 05042-000;15;FALSE;Sozinha;-23.5250682;-46.6839227
+IDE040;07/05/2017;Show: Silva;Silva;SESC Santana;SESC Santana;Av. Luiz Dumont Villares, 579 - Santana, São Paulo - SP, 02085-100;7,5;TRUE;Rafaella;-23.4965872;-46.612798144322500
+IDE041;28/05/2017;Show: Selvagens à Procura de Lei e Vespas Mandarinas;Selvagens à Procura de Lei e Vespas Mandarinas;Cine Joia;Cine Joia;Praça Carlos Gomes, 82 - Se, São Paulo - SP, 01501-040;7;FALSE;Sozinha;-23.5533484;-46.6358589
+IDE042;08/07/2017;Show: Fest Contrapedal;Baleia;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;0;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE043;14/07/2017;Show: Maglore;Maglore;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;12,5;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE044;16/07/2017;Pocket show: Zimbra;Zimbra;Vão do Masp;Vão do Masp;Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200;0;FALSE;Sozinha;-23.5614472;-46.65590238664120
+IDE045;07/10/2017;Show: Vanguart;Vanguart;Teatro Eva Wilma;Teatro Eva Wilma;R. Antônio de Lucena, 146 - Chácara Califórnia, São Paulo - SP, 03407-050;40;TRUE;Beatriz;-23.5438768;-46.5522321
+IDE046;14/10/2017;Show: Sacola Alternativa;Drik Barbosa, Tiê e Ventre;Praça das Artes;Praça das Artes São Paulo;Av. São João, 281 - Centro Histórico de São Paulo, São Paulo - SP, 01035-000;0;FALSE;Sozinha;-23.55996415;-46.751134364203000
+IDE047;07/11/2017;Show: Coldplay (Abertura: Iza);Coldplay e Iza;Allianz Parque;Allianz Parque;Av. Francisco Matarazzo, 1705 - Água Branca, São Paulo - SP, 05001-200;255;TRUE;Camila;-23.52749715;-46.67852807811730
+IDE048;15/11/2017;Show: O Terno;O Terno;SESC Santana;SESC Santana;Av. Luiz Dumont Villares, 579 - Santana, São Paulo - SP, 02085-100;7,5;FALSE;Sozinha;-23.4965872;-46.612798144322500
+IDE049;14/01/2018;Show: Maglore;Maglore;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;12,5;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE050;28/02/2018;Show: Foo Fighters e Queens of the Stone Age (abertura: Ego Kill Talent);Foo Fighters, Queens of the Stone Age e Ego Kill Talent;Allianz Parque;Allianz Parque;Av. Francisco Matarazzo, 1705 - Água Branca, São Paulo - SP, 05001-200;245;FALSE;Sozinha;-23.52749715;-46.67852807811730
+IDE051;14/03/2018;Show: Baleia;Baleia;SESC 24 de Maio;SESC 24 de Maio;R. 24 de Maio, 109 - República, São Paulo - SP, 01041-001;9;FALSE;Sozinha;-23.5441168;-46.6400018
+IDE052;17/03/2018;Show: Supercombo;Supercombo;SESC Jundiaí;SESC Jundiaí;Av. Antônio Frederico Ozanan, 6600 - Jardim Botânico, Jundiaí - SP, 13214-206;6;FALSE;Sozinha;-23.17373985;-46.897713364294900
+IDE053;18/03/2018;Show: Maglore;Maglore;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE054;21/04/2018;Show: Johnny Hooker;Johnny Hooker;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE055;30/04/2018;Show: Far From Alaska;Far From Alaska;SESC Carmo;SESC Carmo Sé;R. do Carmo, 147 - Sé, São Paulo - SP, 01019-020;6;FALSE;Sozinha;-23.5517077;-46.63008807870370
+IDE056;19/05/2018;Show: Virada Cultural 2018;Fresno;Tendal da Lapa;Tendal da Lapa;R. Guaicurus, 1100 - Água Branca, São Paulo - SP, 05033-002;0;FALSE;Sozinha;-23.522004000000000;-46.69622361504350
+IDE057;15/06/2018;Show: Maglore;Maglore;Auditório Ibirapuera;Auditório Ibirapuera;Av. Pedro Álvares Cabral, 0 - Ibirapuera, São Paulo - SP, 04094-050;15;FALSE;Sozinha;-23.5856655;-46.656533678774000
+IDE058;30/06/2018;Show: Silva;Silva;SESC Vila Mariana;SESC Vila Mariana;R. Pelotas, 141 - Vila Mariana, São Paulo - SP, 04012-000;9;TRUE;Daniel;-23.58246865;-46.64409241726080
+IDE059;05/07/2018;Show: Francisco, el Hombre;Francisco, el Hombre;SESC 24 de Maio;SESC 24 de Maio;R. 24 de Maio, 109 - República, São Paulo - SP, 01041-001;9;FALSE;Sozinha;-23.5441168;-46.6400018
+IDE060;13/07/2018;Show: Vanguart;Vanguart;SESC Vila Mariana;SESC Vila Mariana;R. Pelotas, 141 - Vila Mariana, São Paulo - SP, 04012-000;12;FALSE;Sozinha;-23.58246865;-46.64409241726080
+IDE061;15/07/2018;Show: Tim Bernardes;Tim Bernardes;SESC Vila Mariana;SESC Vila Mariana;R. Pelotas, 141 - Vila Mariana, São Paulo - SP, 04012-000;12;FALSE;Sozinha;-23.58246865;-46.64409241726080
+IDE062;19/07/2018;Show: Selvagens à Procura de Lei;Selvagens à Procura de Lei;Mundo Pensante;Mundo Pensante;R. Treze de Maio, 830 - Bela Vista, São Paulo - SP, 01327-000;14;FALSE;Sozinha;-23.5605616;-46.6463612
+IDE063;30/07/2018;Show: Rubel;Rubel;SESC Carmo;SESC Carmo Sé;R. do Carmo, 147 - Sé, São Paulo - SP, 01019-020;6;TRUE;Mariangela;-23.5517077;-46.63008807870370
+IDE064;05/08/2018;Show: Cícero;Cícero;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE065;17/08/2018;Show: Lenine;Lenine;SESC Pinheiros;SESC Pinheiros;R. Paes Leme, 195 - Pinheiros, São Paulo - SP, 05424-150;0;TRUE;César;-23.5680244;-46.69780334024130
+IDE066;31/08/2018;Show: Festival Sai da Rede 2018;Ana Muller;CCBB;Centro Cultural Banco do Brasil São Paulo;R. Álvares Penteado, 112 - Centro Histórico de São Paulo, São Paulo - SP, 01012-000;18;FALSE;Sozinha;-23.5475552;-46.6346871
+IDE067;08/09/2018;Show: Vespas Mandarinas;Vespas Mandarinas;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;10;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE068;14/09/2018;Show: Selvagens à Procura de Lei;Selvagens à Procura de Lei;SESC Avenida Paulista;SESC Avenida Paulista;Av. Paulista, 119 - Bela Vista, São Paulo - SP, 01311-903;6;FALSE;Sozinha;-23.5694767;-46.6461328
+IDE069;27/09/2018;Show: Fresno;Fresno;Yellow Pubmarine;Yellow Pubmarine Jundiaí;R. Prof. João Batista Curado, 80 - 8 - Anhangabaú, Jundiaí - SP, 13209-020;55;FALSE;Sozinha;-23.1874914;-46.8952686
+IDE070;10/11/2018;Show: Rubel;Rubel;Casa Natura Musical;Casa Natura Musical;R. Artur de Azevedo, 2134 - Pinheiros, São Paulo - SP, 05404-005;50;FALSE;Sozinha;-23.5679567;-46.6908336
+IDE071;17/11/2018;Show: Far From Alaska e Huey;Far From Alaska e Huey;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;9;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE072;06/12/2018;Show: CCXP18;Zimbra;Comic Con Experience;Expo Imigrantes;1,5, Rod. dos Imigrantes - Vila Água Funda, 04329-900;0;FALSE;Sozinha;-23.64337205;-46.629625428148200
+IDE073;15/12/2018;Show: Supercombo;Supercombo;Acadêmicos do Baixo Augusta;Acadêmicos do Baixo Augusta;R. Rêgo Freitas, 553 - República, São Paulo - SP, 01220-010;0;FALSE;Sozinha;-23.5468419;-46.6466039
+IDE074;19/12/2018;Show: Tim Bernardes;Tim Bernardes;Theatro São Pedro;Theatro São Pedro Barra Funda;R. Barra Funda, 161 - Barra Funda, São Paulo - SP, 01152-000;50;FALSE;Sozinha;-23.5280917;-46.6613891
+IDE075;13/01/2019;Show: Tiê;Tiê;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE076;20/01/2019;Show: Tuyo ;Tuyo ;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;0;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE077;31/01/2019;Show: Vanguart;Vanguart;Casa Natura Musical;Casa Natura Musical;R. Artur de Azevedo, 2134 - Pinheiros, São Paulo - SP, 05404-005;50;FALSE;Sozinha;-23.5679567;-46.6908336
+IDE078;10/02/2019;Show: Castello Branco;Castello Branco;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;0;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE079;15/02/2019;Show: Anavitória;Anavitória;Teatro Polytheama;Teatro Polytheama Jundiaí;R. Barão de Jundiaí, 176 - Centro, Jundiaí - SP, 13201-010;70;FALSE;Sozinha;-23.1923946;-46.880882082053100
+IDE080;02/03/2019;Show: Liniker e os Caramelows;Liniker e os Caramelows;SESC Belenzinho;SESC Belenzinho;R. Padre Adelino, 1000 - Belenzinho, São Paulo - SP, 03303-000;6;FALSE;Sozinha;-23.544764;-46.5838804
+IDE081;14/03/2019;Show: Vivendo do Ócio;Vivendo do Ócio;Z Carniceria;Z Carniceria;Av. Brg. Faria Lima, 724 - Pinheiros, São Paulo - SP, 05426-200;35;FALSE;Sozinha;-23.5651073;-46.6948473
+IDE082;27/03/2019;Show: Maglore;Maglore;Z Carniceria;Z Carniceria;Av. Brg. Faria Lima, 724 - Pinheiros, São Paulo - SP, 05426-200;35;FALSE;Sozinha;-23.5651073;-46.6948473
+IDE083;30/03/2019;Show: Plutão já foi planeta;Plutão já foi planeta;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;0;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE084;13/04/2019;Show: Tiê;Tiê;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;0;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE085;03/05/2019;Show: Vanguart;Vanguart;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE086;10/05/2019;Show: Céu;Céu;SESC Avenida Paulista;SESC Avenida Paulista;Av. Paulista, 119 - Bela Vista, São Paulo - SP, 01311-903;9;FALSE;Sozinha;-23.5694767;-46.6461328
+IDE087;12/05/2019;Show: Supercombo;Supercombo;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;0;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE088;17/05/2019;Show: O Terno;O Terno;Auditório Ibirapuera;Auditório Ibirapuera;Av. Pedro Álvares Cabral, 0 - Ibirapuera, São Paulo - SP, 04094-050;18;FALSE;Sozinha;-23.5856655;-46.656533678774000
+IDE089;19/05/2019;Show: Virada Cultural 2019;Anelis Assumpção (com Tulipa Ruiz e Negro Léo);Avenida Ipiranga;Avenida Ipiranga;Av. Ipiranga, 200 - Centro Histórico de São Paulo, São Paulo - SP, 01046-010;0;TRUE;Rafaella;-23.8021464;-45.4016876
+IDE090;19/05/2019;Show: Virada Cultural 2019;Pitty;Avenida Rio Branco;Avenida Rio Branco;Av. Rio Branco, 347-261 - Campos Elíseos, São Paulo - SP, 01205-000;0;TRUE;Rafaella;-23.5398478;-46.6422409
+IDE091;19/05/2019;Show: Virada Cultural 2020;Tuyo;Avenida Cásper Líbero;Avenida Cásper Líbero;Av. Cásper Líbero, 598-678 - Centro Histórico de São Paulo, São Paulo - SP, 01033-001;0;FALSE;Sozinha;-23.5361813;-46.6374705
+IDE092;31/05/2019;Show: Duda Beat;Duda Beat;SESC Belenzinho;SESC Belenzinho;R. Padre Adelino, 1000 - Belenzinho, São Paulo - SP, 03303-000;6;FALSE;Sozinha;-23.544764;-46.5838804
+IDE093;09/06/2019;Show: Festival Cultura Inglesa 2019;Mad Mothers, Duda Beat e Lily Allen;Memorial da América Latina;Memorial da América Latina;Av. Mário de Andrade, 664 - Barra Funda, São Paulo - SP, 01156-001;0;FALSE;Sozinha;-23.52754145;-46.66547817667370
+IDE094;29/06/2019;Show: Silva;Silva;SESC Pq. Dom Pedro;SESC Pq. Dom Pedro;Praça São Vito, s/n - Brás, São Paulo - SP, 03007-030;0;FALSE;Sozinha;-23.5428346;-46.628343
+IDE095;30/06/2019;Show: Maglore;Maglore;SESC Vila Mariana;SESC Vila Mariana;R. Pelotas, 141 - Vila Mariana, São Paulo - SP, 04012-000;9;FALSE;Sozinha;-23.58246865;-46.64409241726080
+IDE096;09/07/2019;Show: Francisco, el Hombre;Francisco, el Hombre;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;6;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE097;12/07/2019;Show: Thiago Pethit;Thiago Pethit;SESC Pinheiros;SESC Pinheiros;R. Paes Leme, 195 - Pinheiros, São Paulo - SP, 05424-150;12;FALSE;Sozinha;-23.5680244;-46.69780334024130
+IDE098;13/07/2019;Show: Liniker e os Caramelows;Liniker e os Caramelows;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;9;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE099;18/07/2019;Show: Silva;Silva;Teatro Bradesco;Teatro Bradesco;Rua Palestra Itália, 500 - Loja 263, 3° Piso - Perdizes, 05005-900;70;FALSE;Sozinha;-23.5261736;-46.6804331
+IDE100;21/07/2019;Show: Maglore;Maglore;SESC Interlagos;SESC Interlagos;Av. Manuel Alves Soares, 1100 - Parque Colonial, São Paulo - SP, 04821-270;0;FALSE;Sozinha;-23.72572525;-46.67827748774010
+IDE101;28/07/2019;Show: BRVNKS e menores atos;BRVNKS e menores atos;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;25;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE102;13/08/2019;Show: Rubel;Rubel;Teatro Porto Seguro;Teatro Porto Seguro;Alameda Barão de Piracicaba, 740 - Campos Elíseos, São Paulo - SP, 01216-010;40;TRUE;Beatriz;-23.5301977;-46.645411
+IDE103;23/08/2019;Show: Silva;Silva;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;9;TRUE;Beatriz;-23.5257729;-46.68352153942080
+IDE104;12/09/2019;Show: Selvagens à Procura de Lei;Selvagens à Procura de Lei;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;25;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE105;02/11/2019;Show: Vanguart;Vanguart;SESC Belenzinho;SESC Belenzinho;R. Padre Adelino, 1000 - Belenzinho, São Paulo - SP, 03303-000;9;TRUE;Beatriz;-23.544764;-46.5838804
+IDE106;08/11/2019;Show: O Terno;O Terno;SESC Pompeia;SESC Pompeia;R. Clélia, 93 - Água Branca, São Paulo - SP, 05042-000;9;FALSE;Sozinha;-23.5257729;-46.68352153942080
+IDE107;27/11/2019;Show: Emicida;Emicida;Theatro Municipal;Theatro Municipal São Paulo;Praça Ramos de Azevedo, s/n - República, São Paulo - SP, 01037-010;25;FALSE;Sozinha;-23.54528045;-46.6386378327257
+IDE108;05/12/2019;Show: CCXP19;Far From Alaska;Comic Con Experience;Expo Imigrantes;1,5, Rod. dos Imigrantes - Vila Água Funda, 04329-900;0;FALSE;Sozinha;-23.64337205;-46.629625428148200
+IDE109;20/12/2019;Show: Tim Bernardes;Tim Bernardes;CCSP;Centro Cultural São Paulo;Rua Vergueiro, 1000 - Paraíso, São Paulo - SP, 01504-000;0;FALSE;Sozinha;-23.5700325;-46.64023039547910
+IDE110;09/02/2020;Show: Zimbra;Zimbra;SESC Bom Retiro;SESC Bom Retiro;Alameda Nothmann, 185 - Campos Elíseos, São Paulo - SP, 01216-000;9;FALSE;Sozinha;-23.5310528;-46.64327085
+IDE111;23/02/2020;Show: Johnny Hooker;Johnny Hooker;SESC Belenzinho;SESC Belenzinho;R. Padre Adelino, 1000 - Belenzinho, São Paulo - SP, 03303-000;9;FALSE;Sozinha;-23.544764;-46.5838804
+IDE112;14/11/2021;Show: Luiza Lian;Luiza Lian;SESC Vila Mariana;SESC Vila Mariana;R. Pelotas, 141 - Vila Mariana, São Paulo - SP, 04012-000;21;FALSE;Sozinha;-23.58246865;-46.64409241726080
+IDE113;10/12/2021;Show: Maglore;Maglore;Cine Joia;Cine Joia;Praça Carlos Gomes, 82 - Se, São Paulo - SP, 01501-040;44,8;TRUE;Rafaella;-23.5533484;-46.6358589
+IDE114;12/12/2021;Pocket show: Aniversário Av. Paulista;Luedji Luna e Bixiga 70;Sacada do Conjunto Nacional;Conjunto Nacional Avenida Paulista;Av. Paulista, 2073 - Cerqueira César, São Paulo - SP, 01311-300;0;FALSE;Sozinha;-23.5590417;-46.6602397869418
+IDE115;18/12/2021;Show: Rock Fun Fest;Rock Fun Fest: Far From Alaska;Centro de Esportes Radicais;Centro de Esportes Radicais;Av. Pres. Castelo Branco, 5700 - Bom Retiro, São Paulo - SP, 01142-300;0;FALSE;Sozinha;-23.519629199999900;-46.64392132163220
+IDE116;20/02/2022;Show: Vanguart;Vanguart;Casa Natura Musical;Casa Natura Musical;R. Artur de Azevedo, 2134 - Pinheiros, São Paulo - SP, 05404-005;0;TRUE;Bia Sayuri;-23.5679567;-46.6908336
+IDE117;26/02/2022;Show: Supercombo;Supercombo;SESC Jundiaí;SESC Jundiaí;Av. Antônio Frederico Ozanan, 6600 - Jardim Botânico, Jundiaí - SP, 13214-206;15;FALSE;Sozinha;-23.17373985;-46.897713364294900
+IDE118;05/03/2022;Show: Tuyo ;Tuyo;SESC Belenzinho;SESC Belenzinho;R. Padre Adelino, 1000 - Belenzinho, São Paulo - SP, 03303-000;15;TRUE;Sozinha;-23.544764;-46.5838804

@@ -1,0 +1,94 @@
+---
+title: "Mini-projetos em Datavis"
+subtitle: "Trabalhos apresentados para a disciplina de Datavis Studio II do Master em Jornalismo de Dados, Automação e Data Storytelling do Insper."
+date: "2024-03-18"
+categories: 
+# exemplo de categorias:
+  - "Visualização de Dados"
+  - "Insper"
+  - "Desenvolvimento web"
+lang: pt
+toc: false
+#draft: true 
+---
+
+Mais um post mega atrasado. Terminei a pós no Insper em Jornalismo de Dados, Automação e Data Storytelling no ano de 2022 (fui bolsista da primeira turma!) e só agora estou publicando os mini-projetos da aula de Datavis Studio II, lecionada na época pelos professores Vinicius Sueiro e Rodrigo Menegat.
+
+A disciplina focava em integrar teoria e prática na execução de mini-projetos. Quando falo em "projeto" dá uma impressão de GRANDIOSIDADE que muitas vezes me impede de iniciar a empreitada (por questão de tempo, medo, etc.). A ideia de fazer cinco **mini**-projetos durante o período de aulas me assustou um pouco, mas admito que a execução dessa atividade em períodos curtos (a razão do **mini**) foi BEM satisfatória. Essa abordagem mais "rápida" para colocar um projeto de pé, mesmo com algumas falhas na execução, possibilita errar rapidamente e consertar rapidamente também (e por consequência, aprender no caminho). No fim, coloquei na internet cinco projetos em que uniam visualização de dados e desenvolvimento web (se eles estão funcionando adequadamente, aí é outra história).
+
+Bora ver o que eu fiz:
+
+::: callout-note
+Os iframes aqui e os projetos não estão adequados para diferentes tamanhos de tela. *Compreensão hein*
+:::
+
+## Quiz
+
+Um pequeno questionário sobre as obras do Museu de Arte de Rua de São Paulo. A ideia foi explorar os recursos de botões e a apresentação de diferentes saídas, dependendo do input
+
+```{=html}
+<iframe width="100%" height="600" src="https://biamuniz.github.io/mini-projetos/quiz/" title="Quiz - MAR"></iframe>
+```
+-   Protótipo realizado no [Figma](https://www.figma.com/proto/V7br9pdRCxaAF93NM7LAU5/datavizII?page-id=0%3A1&node-id=23%3A1869&scaling=scale-down)
+
+-   [Página Web](https://biamuniz.github.io/mini-projetos/quiz/)
+
+-   [Repositório](https://github.com/biamuniz/mini-projetos/tree/main/quiz)
+
+## Narrativa passo-a-passo
+
+Uma narrativa passo-a-passo vai acontecendo "aos poucos". Seja rolando a tela ou pressionando botões, aqui o usuário vê a narrativa a medida que um gatilho é acionado, conforme as ações vão acontecendo.
+
+Neste trabalho, fiz uma busca em sites de notícias pra saber qual a localização "real" da Cracolândia. Fiz num momento de operações em 2022 que tentavam dispersar as pessoas da região da praça Júlio Prestes.
+
+```{=html}
+<iframe width="100%" height="600" src="https://biamuniz.github.io/mini-projetos/passo-a-passo/" title="Quiz - MAR"></iframe>
+```
+-   Protótipo realizado no [Flourish](https://public.flourish.studio/story/1556850/)
+
+-   [Página Web](https://biamuniz.github.io/mini-projetos/passo-a-passo/)
+
+-   [Repositório](https://github.com/biamuniz/mini-projetos/tree/main/passo-a-passo)
+
+Uma curiosidade: esse scrollyteling não foi a versão que fiz pra nota. Na época eu apresentei uma versão com botões, mais parecida com a do protótipo. Para fazer essa versão em scroll, me apoiei num artigo
+
+## Filtro
+
+Neste projeto, fiz um "vacinômetro" que mostra a porcentagem da população (dentro de alguns critérios) que foi imunizada com diferentes vacinas disponíveis no Brasil, ao longo de dez anos.
+
+Aqui os dados foram tranquilos pra mim (o que dizer do DataSUS que eu bem conheço e considero pacas?) e gostei do resultado.
+
+```{=html}
+<iframe width="100%" height="600" src="https://biamuniz.github.io/mini-projetos/filtro/" title="Filtro - vacinação"></iframe>
+```
+-   Protótipo realizado no [Flourish](https://public.flourish.studio/visualisation/10396175/)
+
+-   [Página Web](https://biamuniz.github.io/mini-projetos/filtro/)
+
+-   [Repositório](https://github.com/biamuniz/mini-projetos/tree/main/filtro)
+
+## Calculadora
+
+O trabalho que achei mais complicado! Admito que não fui tão criativa na ideia (situar o usuário em que "posição" ele se encontra entre todos os usuários do Goodreads), mas a execução funcionou.
+
+```{=html}
+<iframe width="100%" height="600" src="https://biamuniz.github.io/mini-projetos/calculadora/" title="Resenhas no Goodreads"></iframe>
+```
+-   [Página Web](https://biamuniz.github.io/mini-projetos/calculadora/)
+
+-   [Repositório](https://github.com/biamuniz/mini-projetos/tree/main/calculadora)
+
+## Mapa
+
+Pra finalizar, um que deu muito errado (falei que a calculadora foi mais difícil porque exigia umas contas com JavaScript, mas esse aqui eu nem sei o que aconteceu).
+
+Optei por uma abordagem bem simplista sobre espectros políticos (portanto, cheia de nuances não representadas num mapa vermelho e azul) e isso me incomodou um pouco. Até porque o mapa ficou CINZA. Mas valeu a tentativa haha
+
+```{=html}
+<iframe width="100%" height="600" src="https://biamuniz.github.io/mini-projetos/mapa/" title=""></iframe>
+```
+-   Protótipo realizado no [Flourish](https://public.flourish.studio/visualisation/10532734/) - Esse funciona
+
+-   [Página Web](https://biamuniz.github.io/mini-projetos/mapa/)
+
+-   [Repositório](https://github.com/biamuniz/mini-projetos/tree/main/mapa)

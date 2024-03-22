@@ -21,21 +21,11 @@ about:
       icon: github
       aria-label: Github
 listing: 
-  - id: projetos
-    contents: projetos
-    type: default
-    fields: [image, date, title, subtitle]
-    sort: "date desc"
-    #categories: cloud
-    sort-ui: false
-    filter-ui: false
-    page-size: 3
   - id: blog
     contents: posts
     type: grid
     fields: [image, date, title, subtitle]
     sort: "date desc"
-    #categories: cloud
     sort-ui: false
     filter-ui: false
     page-size: 3
@@ -43,7 +33,6 @@ listing:
     type: table
     fields: [date, title, description]
     sort: "date desc"
-    #categories: cloud
     sort-ui: false
     filter-ui: false
     page-size: 3 
@@ -475,9 +464,13 @@ listing:
         description: "Jornalismo Júnior"
         categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
 ---
+
 ::: {#edu-exp}
 :::
-Analista de dados na Agência Pública. Formada em Jornalismo pela Universidade de São Paulo, com período de intercâmbio em Empreendedorismo e Inovação realizado na Universidade do Texas em Austin, nos EUA. É especialista em Jornalismo de Dados, Automação e Data Storytelling pelo Insper, possui graduação em Biomedicina pela Universidade Federal de São Paulo e mestrado em Ciências pela mesma instituição. Faz parte da organização da R-Ladies São Paulo, grupo que busca promover a diversidade de gênero na comunidade da linguagem programação R. Tem interesse em tecnologia, dados, conhecimento aberto e suas relações com direitos humanos.
+
+Sou uma pessoa. Uma mulher negra, filha da Cida e do Paulo. Mas também sou analista de dados na [Agência Pública](https://apublica.org/), jornalista formada pela Universidade de São Paulo, com período de intercâmbio em Empreendedorismo e Inovação realizado na Universidade do Texas em Austin, nos EUA. Tenho especialização em [Jornalismo de Dados, Automação e Data Storytelling](https://www.insper.edu.br/pos-graduacao/master-em-jornalismo-de-dados-automacao-e-data-storytelling/) pelo Insper. Antes disso, me formei em Biomedicina pela Universidade Federal de São Paulo e defendi um mestrado em Ciências pela mesma instituição.
+
+Atualmente faço parte da organização da [R-Ladies São Paulo](https://rladies-sp.org/), grupo que busca promover a diversidade de gênero na comunidade da linguagem programação R. Me interesso por tecnologia, dados, conhecimento aberto e suas relações com direitos humanos. E às vezes toco cordas com arco (já tentei violino e violoncelo, agora tô firme na viola erudita), brinco com fotografia analógica e faço uns desenhos.
 
 Você pode ver meu currículo [mais detalhado aqui](https://biamuniz.github.io/resume/)
 
@@ -485,13 +478,8 @@ Você pode ver meu currículo [mais detalhado aqui](https://biamuniz.github.io/r
 
 ::: {#publicacoes}
 :::
-## Projetos pessoais
 
-::: {#projetos}
-:::
-
-## Blog - Últimos posts
+## Últimos posts
 
 ::: {#blog}
-
 :::

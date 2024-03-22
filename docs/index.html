@@ -71,34 +71,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projetos .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projetos'] = new List('listing-projetos', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-blog .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -107,7 +79,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -228,7 +201,7 @@ window.Quarto = {
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projetos.html"> 
+    <a class="nav-link" href="./projetos.qmd"> 
 <span class="menu-text">Projetos</span></a>
   </li>  
 </ul>
@@ -282,7 +255,8 @@ window.Quarto = {
 </div>
 </div>
 
-<p>Analista de dados na Agência Pública. Formada em Jornalismo pela Universidade de São Paulo, com período de intercâmbio em Empreendedorismo e Inovação realizado na Universidade do Texas em Austin, nos EUA. É especialista em Jornalismo de Dados, Automação e Data Storytelling pelo Insper, possui graduação em Biomedicina pela Universidade Federal de São Paulo e mestrado em Ciências pela mesma instituição. Faz parte da organização da R-Ladies São Paulo, grupo que busca promover a diversidade de gênero na comunidade da linguagem programação R. Tem interesse em tecnologia, dados, conhecimento aberto e suas relações com direitos humanos.</p>
+<p>Sou uma pessoa. Uma mulher negra, filha da Cida e do Paulo. Mas também sou analista de dados na <a href="https://apublica.org/">Agência Pública</a>, jornalista formada pela Universidade de São Paulo, com período de intercâmbio em Empreendedorismo e Inovação realizado na Universidade do Texas em Austin, nos EUA. Tenho especialização em <a href="https://www.insper.edu.br/pos-graduacao/master-em-jornalismo-de-dados-automacao-e-data-storytelling/">Jornalismo de Dados, Automação e Data Storytelling</a> pelo Insper. Antes disso, me formei em Biomedicina pela Universidade Federal de São Paulo e defendi um mestrado em Ciências pela mesma instituição.</p>
+<p>Atualmente faço parte da organização da <a href="https://rladies-sp.org/">R-Ladies São Paulo</a>, grupo que busca promover a diversidade de gênero na comunidade da linguagem programação R. Me interesso por tecnologia, dados, conhecimento aberto e suas relações com direitos humanos. E às vezes toco cordas com arco (já tentei violino e violoncelo, agora tô firme na viola erudita), brinco com fotografia analógica e faço uns desenhos.</p>
 <p>Você pode ver meu currículo <a href="https://biamuniz.github.io/resume/">mais detalhado aqui</a></p>
 <section id="reportagens-mais-recentes" class="level2">
 <h2 data-anchor-id="reportagens-mais-recentes">Reportagens mais recentes</h2>
@@ -1093,65 +1067,31 @@ Sem itens correspondentes
 </nav>
 </div>
 </section>
-<section id="projetos-pessoais" class="level2">
-<h2 data-anchor-id="projetos-pessoais">Projetos pessoais</h2>
-<div id="listing-projetos" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Visualização de Dados,Insper,Música" data-listing-date-sort="1648954800000" data-listing-file-modified-sort="1710626252329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="303">
-<div class="thumbnail">
-<p><a href="./projetos/mentindo-com-graficos/index.html" class="no-external"></a></p><a href="./projetos/mentindo-com-graficos/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./projetos/mentindo-com-graficos/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projetos/mentindo-com-graficos/index.html" class="no-external">Mentindo (e desmentindo) com gráficos</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./projetos/mentindo-com-graficos/index.html" class="no-external">Trabalho final da disciplina Datavis I com o objetivo de identificar técnicas de manipulação em visualizações de dados e saber como evitá-las.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./projetos/mentindo-com-graficos/index.html" class="no-external">
-<div class="listing-date">
-3 de abr. de 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Insper,covid-19,OSINT" data-listing-date-sort="1637204400000" data-listing-file-modified-sort="1710626252334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
-<div class="thumbnail">
-<p><a href="./projetos/oxigenio-manaus/index.html" class="no-external"></a></p><a href="./projetos/oxigenio-manaus/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./projetos/oxigenio-manaus/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projetos/oxigenio-manaus/index.html" class="no-external">OSINT: A crise de oxigênio em Manaus através de posts e notícias</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./projetos/oxigenio-manaus/index.html" class="no-external">Recriando a cronologia dos acontecimentos que culminaram com a crise de oxigênio em Manaus usando técnicas de OSINT.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./projetos/oxigenio-manaus/index.html" class="no-external">
-<div class="listing-date">
-18 de nov. de 2021
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Sem itens correspondentes
-</div>
-</div>
-</section>
-<section id="blog---últimos-posts" class="level2">
-<h2 data-anchor-id="blog---últimos-posts">Blog - Últimos posts</h2>
+<section id="últimos-posts" class="level2">
+<h2 data-anchor-id="últimos-posts">Últimos posts</h2>
 <div id="listing-blog" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Análise exploratória,Comunidade,Música" data-listing-date-sort="1685674800000" data-listing-file-modified-sort="1710673777800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4277">
+<div class="g-col-1" data-index="0" data-categories="Visualização de Dados,Insper,Desenvolvimento web" data-listing-date-sort="1710730800000" data-listing-file-modified-sort="1710759539500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="564">
+<a href="./posts/mini-projetos-master-ddj/insper.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mini-projetos em Datavis
+</h5>
+<div class="card-subtitle listing-subtitle">
+Trabalhos apresentados para a disciplina de Datavis Studio II do Master em Jornalismo de Dados, Automação e Data Storytelling do Insper.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de mar. de 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Análise exploratória,Comunidade,Música" data-listing-date-sort="1685674800000" data-listing-file-modified-sort="1710673777800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4277">
 <a href="./posts/rita-com-r/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/rita-com-r/index_files/figure-html/unnamed-chunk-9-1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1171,8 +1111,68 @@ Analisando a padroeira da liberdade com código
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Análise de dados,Música" data-listing-date-sort="1606014000000" data-listing-file-modified-sort="1710670773864" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="./posts/biapalooza.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="Calor,R,Intercâmbio" data-listing-date-sort="1685674800000" data-listing-file-modified-sort="1710957838726" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1314">
+<a href="./posts/texas/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bibi in Texas
+</h5>
+<div class="card-subtitle listing-subtitle">
+ou: sobrevivendo ao calor texano e as variações do dólar
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2 de jun. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Visualização de Dados,Insper,Música" data-listing-date-sort="1648954800000" data-listing-file-modified-sort="1710626252329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="303">
+<a href="./posts/mentindo-com-graficos/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mentindo (e desmentindo) com gráficos
+</h5>
+<div class="card-subtitle listing-subtitle">
+Trabalho final da disciplina Datavis I com o objetivo de identificar técnicas de manipulação em visualizações de dados e saber como evitá-las.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+3 de abr. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Insper,covid-19,OSINT" data-listing-date-sort="1637204400000" data-listing-file-modified-sort="1710626252334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<a href="./posts/oxigenio-manaus/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+OSINT: A crise de oxigênio em Manaus através de posts e notícias
+</h5>
+<div class="card-subtitle listing-subtitle">
+Recriando a cronologia dos acontecimentos que culminaram com a crise de oxigênio em Manaus usando técnicas de OSINT.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de nov. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Análise de dados,Música" data-listing-date-sort="1606014000000" data-listing-file-modified-sort="1710670773864" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./posts/biapalooza/biapalooza.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
@@ -1191,10 +1191,10 @@ uma análise de todos os shows que fui desde 2013.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Colagem,Resistência,USP" data-listing-date-sort="1606014000000" data-listing-file-modified-sort="1710626252315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
+<div class="g-col-1" data-index="6" data-categories="Colagem,Resistência,USP" data-listing-date-sort="1606014000000" data-listing-file-modified-sort="1710626252315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="280">
 <a href="./posts/resistencia/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/resistencia/1.jpg" alt="Capa da edição de outubro do claro! Arte e foto: Bianca Muniz; modelo: minha mãe :)" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="posts/resistencia/1.jpg" alt="Capa da edição de outubro do claro! Arte e foto: Bianca Muniz; modelo: minha mãe :)" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Resistência
@@ -1215,6 +1215,9 @@ Artes de capa que fiz para os textos da edição Resistência do suplemento clar
 <div class="listing-no-matching d-none">
 Sem itens correspondentes
 </div>
+<nav id="blog-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
