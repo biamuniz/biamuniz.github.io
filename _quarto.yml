@@ -35,8 +35,6 @@ website:
         href: publicacoes.qmd
       - text: Talks
         href: talks/index.qmd
-      - text: Projetos
-        href: projetos.qmd
 
 format:
   html:
