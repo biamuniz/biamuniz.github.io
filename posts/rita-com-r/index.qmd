@@ -9,7 +9,7 @@ categories:
   - "Música"
 lang: pt
 toc: true 
-#draft: true 
+image: "images/toda.png"
 ---
 
 No dia 8 de maio o mundo da música ficou mais careta: Rita Lee, a rainha do rock brasileiro, padroeira da liberdade, a santa rita de sampa, nos deixou, mas não sem antes deixar um grande legado de obras, letras, frases.

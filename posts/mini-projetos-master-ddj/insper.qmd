@@ -9,7 +9,7 @@ categories:
   - "Desenvolvimento web"
 lang: pt
 toc: false
-#draft: true 
+image: "Insper.jpg"
 ---
 
 Mais um post mega atrasado. Terminei a pós no Insper em Jornalismo de Dados, Automação e Data Storytelling no ano de 2022 (fui bolsista da primeira turma!) e só agora estou publicando os mini-projetos da aula de Datavis Studio II, lecionada na época pelos professores Vinicius Sueiro e Rodrigo Menegat.
