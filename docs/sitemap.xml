@@ -1,107 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://biamuni/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/sobre.html</loc>
-    <lastmod>2024-03-16T21:57:32.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/publicacoes.html</loc>
-    <lastmod>2024-03-16T21:57:32.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/projetos.html</loc>
-    <lastmod>2024-03-16T21:57:32.328Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/projetos/mentindo-com-graficos/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.329Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/projetos/oxigenio-manaus/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/talks/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/blog.html</loc>
+    <loc>https://biamuniz.github.io/blog.html</loc>
     <lastmod>2024-03-16T21:57:32.311Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuni/posts/resistencia/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuni/posts/rita-com-r/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.328Z</lastmod>
+    <loc>https://biamuniz.github.io/posts/eua-1/index.html</loc>
+    <lastmod>2024-03-31T01:57:56.714Z</lastmod>
   </url>
   <url>
     <loc>https://biamuniz.github.io/index.html</loc>
     <lastmod>2024-03-18T11:38:29.242Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/blog.html</loc>
-    <lastmod>2024-03-16T21:57:32.311Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/biapalooza.html</loc>
-    <lastmod>2024-03-17T10:19:33.864Z</lastmod>
-  </url>
-  <url>
     <loc>https://biamuniz.github.io/sobre.html</loc>
     <lastmod>2024-03-18T09:48:55.216Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/publicacoes.html</loc>
+    <loc>https://biamuniz.github.io/posts/oxigenio-manaus/index.html</loc>
     <lastmod>2024-03-16T21:57:32.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/projetos.html</loc>
-    <lastmod>2024-03-16T21:57:32.328Z</lastmod>
   </url>
   <url>
     <loc>https://biamuniz.github.io/posts/rita-com-r/index.html</loc>
     <lastmod>2024-03-30T19:12:36.488Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/posts/resistencia/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/talks/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.340Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/projetos/mentindo-com-graficos/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.329Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/projetos/oxigenio-manaus/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.334Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/projetos/mini-projetos-master-ddj/insper.html</loc>
-    <lastmod>2024-03-18T10:58:59.500Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/texan-weather/index.html</loc>
-    <lastmod>2024-03-18T12:30:41.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/biapalooza/biapalooza.html</loc>
-    <lastmod>2024-03-17T10:19:33.864Z</lastmod>
-  </url>
-  <url>
     <loc>https://biamuniz.github.io/posts/mini-projetos-master-ddj/insper.html</loc>
     <lastmod>2024-03-30T19:14:17.369Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/posts/texas/index.html</loc>
-    <lastmod>2024-03-30T19:09:20.526Z</lastmod>
+    <loc>https://biamuniz.github.io/publicacoes.html</loc>
+    <lastmod>2024-03-16T21:57:32.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/posts/resistencia/index.html</loc>
+    <lastmod>2024-03-16T21:57:32.315Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/posts/mentindo-com-graficos/index.html</loc>
+    <lastmod>2024-03-16T21:57:32.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/talks/index.html</loc>
+    <lastmod>2024-03-16T21:57:32.340Z</lastmod>
   </url>
 </urlset>

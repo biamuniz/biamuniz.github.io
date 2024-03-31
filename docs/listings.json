@@ -1,13 +1,23 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/blog.html",
     "items": [
-      "/posts/texas/index.html",
+      "/posts/eua-1/index.html",
       "/posts/mini-projetos-master-ddj/insper.html",
       "/posts/rita-com-r/index.html",
       "/posts/mentindo-com-graficos/index.html",
       "/posts/oxigenio-manaus/index.html",
-      "/posts/biapalooza/biapalooza.html",
+      "/posts/resistencia/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/eua-1/index.html",
+      "/posts/mini-projetos-master-ddj/insper.html",
+      "/posts/rita-com-r/index.html",
+      "/posts/mentindo-com-graficos/index.html",
+      "/posts/oxigenio-manaus/index.html",
       "/posts/resistencia/index.html"
     ]
   },
@@ -16,27 +26,7 @@
     "items": []
   },
   {
-    "listing": "/projetos.html",
-    "items": [
-      "/projetos/mini-projetos-master-ddj/insper.html",
-      "/projetos/mentindo-com-graficos/index.html",
-      "/projetos/oxigenio-manaus/index.html"
-    ]
-  },
-  {
     "listing": "/talks/index.html",
     "items": []
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/posts/texas/index.html",
-      "/posts/mini-projetos-master-ddj/insper.html",
-      "/posts/rita-com-r/index.html",
-      "/posts/mentindo-com-graficos/index.html",
-      "/posts/oxigenio-manaus/index.html",
-      "/posts/biapalooza/biapalooza.html",
-      "/posts/resistencia/index.html"
-    ]
   }
 ]
