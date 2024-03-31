@@ -11,7 +11,7 @@
     "href": "posts/eua-1/index.html",
     "title": "DataBia nos EUA",
     "section": "",
-    "text": "Esse post abre uma série de relatos “dataficados” sobre minha experiência nos EUA! Coletei e estruturei muitos dados naquele período,aqueles que já rastreio automaticamente (como scrobbles do last.fm) ou os que tive que monitorar para prestação de contas (o câmbio, minhas notas fiscais). Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R, revisitando umas informações do meu período de intercâmbio.\nEstive nos EUA durante quatro meses em 2022. Entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos)."
+    "text": "Esse post abre uma série de relatos “dataficados” sobre minha experiência nos EUA! Coletei e estruturei muitos dados desse período, aqueles que já rastreio automaticamente (como scrobbles do last.fm) ou os que tive que monitorar para prestação de contas (o câmbio, minhas notas fiscais). Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R revisitando umas informações do meu período de intercâmbio.\nEstive nos EUA durante quatro meses em 2022. Entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos)."
   },
   {
     "objectID": "posts/eua-1/index.html#tá-calor-até-de-noite",
@@ -25,7 +25,7 @@
     "href": "posts/eua-1/index.html#zero-grau-pra-mim-tá-perfeito",
     "title": "DataBia nos EUA",
     "section": "Zero grau pra mim tá perfeito",
-    "text": "Zero grau pra mim tá perfeito\nPor outro lado, quando chegou o inverno, não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular. Eu não tinha roupas pra um friozão porque não acreditava que meu moletom era insuficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.\n\n\n\n\nPensando nisso, fiz um gráfico que mostra as temperaturas diárias que encarei enquanto estive nos EUA. Usei o tidyverse pra isso."
+    "text": "Zero grau pra mim tá perfeito\nPor outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular.Quando chegou o inverno, não tinha roupas pra um friozão porque não acreditava que meu moletom era insuficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.\n\n\n\n\nPensando nessas nuances na temperatura, fiz um gráfico que mostra as temperaturas diárias que encarei enquanto estive nos EUA."
   },
   {
     "objectID": "posts/eua-1/index.html#mãos-à-obra",

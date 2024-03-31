@@ -202,7 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Esse post abre uma série de relatos “dataficados” sobre minha experiência nos EUA! Coletei e estruturei muitos dados naquele período,aqueles que já rastreio automaticamente (como scrobbles do last.fm) ou os que tive que monitorar para prestação de contas (o câmbio, minhas notas fiscais). Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R, revisitando umas informações do meu período de intercâmbio.</p>
+<p>Esse post abre uma série de relatos “dataficados” sobre minha experiência nos EUA! Coletei e estruturei muitos dados desse período, aqueles que já rastreio automaticamente (como scrobbles do last.fm) ou os que tive que monitorar para prestação de contas (o câmbio, minhas notas fiscais). Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R revisitando umas informações do meu período de intercâmbio.</p>
 </div>
 </div>
 </div>
@@ -219,12 +219,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption>Bonés, chapéus e óculos de sol viraram meus acessórios favoritos</figcaption></figure>
 </div>
 </section><section id="zero-grau-pra-mim-tá-perfeito" class="level2"><h2 class="anchored" data-anchor-id="zero-grau-pra-mim-tá-perfeito">Zero grau pra mim tá perfeito</h2>
-<p>Por outro lado, quando chegou o inverno, não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular. Eu não tinha roupas pra um friozão porque não acreditava que meu moletom era insuficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.</p>
+<p>Por outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular.Quando chegou o inverno, não tinha roupas pra um friozão porque não acreditava que meu moletom era insuficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure"><p><a href="https://i.pinimg.com/736x/9e/f9/bf/9ef9bf2174d0c994e18a181cc0208313.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://i.pinimg.com/736x/9e/f9/bf/9ef9bf2174d0c994e18a181cc0208313.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
 </figure>
 </div>
-<p>Pensando nisso, fiz um gráfico que mostra as temperaturas diárias que encarei enquanto estive nos EUA. Usei o tidyverse pra isso.</p>
+<p>Pensando nessas nuances na temperatura, fiz um gráfico que mostra as temperaturas diárias que encarei enquanto estive nos EUA.</p>
 </section><section id="mãos-à-obra" class="level2"><h2 class="anchored" data-anchor-id="mãos-à-obra">Mãos à obra</h2>
 <section id="setup-inicial" class="level3"><h3 class="anchored" data-anchor-id="setup-inicial">Setup inicial</h3>
 <div class="cell">
@@ -857,7 +857,7 @@ dateElements.forEach((el) => {
     "$1<sup style='font-size:0.5em;font-style:italic;'>$2</sup>"
   );
 });
-</script><script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
+</script><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
