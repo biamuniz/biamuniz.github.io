@@ -8,7 +8,6 @@ categories:
   - "USP"
 lang: pt
 toc: true 
-draft: false
 image: "tcc.jpg"
 execute: 
   warning: false
