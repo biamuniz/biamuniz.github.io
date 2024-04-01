@@ -1,0 +1,42 @@
+---
+title: "Apresentei o TCC"
+#subtitle: ""
+date: "2023-12-20"
+categories: 
+# exemplo de categorias:
+  - "Pessoal"
+  - "USP"
+lang: pt
+toc: true 
+draft: false
+image: "tcc.jpg"
+execute: 
+  warning: false
+  message: false
+---
+
+::: callout-note
+Post publicado orinalmente no [meu perfil](linkedin.com/in/bmuniz) do LinkedIn
+:::
+
+No dia 12 eu apresentei meu TCC na [Escola de Comunicações e Artes (ECA-USP)](https://www.linkedin.com/company/ecauspoficial/): Uma análise dos títulos de notícias com temática racial publicadas pela Folha de S. Paulo entre 2013 e 2022. Fiz isso seguindo o fluxo de trabalho do jornalismo de dados e usando algumas técnicas de ddj. Fundamentei minha proposta em conceitos sobre cor, raça e racismo no Brasil (em especial na chamada “grande imprensa”), e na importância de títulos e pautas para "hierarquizar e desierarquizar vozes" (li [fabiana moraes](https://www.linkedin.com/in/fabiana-moraes-835600141/) e abriu minha mente pra tanta coisa haha).
+
+![](tcc.jpeg){fig-align="center" width="460"}
+
+Eu via meu TCC como uma oportunidade de mostrar o jornalismo que eu busco fazer; afinal, é um trabalho totalmente meu. Esse jornalismo é pautado nos direitos humanos, orientado por dados e open source. Acho que isso se refletiu de algum modo nas escolhas que fiz para que o projeto ganhasse forma.
+
+Bom, bora ver o que eu fiz:
+
+-   Criei uma [base de dados](https://github.com/biamuniz/dados_tcc) de notícias com temática racial da Folha, seguindo alguns critérios para inclusão e exclusão dos artigos: por meio de buscas no site e webscraping, coletei aproximadamente 31 mil links, que viraram pouco mais de 9 mil depois do processo de limpeza dos dados;
+
+-   Documentei tudo em um “[caderno de campo](https://biancamuniz.quarto.pub/tcc/)” na web. Usando Quarto, fiz uma página com o conteúdo do meu relatório de pesquisa (introdução, metodologia, análise). É uma parte mais técnica, com códigos em R e Python, mas menos formal que o relatório de pesquisa que entreguei pra banca. Tipo meu caderninho de anotações enquanto eu processava os dados. Mas também tem espaço para os agradecimentos emocionados hehe
+
+-   Também transformei uns achados da análise em uma [narrativa passo a passo](https://biamuniz.github.io/tcc_storytelling/), com scrollytelling e botões. Essa parte foi tensa pois HTML, CSS e Javascript não são o meu forte, mas fazer isso tudo me ajudou a entender melhor como colaborar de forma mais assertiva e em equipe num projeto com dados e visualização (e por favor só abram a narrativa no desktop hahahah não está otimizado para telas menores)
+
+Fiquei meio hesitante em mostrar aqui porque ainda tá “em andamento”, quero continuar na análise (listei nos slides algumas limitações e potenciais do trabalho, que devo explorar futuramente) e tem alguns pontos pra revisar nas anotações dos códigos, no estilo da página e nos critérios de inclusão no levantamento. Mas como uma pessoa que curte processos mais até do que o resultado, acho que tá tudo bem mostrar os produtos agora já que o processo, modéstia a parte, tá sendo bem massa. No momento tô revendo as etapas e pretendo chamar mais gente pra dar um up no projeto, então feedbacks são muito bem-vindos!
+
+Um muito obrigada para a minha orientadora, Dayana Melo, pela parceria e orientação em muitos meses de conversa. Agradeço também à banca, pelos apontamentos e sugestões ([Jamile Santana](https://www.linkedin.com/in/jamile-santana/) e [Daniela Osvald Ramos](https://www.linkedin.com/in/daniela-osvald-ramos-0a38748/), admiro demais a atuação de vocês e vê-las avaliando meu trabalho é uma baita honra).
+
+```{=html}
+<iframe width="800" height="400" src="https://biamuniz.github.io/slides-tcc/" title="Slides"></iframe>
+```
