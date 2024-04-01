@@ -137,7 +137,7 @@ Também estilizei o título. Vi numa edição da newsletter do Albert Rapp esse 
 
 # Use o ggtext para o subtitle que requer HTML
 my_title <- glue(
-  "Temperaturas <b><span style = 'color:blue;'>mínimas</span></b> e <b><span style = 'color:orange;'>máximas</span></b> enquanto estive nos EUA"
+  "Temperaturas <b><span style = 'color:blue;'>mínimas</span></b> e <b><span style = 'color:orange;'>máximas</span></b> durante meu período nos EUA"
 )
 
 ```
@@ -147,7 +147,10 @@ O resultado! Admito que não ficou TÃO do jeito que eu queria, mas gostei de fa
 ```{r}
 #| message: false
 #| warning: false
-
+# Use o ggtext para o subtitle que requer HTML
+my_title <- glue(
+  "Temperaturas <b><span style = 'color:blue;'>mínimas</span></b> e <b><span style = 'color:orange;'>máximas</span></b> durante meu período nos EUA"
+)
 
 # Cria o gráfico
 figura <- ggplot(
@@ -156,21 +159,31 @@ figura <- ggplot(
   geom_point(aes(y = tmin), color = "blue", size = 1) +
   geom_point(aes(y = tmax), color = "orange", size = 1) +
   geom_hline(yintercept = 0, linetype = "solid", color = "black", size = 0.5) +  # Linha na temperatura zero
-
+  geom_segment(
+    aes(x = as.Date("2022-09-07"), 
+        y = 20, 
+        xend = as.Date("2022-09-07"), 
+        yend = -8), 
+    arrow = arrow(type = "closed", length = unit(0.1, "cm")), color = "red") +
+  annotate("text", x = as.Date("2022-09-07"), y = -12, label = "Chegada em \nAustin: 7/set", size = 3, color = "black", family="Raleway") +
   theme_minimal() +
   labs(title = my_title,
-       subtitle = "Registro diário das temperaturas nos lugares onde estive nos meses de setembro a dezembro de 2022", 
+       subtitle = "Registro das temperaturas nas cidades onde estive nos meses de setembro a dezembro de 2022", 
        x = "Dia", 
        y = "Temperatura (°C)",
        caption = "Fontes: National Centers for Environmental Information; Climatempo. \n
        Gráfico por Bianca Muniz (@biancamuniz__)") +
   scale_x_date(date_breaks = "1 month", date_labels = "%b") +
+  scale_y_continuous(breaks = seq(from = floor(min(filtered_df$tmin) / 10) * 10, to = ceiling(max(filtered_df$tmax) / 10) * 10, by = 10)) +
   geom_vline(data = data.frame(date = seq(min(filtered_df$date), max(filtered_df$date), by = "1 month")),
-             aes(xintercept = date), linetype = "dashed", color = "gray") +
-  theme(axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = -1, size = 10),
-        plot.title = ggtext::element_markdown(),
+             aes(xintercept = date), linetype = "dotted", color = "gray") +
+  theme(plot.title = element_markdown(size = 12, family = "Bitter", face = "bold"),
+        axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = -1, size = 10),
+        plot.subtitle = element_text(family = "Bitter", size = 10),
+        axis.title = element_text(family = "Bitter"),
+        panel.grid.minor = element_blank(),
         axis.text.y = element_text(size = 10),
-        plot.subtitle = element_text(size = 10)) +
+        plot.caption = element_text(family = "Bitter")) +  labs(title = my_title)+
   ## Adicionando setas
   geom_curve(
     aes(
@@ -195,18 +208,18 @@ figura <- ggplot(
     arrow = arrow(length = unit(0.1, "cm")), color = "red") +
   geom_curve(aes(x = as.Date("2022-09-07"), y = 10, xend = as.Date("2022-10-16"), yend = 10), 
              curvature = 0, color = "red") +  # Colchete
-  annotate("text", x = as.Date("2022-09-25"), y = 5, label = "40 dias seguidos com temperaturas \nacima de 30°C", 
-           size = 3, color = "black") + # Use o markdown para o subtítulo# Diminui o tamanho do subtítulo
+  annotate("text", x = as.Date("2022-09-25"), y = 5, label = "40 dias seguidos com \ntemperaturas acima de 30°C", 
+           size = 3, color = "black", family = "Raleway") + # Use o markdown para o subtítulo# Diminui o tamanho do subtítulo
   ## Adicionando anotações
   annotate(
     "text", 
     x = dia_com_menor_temperatura$date - 30, 
-    y = min(filtered_df$tmin) - 5, 
+    y = min(filtered_df$tmin) - 4, 
     label = "Menor temperatura \nem todo o período:\n-13°C em NYC", 
     hjust = 0, 
     vjust = 0, 
     size = 3, 
-    color = "black") +
+    color = "black", family = "Raleway") +
   annotate(
     "text", 
     x = dia_com_maior_temperatura$date, 
@@ -215,7 +228,7 @@ figura <- ggplot(
     hjust = 1, 
     vjust = -0.75, 
     size = 3, 
-    color = "black") +
+    color = "black", family = "Raleway") +
   annotate(
     "text", 
     x = dia_com_maior_amplitude$date-10, 
@@ -224,6 +237,7 @@ figura <- ggplot(
     hjust = 0.5, 
     vjust = 1, 
     size = 3, 
-    color = "black",position = position_dodge(width = 0.2))
+    color = "black",position = position_dodge(width = 0.2), family = "Raleway")
 figura
 ```
+
