@@ -1,51 +1,9 @@
 ---
-title: "preparando a terra"
+title: "Oi, eu sou a Bianca"
 ---
 
-### um post sobre apresentações, internet e jardinagem
+Sou uma pessoa. Uma mulher negra, filha da Cida e do Paulo. Mas também sou analista de dados na [Agência Pública](https://apublica.org/), jornalista formada pela Universidade de São Paulo, com período de intercâmbio em Empreendedorismo e Inovação realizado na Universidade do Texas em Austin, nos EUA. Tenho especialização em [Jornalismo de Dados, Automação e Data Storytelling](https://www.insper.edu.br/pos-graduacao/master-em-jornalismo-de-dados-automacao-e-data-storytelling/) pelo Insper. Antes disso, me formei em Biomedicina pela Universidade Federal de São Paulo e defendi um mestrado em Ciências pela mesma instituição.
 
-***post colocado na internet em 4 de novembro de 2022, mas em constante construção. Última atualização: 18 de março de 2024***
+Atualmente faço parte da organização da [R-Ladies São Paulo](https://rladies-sp.org/), grupo que busca promover a diversidade de gênero na comunidade da linguagem programação R. Me interesso por tecnologia, dados, conhecimento aberto e suas relações com direitos humanos. E às vezes toco cordas com arco (já tentei violino e violoncelo, agora tô firme na viola erudita), brinco com fotografia analógica e faço uns desenhos.
 
-Acho que é de bom tom me apresentar. Mesmo sabendo que se você chegou aqui, é porque me conhece das andanças por aí.
-
-Me chamo Bianca, sou filha da dona Cida e do seu Paulo. Sou uma mulher negra de 28 anos e que gosta muito de **aprender, de compartilhar e de aprender a compartilhar.** Ouvi essa frase num workshop das PyLadies de SP e adotei como um mantra pra mim (peço desculpas aos amigos que me ouvem falar disso frequentemente), porque acho que resume bem o que quero para a vida: compartilhar minhas experiências em uma **comunidade de aprendizes** e absorver dela o que pode me fazer crescer. Profundo né. Mas também gosto de falar besteira (é bom ter equilíbrio) e de ser fangirl.
-
-A internet é o principal lugar que achei para fazer essa troca de conhecimento, falar besteira e ser fangirl. No tempo que o tumblr era [*not safe for work*](https://staff.tumblr.com/post/180758987165/a-better-more-positive-tumblr)*,* eu era uma adolescente bem quietinha mas com muita vontade de falar sobre tudo (coloca aqui alguma música do Simple Plan sobre crescer) que eu aprendia, lia, escutava. A forma que achei pra isso foi publicar o que eu pensava na internet. Foi na *www* que conheci gente que fazia o mesmo que eu e me senti parte de uma comunidade.
-
-Mas eu não imaginava que ficaria cada vez mais estranha essa convivência com redes sociais. Tenho uma *presença nas redes* desde 2010; são mais de dez anos gritando pras paredes do twitter (antes disso eu tive um perfil no Orkut, alimentado 1x por semana na lan house). De lá pra cá, eu passei no vestibular algumas vezes, descobri muitos hobbies e desisti de outros tantos, defendi um mestrado, fiz uma transição de carreira meio confusa, comecei a trabalhar, fui em muito rolê sozinha, entrei em espaços que nunca imaginei que um dia eu poderia ocupar, entendi que minha tristeza era depressão, fui morar sozinha e talvez tenha virado adulta. Tudo isso documentado em posts.
-
-Também nesse tempo as redes sociais ganharam uma pira por engajamento e expectativas que eu não sei lidar muito bem. Nada contra métricas e tal, mas sempre parece que você precisa performar algo para os outros em troca de atenção, de dinheiro, de dopamina na forma de like. Ser uma persona bem estabelecida na internet só ferra com a cabecinha de quem é uma pessoa real, um processo. No meio disso, surgiram bots, trolls, haters e mais outros termos em inglês associados a vida digital que também me causaram estranheza.
-
-::: {.callout-note appearance="simple"}
-💭 Eu não pretendo chegar a alguma conclusão com esse monólogo sobre minha vida nas redes sociais. Só sei que tem sido difícil cultivar um conteúdo na internet e se fragmentar em diferentes personalidades profissionais, pessoais e ainda ter espaço para ser alguém em construção.
-:::
-
-Somada à toda essa dificuldade e incômodo, a rede do passarinho azul, a única que eu tenho uma [presença constante](https://twitter.com/biancamuniz__), passou por umas [mudanças](https://href.li/?https://nucleo.jor.br/curtas/2022-10-28-elon-musk-e-o-novo-dono-do-twitter/) recentes que me deixaram cabrera. Vi nisso uma chance para repensar minha atividade nas redes. Apesar do inferno que é viver na internet hoje, ainda é um lar pra mim.
-
-### Daí eu comecei a plantar e regar com carinho o meu jardim digital.
-
-![[Fonte da imagem](https://giphy.com/stickers/plant-pusheen-Y3ksQyRozoCYjMXBQc). É incrível a quantidade de gifs animados envolvendo plantas e o pusheen](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTZnMGRmYXhwb2x2cm1lMDF5NzN5a25vOW5taXZtd3k3c3dmbGV4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Y3ksQyRozoCYjMXBQc/giphy.gif)
-
-Conheci o conceito de *digital gardening* enquanto olhava o portfólio de um professor (grande [Tiago Maranhão](https://www.tiago.wtf/)!). Eu sugiro que leiam o artigo em que ele [apresenta](https://www.tiago.wtf/words/) seu *digital garden* e post da [Maggie Appleton](https://maggieappleton.com/garden-history) pra entender melhor, mas em resumo:
-
-> “*Um jardim é uma coleção de ideias em evolução que não são estritamente organizadas por sua data de publicação. Eles são exploratórios – as notas são vinculadas por meio de associações contextuais. Eles não são refinados ou completos - as notas são publicadas como pensamentos inacabados que vão crescer e evoluir ao longo do tempo. Eles são menos rígidos, menos performáticos e menos perfeitos do que os sites pessoais que estamos acostumados a ver.*” (retirado do site da Maggie Appleton, traduzido no Google Tradutor com uma ediçãozinha minha)
-
-Diferentemente da jardinagem que implica em podar e cortar relações (tipo aquela “limpa” nas redes sociais, que a gente apaga tudo porque não se identifica com o [seu eu do passado](https://media3.giphy.com/media/cNTZ2Ln1Q1ZZAODLbj/giphy.gif?cid=ecf05e47gl5vanhoq4n9041fq0461jn3g9ac2fqdax0f3kex&rid=giphy.gif&ct=g) ou dá unfollow nas contas que seguiu só por educação), essa que tô falando tá mais esforçada em regar, manter e criar conexões. Sem cobrança de periodicidade e engajamento.
-
-Eu sempre fui a pessoa que coleciona post-it, faz [lista](https://listography.com/bianva), cria colagem com os artistas mais escutados do [last.fm](https://www.last.fm/pt/user/biancamuniz12), pega cartões de visita para criar um grande banco de inspirações e contatos, que anda com caderninho pra anotar uma frase boa, que usa o twitter como repositório de links para reler. Uma grande fã do pinterest e da função “salvar” do Instagram. Esse monte de conteúdo fica só pra mim, mas tento achar uma brecha nas conversas pra espalhar a palavra entre meus amigos. Por que não juntar tudo isso em algum cantinho da internet? É útil pra mim, que vai ter esse banco de referências guardado e pode ser útil para quem gosta de conhecimento pessoal compartilhado 🙂
-
-Por isso achei que ~~o Notion~~ um blog seria um bom lugar. Pensei em reunir tudo no Medium, mas a estrutura de galhos e ramos ia se perder ~~(eu juro que tô tentando não usar só referências sobre plantas, mas tá difícil)~~. Twitter e Instagram têm seus meios de *digital gardening* — as threads e destaques, por exemplo, você pode ir construindo seu raciocínio com o tempo —, mas tem toooda a pressão por métrica, constância e uma cronologia maluca (e me pressionar inventando mais tarefas com prazos está fora de cogitação, rs). E como eu gosto de falar e guardar notas sobre assuntos bem distintos (como programação em R, os shows que eu vou e minha experiência num intercâmbio), não faz sentido um formato tão fechado quanto o desses sites.
-
-Alguns ramos desse jardim:
-
--   Minha [lista de shows](https://listography.com/bianva) vistos desde 2013;
-
--   Não sou cinéfila mas tenho uma conta no [Letterboxd](https://letterboxd.com/biancamuniz/). Mais uma tentativa de transformar meus hábitos em dados;
-
--   Os meus [scrobbles](https://www.last.fm/user/biancamuniz12) no Last.fm;
-
--   [Goodreads](https://www.goodreads.com/user/show/60381778-bianca) que eu não atualizo taaaanto. Vou transformar numa página, algum dia;
-
--   Algumas considerações sobre [meu intercâmbio](https://biancamuniz.notion.site/interc-mbio-AUSPIN-54b71bfe93134a319ed8e920e39571cf) (pois é, fiquei quatro meses nos EUA estudando sobre o ensino de DDJ lá).
-
-Isso é tudo, pessoal! Esse post vai se construindo ao longo do tempo.
+Você pode ver meu currículo [mais detalhado aqui](https://biamuniz.github.io/resume/).

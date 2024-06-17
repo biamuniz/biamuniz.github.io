@@ -1,11 +1,11 @@
 ---
 title: "Apresentei o TCC"
-#subtitle: ""
+subtitle: "e agora sou quaaaaaase jornalista"
 date: "2023-12-20"
 categories: 
 # exemplo de categorias:
-  - "Pessoal"
-  - "USP"
+#  - "Pessoal"
+#  - "USP"
 lang: pt
 toc: true 
 image: "tcc.jpg"

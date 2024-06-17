@@ -196,30 +196,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content"><div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Esse post abre uma série de relatos “dataficados” sobre minha experiência nos EUA! Coletei e estruturei muitos dados desse período, aqueles que já rastreio automaticamente (como scrobbles do last.fm) ou os que tive que monitorar para prestação de contas (o câmbio, minhas notas fiscais). Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R revisitando umas informações do meu período de intercâmbio.</p>
-</div>
-</div>
-</div>
-<p>Estive nos EUA durante quatro meses em 2022. Entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos).</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content"><p>Esse post é um relato “dataficado” sobre minha experiência nos EUA! Coletei e estruturei muitos dados desse período, aqueles que já rastreio automaticamente (como scrobbles do last.fm) ou os que tive que monitorar para prestação de contas (o câmbio, minhas notas fiscais). Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R revisitando umas informações do meu período de intercâmbio. Começando pela minha reclamação mais frequente: a temperatura.</p>
+<p>Estive nos EUA durante quatro meses em 2022, entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos). Perrengues chiques estadunidenses.</p>
 <section id="tá-calor-até-de-noite" class="level2"><h2 class="anchored" data-anchor-id="tá-calor-até-de-noite">Tá calor até de noite</h2>
 <p>Cheguei em Austin no finalzinho do verão, mas ainda estava muito quente para os meus padrões (ainda não conhecia os efeitos dessas ondas de calor mais recentes no Brasil né). Quando eu comentava do calor, sempre tinha alguém pra falar “é que você não sentiu nos meses de julho e agosto”. Quase um “lá em Curitiba” reverso.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure"><p><a href="images/sonic.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/sonic.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
 </figure>
 </div>
-<p>Eu não gosto das altas temperaturas. Até canto <em>ai que delícia o verão, a gente mostra o ombrinho</em> etc mas minha ligação com o calor acaba aí. Eu tenho pressão baixa então a maior parte do tempo me preocupava em não passar mal (o que aconteceu algumas vezes no TX).</p>
+<p>Eu não gosto das altas temperaturas. Até canto <em>ai que delícia o verão, a gente mostra o ombrinho</em> etc mas minha ligação com o calor acaba aí. Eu tenho pressão baixa, então a maior parte do tempo me preocupava em não passar mal (o que aconteceu algumas vezes no TX).</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="images/sol.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Bonés, chapéus e óculos de sol viraram meus acessórios favoritos"><img src="images/sol.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Bonés, chapéus e óculos de sol viraram meus acessórios favoritos"></a></p>
+<figure class="figure"><p><a href="images/sol.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="Bonés, chapéus e óculos de sol viraram meus acessórios favoritos"><img src="images/sol.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Bonés, chapéus e óculos de sol viraram meus acessórios favoritos"></a></p>
 <figcaption>Bonés, chapéus e óculos de sol viraram meus acessórios favoritos</figcaption></figure>
 </div>
 </section><section id="zero-grau-pra-mim-tá-perfeito" class="level2"><h2 class="anchored" data-anchor-id="zero-grau-pra-mim-tá-perfeito">Zero grau pra mim tá perfeito</h2>
-<p>Por outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular.Quando chegou o inverno, não tinha roupas pra um friozão porque não acreditava que meu moletom era insuficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.</p>
+<p>Por outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular ou de ver lagos congelados. Quando chegou o inverno, não tinha roupas pra um friozão porque acreditava que meu moletom universitário era suficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure"><p><a href="https://i.pinimg.com/736x/9e/f9/bf/9ef9bf2174d0c994e18a181cc0208313.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://i.pinimg.com/736x/9e/f9/bf/9ef9bf2174d0c994e18a181cc0208313.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
 </figure>
@@ -234,7 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/geanders/weathermetrics/">weathermetrics</a></span><span class="op">)</span> <span class="co">#para converter a temperatura</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/sfirke/janitor">janitor</a></span><span class="op">)</span> <span class="co">#clean_names</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://wilkelab.org/ggtext/">ggtext</a></span><span class="op">)</span> <span class="co"># para suportar texto com HTML</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/tidyverse/glue">glue</a></span><span class="op">)</span> <span class="co"># para criar strings</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://glue.tidyverse.org/">glue</a></span><span class="op">)</span> <span class="co"># para criar strings</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/locales.html">Sys.setlocale</a></span><span class="op">(</span><span class="st">"LC_TIME"</span>, <span class="st">"pt_BR.UTF-8"</span><span class="op">)</span></span>
 <span><span class="co">## [1] "pt_BR.UTF-8"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -282,7 +273,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section><section id="plotando-o-gráfico" class="level3"><h3 class="anchored" data-anchor-id="plotando-o-gráfico">Plotando o gráfico</h3>
 <p>O processo de criar o gráfico foi ok; sabia que precisava fazer um “lollipop”. Mas não contava com o transtorno que é criar anotações e posicioná-las corretamente. Foi bem “tentativa e erro” essa parte, mas gostei do resultado.</p>
-<p>Primeiro, eu calculei os dias com maior e menor temperatura, e com maior e menor amplitude térmica.</p>
+<p>Primeiro, eu calculei os dias com maiores e menores valores para temperatura e amplitude térmica:</p>
 <div class="cell">
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dia_com_menor_temperatura</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">tmin</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">tmin</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">dia_com_maior_temperatura</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">tmax</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">tmax</span><span class="op">)</span><span class="op">)</span></span>
@@ -297,7 +288,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span>  <span class="st">"Temperaturas &lt;b&gt;&lt;span style = 'color:blue;'&gt;mínimas&lt;/span&gt;&lt;/b&gt; e &lt;b&gt;&lt;span style = 'color:orange;'&gt;máximas&lt;/span&gt;&lt;/b&gt; durante meu período nos EUA"</span></span>
 <span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>O resultado! Admito que não ficou TÃO do jeito que eu queria, mas gostei de fazer um gráfico inteirinho no R.</p>
+<p>O resultado! Admito que não ficou TÃO do jeito que eu queria, mas gostei de fazer um gráfico inteirinho no R, sem precisar de algum software de design.</p>
 <div class="cell">
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Use o ggtext para o subtitle que requer HTML</span></span>
 <span><span class="va">my_title</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span></span>
@@ -871,7 +862,7 @@ dateElements.forEach((el) => {
     "$1<sup style='font-size:0.5em;font-style:italic;'>$2</sup>"
   );
 });
-</script><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom","loop":false});
+</script><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

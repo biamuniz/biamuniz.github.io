@@ -20,466 +20,477 @@ about:
     - href: https://github.com/biamuniz
       icon: github
       aria-label: Github
-listing: 
-  - id: blog
-    contents: posts
-    type: grid
-    fields: [image, date, title, subtitle]
-    sort: "date desc"
-    sort-ui: false
-    filter-ui: false
-    page-size: 3
-  - id: publicacoes
-    type: table
-    fields: [date, title, description]
-    sort: "date desc"
-    sort-ui: false
-    filter-ui: false
-    page-size: 3 
-    contents:
-      - path: https://apublica.org/2024/02/bairros-perifericos-e-de-maioria-negra-sao-os-mais-afetados-por-desastres-em-sao-paulo/
-        image: /projects/rlille.png
-        title: "Bairros periféricos e de maioria negra são os mais afetados por desastres em São Paulo"
-        date: "2024-02-19"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Racismo', 'Racismo Ambiental', 'Agência Pública']
-      - path: https://apublica.org/2023/11/racismo-e-barreira-para-ensino-da-historia-e-da-cultura-afro-brasileira-nas-escolas/
-        image: /projects/rlille.png
-        title: "Racismo é barreira para ensino da história e da cultura afro-brasileira nas escolas"
-        date: "2023-11-20"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Entrevista', 'Sociedade', 'Racismo', 'Agência Pública']
-      - path: https://apublica.org/2023/11/em-sao-paulo-corte-de-luz-na-periferia-e-ate-8-vezes-mais-frequente-que-no-centro/
-        image: /projects/rlille.png
-        title: "Em São Paulo, corte de luz na periferia é até 8 vezes mais frequente que no centro"
-        date: "2023-11-11"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Racismo Ambiental', 'Agência Pública']
-      - path: https://apublica.org/2023/11/entrevista-inteligencia-artificial-deve-afetar-proximas-eleicoes-e-a-democracia/
-        image: /projects/rlille.png
-        title: "Entrevista: Inteligência artificial deve afetar próximas eleições e a democracia"
-        date: "2023-11-03"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Entrevista', 'Poder,Tecnologia', 'IA', 'Agência Pública']
-      - path: https://apublica.org/2023/08/eduardo-bolsonaro-teve-125-reunioes-com-membros-da-extrema-direita-do-continente/
-        image: /projects/rlille.png
-        title: "Eduardo Bolsonaro teve 125 reuniões com membros da extrema direita do continente"
-        date: "2023-08-07"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Agência Pública']
-      - path: https://apublica.org/2023/07/a-cracolandia-e-resultado-do-proprio-projeto-de-cidade-diz-pesquisador/
-        image: /projects/rlille.png
-        title: "Dados mostram que ações policiais não reduziram fluxo na Cracolândia, diz pesquisador"
-        date: "2023-07-18"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Entrevista', 'Sociedade', 'Cracolândia', 'Agência Pública']
-      - path: https://apublica.org/2023/06/censo-2022-brasil-tem-11-milhoes-de-casas-e-apartamentos-vagos/
-        image: /projects/rlille.png
-        title: "Censo 2022: Brasil tem 11 milhões de casas e apartamentos vagos"
-        date: "2023-06-29"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Dados', 'Censo', 'Agência Pública']
-      - path: https://apublica.org/2023/06/dez-anos-de-protestos-qual-o-perfil-dos-manifestantes-que-vao-as-ruas-no-brasil/
-        image: /projects/rlille.png
-        title: "Dez anos de protestos: qual o perfil dos manifestantes que vão às ruas no Brasil?"
-        date: "2023-06-07"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Agência Pública']
-      - path: https://apublica.org/2023/03/3-anos-de-pandemia-pacientes-com-covid-longa-e-sequelas-nao-conseguem-tratamento-no-sus/
-        image: /projects/rlille.png
-        title: "3 anos de pandemia: pacientes com covid longa e sequelas não conseguem tratamento no SUS"
-        date: "2023-03-10"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Agência Pública']
-      - path: https://apublica.org/2023/02/campeoes-de-ausencias-e-omissoes-o-papel-de-cada-ministerio-nas-atas-secretas/
-        image: /projects/rlille.png
-        title: "Campeões de ausências e omissões: o papel de cada ministério nas atas secretas"
-        date: "2023-02-22"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2023/01/maioria-dos-onibus-que-transportaram-terroristas-sao-do-parana-e-sao-paulo/
-        image: /projects/rlille.png
-        title: "Maioria dos ônibus que transportaram terroristas são do Paraná e São Paulo"
-        date: "2023-01-09"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Violência, Agência Pública']
-      - path: https://educacao.uol.com.br/noticias/2022/10/09/em-7-anos-federais-deixaram-de-ofertar-19-das-vagas-destinadas-a-negros.htm
-        image: /projects/rlille.png
-        title: "Em 7 anos, federais deixaram de ofertar 19% das vagas destinadas a negros"
-        date: "2022-10-09"
-        description: "UOL"
-        categories: ['Cotas', 'Educação', 'Racismo', 'UOL']
-      - path: https://apublica.org/2022/09/77-reunioes-com-a-direita-americana/
-        image: /projects/rlille.png
-        title: "77 reuniões com a direita americana"
-        date: "2022-09-29"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Agência Pública']
-      - path: https://apublica.org/2022/08/candidatos-as-eleicoes-deste-ano-tem-r-84-milhoes-em-multas-ambientais/
-        image: /projects/rlille.png
-        title: "Candidatos às eleições deste ano têm R$ 84 milhões em multas ambientais"
-        date: "2022-08-17"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Socioambiental, Agência Pública']
-      - path: https://apublica.org/2022/08/partido-militar-mais-de-15-mil-candidatos-militares-concorrem-nas-eleicoes-neste-ano/
-        image: /projects/rlille.png
-        title: "Partido militar: mais de 1,5 mil candidatos militares concorrem nas eleições neste ano"
-        date: "2022-08-16"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Militares', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2022/08/candidatos-religiosos-declararam-patrimonio-milionario-nas-eleicoes/
-        image: /projects/rlille.png
-        title: "Candidatos religiosos declararam patrimônio milionário nas eleições"
-        date: "2022-08-16"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder religioso', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/sentinela/2022/08/a-construcao-do-reinado-de-michelle-nas-redes-bolsonaristas/
-        image: /projects/rlille.png
-        title: "A construção do reinado de Michelle nas redes bolsonaristas"
-        date: "2022-08-11"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Tecnologia', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/sentinela/2022/08/o-que-aconteceu-depois-da-decisao-de-moraes-sobre-fake-news-que-relacionavam-pt-ao-pcc/
-        image: /projects/rlille.png
-        title: "O que aconteceu depois da decisão de Moraes sobre fake news que relacionavam PT ao PCC?"
-        date: "2022-08-02"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Tecnologia', 'Justiça', 'Agência Pública']
-      - path: https://apublica.org/2022/07/madeireiros-foram-principais-beneficiados-por-canetada-de-bim-no-ibama/
-        image: /projects/rlille.png
-        title: "Madeireiros foram principais beneficiados por canetada de Bim no Ibama"
-        date: "2022-07-14"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambeintal', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2022/06/despacho-de-presidente-do-ibama-pode-custar-ao-menos-r-36-bilhoes-a-uniao/
-        image: /projects/rlille.png
-        title: "Despacho de presidente do Ibama pode custar ao menos R$ 3,6 bilhões à União"
-        date: "2022-06-27"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambeintal', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2022/04/mais-de-cem-mil-familias-foram-afetadas-em-uma-decada-de-conflitos-no-campo-na-amazonia/
-        image: /projects/rlille.png
-        title: "Mais de cem mil famílias foram afetadas em uma década de conflitos no campo na Amazônia"
-        date: "2022-04-27"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambeintal', 'Violência', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2022/04/assassinatos-no-campo-em-2021-batem-recorde-dos-ultimos-quatro-anos/
-        image: /projects/rlille.png
-        title: "Assassinatos no campo em 2021 batem recorde dos últimos quatro anos"
-        date: "2022-04-18"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambeintal', 'Violência', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2022/04/verba-do-orcamento-secreto-do-mec-vai-para-empresa-do-pai-de-aliado-de-arthur-lira/
-        image: /projects/rlille.png
-        title: "Verba do orçamento secreto do MEC vai para empresa do pai de aliado de Arthur Lira"
-        date: "2022-04-06"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Empresas', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2022/01/2022-e-a-pandemia-omicron-vacinas-e-o-futuro-da-covid-19-no-brasil-segundo-pesquisadores/
-        image: /projects/rlille.png
-        title: "2022 e a pandemia: Ômicron, vacinas e o futuro da covid-19 no Brasil segundo pesquisadores"
-        date: "2022-01-20"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Entrevista', 'Sociedade', 'covid-19', 'Agência Pública']
-      - path: https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/
-        image: /projects/rlille.png
-        title: "Os privilegiados com a água do Cerrado baiano"
-        date: "2021-12-08"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambeintal', 'Agência Pública']
-      - path: https://apublica.org/2021/10/aplicativos-de-delivery-a-nova-faceta-do-trabalho-infantil/
-        image: /projects/rlille.png
-        title: "Aplicativos de delivery: a nova faceta do trabalho infantil"
-        date: "2021-10-20"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Empresas', 'Agência Pública']
-      - path: https://apublica.org/2021/06/ministerio-da-saude-pediu-a-exercito-envio-de-cloroquina-para-todo-o-brasil-com-emergencia/
-        image: /projects/rlille.png
-        title: "Ministério da Saúde pediu a Exército envio de cloroquina para todo o Brasil com emergência"
-        date: "2021-06-24"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2021/04/farmacias-venderam-mais-de-52-milhoes-de-comprimidos-do-kit-covid-na-pandemia/
-        image: /projects/rlille.png
-        title: "Farmácias venderam mais de 52 milhões de comprimidos do “kit covid” na pandemia"
-        date: "2021-04-20"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'Empresas', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2021/03/com-colapso-profissionais-de-saude-dizem-que-remedios-de-intubacao-estao-acabando/
-        image: /projects/rlille.png
-        title: "Com colapso, profissionais de saúde dizem que remédios de intubação estão acabando"
-        date: "2021-03-25"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Agência Pública']
-      - path: https://apublica.org/2021/03/brasil-registra-duas-vezes-mais-pessoas-brancas-vacinadas-que-negras/
-        image: /projects/rlille.png
-        title: "Brasil registra duas vezes mais pessoas brancas vacinadas que negras"
-        date: "2021-03-15"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2021/03/o-mapa-da-cloroquina-como-governo-bolsonaro-enviou-28-milhoes-de-comprimidos-para-todo-o-brasil/
-        image: /projects/rlille.png
-        title: "O Mapa da cloroquina: como governo Bolsonaro enviou 2,8 milhões de comprimidos para todo o Brasil"
-        date: "2021-03-01"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Poder', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2021/02/trancoso-arraial-dajuda-caraiva-os-jatinhos-voaram-o-coronavirus-ficou/
-        image: /projects/rlille.png
-        title: "Trancoso, Arraial D’Ajuda, Caraíva: os jatinhos voaram, o coronavírus ficou"
-        date: "2021-02-01"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2021/01/com-coronavirus-periodo-de-queimadas-na-amazonia-tem-28-mil-hospitalizacoes-por-problemas-respiratorios/
-        image: /projects/rlille.png
-        title: "Com coronavírus, período de queimadas na Amazônia tem 28 mil hospitalizações por problemas respiratórios"
-        date: "2021-01-27"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/11/85-cidades-brasileiras-elegem-prefeitos-e-vices-multados-por-infracoes-ambientais/
-        image: /projects/rlille.png
-        title: "85 cidades brasileiras elegem prefeitos e vices multados por infrações ambientais"
-        date: "2020-11-18"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/11/eleicoes-2020-candidatos-tem-mais-de-r-175-milhoes-em-multas-ambientais/
-        image: /projects/rlille.png
-        title: "Eleições 2020: candidatos têm mais de R$ 175 milhões em multas ambientais"
-        date: "2020-11-11"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/10/na-amazonia-118-politicos-com-multas-ambientais-concorrem-as-eleicoes/
-        image: /projects/rlille.png
-        title: "Na Amazônia, 118 políticos com multas ambientais concorrem às eleições"
-        date: "2020-10-07"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
-      - path: https://clarousp.wixsite.com/equilibrio/post/a-medida-de-uma-beleza-sem-medida?fbclid=IwAR1Q5lmMYaIU_OEfkcWuOV66pElYXnWEi6aFaDNqm7j3IcFdzG9mrZDgNZ4
-        image: /projects/rlille.png
-        title: "A medida de uma beleza sem medida"
-        date: "2020-09-22"
-        description: "claro!"
-        categories: ['Jornal laboratório', 'Beleza', 'USP']
-      - path: https://apublica.org/2020/09/incendios-ja-tomam-quase-metade-das-terras-indigenas-no-pantanal/
-        image: /projects/rlille.png
-        title: "Incêndios já tomam quase metade das terras indígenas no Pantanal"
-        date: "2020-09-17"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/08/governo-bolsonaro-reduz-multas-em-municipios-onde-desmatamento-cresce/
-        image: /projects/rlille.png
-        title: "Governo Bolsonaro reduz multas em municípios onde desmatamento cresce"
-        date: "2020-08-24"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
-      - path: http://www.jornaldocampus.usp.br/index.php/2020/07/pos-graduacao-em-quarentena/
-        image: /projects/rlille.png
-        title: "Pós-graduação em quarentena"
-        date: "2020-07-24"
-        description: "Jornal do Campus"
-        categories: ['Jornal laboratório', 'covid-19', 'Pós-graduação', 'USP']
-      - path: https://apublica.org/2020/07/pequenas-cidades-brasileiras-tem-mais-de-10-mil-mortes-por-coronavirus/
-        image: /projects/rlille.png
-        title: "Pequenas cidades brasileiras têm mais de 10 mil mortes por coronavírus"
-        date: "2020-07-09"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: http://www.jornaldocampus.usp.br/index.php/2020/07/recepcao-ou-decepcao-dos-calouros/
-        image: /projects/rlille.png
-        title: "Recepção ou decepção dos calouros?"
-        date: "2020-07-09"
-        description: "Jornal do Campus"
-        categories: ['Jornal laboratório', 'covid-19', 'USP']
-      - path: https://apublica.org/2020/05/enquanto-leitos-de-uti-do-sus-chegam-ao-limite-ha-vagas-nos-hospitais-privados/
-        image: /projects/rlille.png
-        title: "Enquanto leitos de UTI do SUS chegam ao limite, há vagas nos hospitais privados"
-        date: "2020-05-21"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/
-        image: /projects/rlille.png
-        title: "Em duas semanas, número de negros mortos por coronavírus é cinco vezes maior no Brasil"
-        date: "2020-05-06"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'Racismo', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/04/brasil-tem-milhoes-em-grupo-de-risco-para-o-coronavirus/
-        image: /projects/rlille.png
-        title: "Brasil tem milhões em grupo de risco para o coronavírus"
-        date: "2020-04-02"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/03/a-caixa-preta-do-coronavirus-no-brasil/
-        image: /projects/rlille.png
-        title: "A caixa-preta do coronavírus no Brasil"
-        date: "2020-03-25"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/03/em-alerta-por-coronavirus-prisoes-ja-enfrentam-epidemia-de-tuberculose/
-        image: /projects/rlille.png
-        title: "Em alerta por coronavírus, prisões já enfrentam epidemia de tuberculose"
-        date: "2020-03-17"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://apublica.org/2020/03/em-meio-a-pandemia-de-coronavirus-brasil-enfrenta-desertos-de-utis/
-        image: /projects/rlille.png
-        title: "Em meio à pandemia de coronavírus, Brasil enfrenta “desertos” de UTIs"
-        date: "2020-03-13"
-        description: "Agência Pública de Jornalismo Investigativo"
-        categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
-      - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/18/nacoes-do-centro-de-sao-paulo/
-        image: /projects/rlille.png
-        title: "Nações do centro de São Paulo"
-        date: "2019-12-18"
-        description: "Agência Universitária de Notícias"
-        categories: ['Jornal laboratório', 'USP']
-      - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/09/lei-de-acesso-a-informacao-e-prejudicada-pela-desorganizacao-de-arquivos/
-        image: /projects/rlille.png
-        title: "Lei de Acesso à Informação é prejudicada pela desorganização de arquivos"
-        date: "2019-12-09"
-        description: "Agência Universitária de Notícias"
-        categories: ['Jornal laboratório', 'LAI', 'Arquivos', 'IEB', 'USP']
-      - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/06/presenca-do-capital-brasileiro-marca-relacao-entre-brasil-e-mocambique/
-        image: /projects/rlille.png
-        title: "Presença do capital brasileiro marca relação entre Brasil e Moçambique"
-        date: "2019-12-06"
-        description: "Agência Universitária de Notícias"
-        categories: ['Jornal laboratório', 'Brasil', 'Moçambique', 'IEB', 'USP']
-      - path: https://aun.webhostusp.sti.usp.br/index.php/2019/11/12/obra-do-racionais-mcs-e-reconhecida-tardiamente-pela-academia-e-midia/
-        image: /projects/rlille.png
-        title: "Obra do Racionais MC’s é reconhecida tardiamente pela academia e mídia"
-        date: "2019-11-12"
-        description: "Agência Universitária de Notícias"
-        categories: ['Jornal laboratório', 'Racionais', 'Música', 'IEB', 'USP']
-      - path: http://aun.webhostusp.sti.usp.br/index.php/2019/10/30/clube-de-biologia-sintetica-questiona-a-ciencia-rapida-por-meio-de-tecnicas-hacker-e-criatividade/
-        image: /projects/rlille.png
-        title: "Clube de Biologia Sintética questiona a “ciência rápida” por meio de técnicas hacker e criatividade"
-        date: "2019-10-30"
-        description: "Agência Universitária de Notícias"
-        categories: ['Jornal laboratório', 'conhecimento aberto', 'IEB', 'USP']
-      - path: https://aun.webhostusp.sti.usp.br/index.php/2019/10/25/sampa-midnight-evidencia-cenario-musical-independente-dos-anos-80/
-        image: /projects/rlille.png
-        title: "“Sampa Midnight” evidencia cenário musical independente dos anos 80"
-        date: "2019-10-25"
-        description: "Agência Universitária de Notícias"
-        categories: ['Jornal laboratório', 'Itamar Assumpção', 'Música', 'IEB', 'USP']
-      - path: http://jornalismojunior.com.br/turma-da-monica-para-jovens-e-adultos/
-        image: /projects/rlille.png
-        title: "Turma da Mônica para jovens e adultos"
-        date: "2019-07-01"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Turma da Mônica']
-      - path: http://jornalismojunior.com.br/perifacon-cultura-pop-produzida-e-consumida-pela-quebrada/
-        image: /projects/rlille.png
-        title: "PerifaCon: Cultura pop produzida e consumida pela quebrada"
-        date: "2019-03-27"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Perifacon']
-      - path: http://jornalismojunior.com.br/tocando-em-casa-cinco-artistas-brasileiros-para-ver-no-lollapalooza-brasil-2019/
-        image: /projects/rlille.png
-        title: "Tocando em casa: Cinco artistas brasileiros para ver no Lollapalooza Brasil 2019"
-        date: "2019-03-22"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Música', 'Lollapalooza']
-      - path: http://jornalismojunior.com.br/entre-china-e-turquia-os-uigures/
-        image: /projects/rlille.png
-        title: "Entre China e Turquia, os uigures"
-        date: "2019-02-17"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Sociedade', 'Internacional']
-      - path: http://jornalismojunior.com.br/quem-frequenta-o-ccsp/
-        image: /projects/rlille.png
-        title: "Quem frequenta o CCSP?"
-        date: "2019-01-26"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Sociedade']
-      - path: http://jornalismojunior.com.br/dentro-da-noite-veloz-ha-esperanca-de-vida-apos-a-noite/
-        image: /projects/rlille.png
-        title: "Resenha: Dentro da noite veloz - Há esperança de vida após a noite"
-        date: "2019-01-17"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Resenha', 'Livro']
-      - path: http://jornalismojunior.com.br/resenha-sopa-de-salsicha/
-        image: /projects/rlille.png
-        title: "Resenha: Sopa de salsicha"
-        date: "2018-12-18"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Resenha', 'HQ']
-      - path: http://jornalismojunior.com.br/o-legado-da-14a-edicao-da-pixel-show/
-        image: /projects/rlille.png
-        title: "O legado da 14ª edição da Pixel Show"
-        date: "2018-11-16"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Perifacon']
-      - path: http://jornalismojunior.com.br/a-entrega-amorosa-de-hilda-hilst-em-jubilo-memoria-noviciado-da-paixao/
-        image: /projects/rlille.png
-        title: "A entrega amorosa de Hilda Hilst em Júbilo, memória, noviciado da paixão"
-        date: "2018-11-08"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Resenha', 'Livro']
-      - path: http://jornalismojunior.com.br/como-acontece-a-representacao-do-cientista-na-cultura-pop-brasileira/
-        image: /projects/rlille.png
-        title: "Como acontece a representação do cientista na cultura pop brasileira"
-        date: "2018-09-26"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Ciência']
-      - path: http://jornalismojunior.com.br/humanos-sonham-com-ovelhas-de-verdade/
-        image: /projects/rlille.png
-        title: "Humanos sonham com ovelhas de verdade"
-        date: "2018-08-01"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Resenha', 'Livro', 'Ciência']
-      - path: http://jornalismojunior.com.br/silva-leva-brasileiro-para-o-palco-do-sesc-vila-mariana/
-        image: /projects/rlille.png
-        title: "Silva leva Brasileiro para o palco do SESC Vila Mariana"
-        date: "2018-07-04"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Resenha']
-      - path: http://jornalismojunior.com.br/como-o-tamanho-da-russia-interfere-em-seus-fusos-horarios-e-nas-suas-diferentes-paisagens/
-        image: /projects/rlille.png
-        title: "Como o tamanho da Rússia interfere em seus fusos horários e nas suas diferentes paisagens"
-        date: "2018-06-09"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Internacional', 'Ciência']
-      - path: http://jornalismojunior.com.br/ajustando-os-ponteiros-o-que-significa-termos-um-relogio-biologico/
-        image: /projects/rlille.png
-        title: "Ajustando os ponteiros: o que significa termos um “relógio biológico”?"
-        date: "2018-05-28"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Saúde', 'Ciência']
-      - path: http://jornalismojunior.com.br/o-que-rolou-no-terceiro-dia-do-pint-of-science/
-        image: /projects/rlille.png
-        title: "Além dos genes: que vem de nossos pais e o que vem do meio ambiente"
-        date: "2018-05-23"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
-      - path: http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/
-        image: /projects/rlille.png
-        title: "A flecha do tempo: Porque envelhecemos e nunca rejuvenescemos"
-        date: "2018-05-21"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
-      - path: http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/
-        image: /projects/rlille.png
-        title: "O conceito de infinito na física e matemática"
-        date: "2018-05-21"
-        description: "Jornalismo Júnior"
-        categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
+# listing: 
+#   - id: blog
+#     contents: posts
+#     type: grid
+#     fields: [image, date, title, subtitle]
+#     sort: "date desc"
+#     sort-ui: false
+#     filter-ui: false
+#     page-size: 3
+#   - id: publicacoes
+#     type: table
+#     fields: [date, title, description]
+#     sort: "date desc"
+#     sort-ui: false
+#     filter-ui: false
+#     page-size: 3 
+#     contents:
+#       - path: https://apublica.org/2024/02/bairros-perifericos-e-de-maioria-negra-sao-os-mais-afetados-por-desastres-em-sao-paulo/
+#         image: /projects/rlille.png
+#         title: "Bairros periféricos e de maioria negra são os mais afetados por desastres em São Paulo"
+#         date: "2024-02-19"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Racismo', 'Racismo Ambiental', 'Agência Pública']
+#       - path: https://apublica.org/2023/11/racismo-e-barreira-para-ensino-da-historia-e-da-cultura-afro-brasileira-nas-escolas/
+#         image: /projects/rlille.png
+#         title: "Racismo é barreira para ensino da história e da cultura afro-brasileira nas escolas"
+#         date: "2023-11-20"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Entrevista', 'Sociedade', 'Racismo', 'Agência Pública']
+#       - path: https://apublica.org/2023/11/em-sao-paulo-corte-de-luz-na-periferia-e-ate-8-vezes-mais-frequente-que-no-centro/
+#         image: /projects/rlille.png
+#         title: "Em São Paulo, corte de luz na periferia é até 8 vezes mais frequente que no centro"
+#         date: "2023-11-11"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Racismo Ambiental', 'Agência Pública']
+#       - path: https://apublica.org/2023/11/entrevista-inteligencia-artificial-deve-afetar-proximas-eleicoes-e-a-democracia/
+#         image: /projects/rlille.png
+#         title: "Entrevista: Inteligência artificial deve afetar próximas eleições e a democracia"
+#         date: "2023-11-03"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Entrevista', 'Poder,Tecnologia', 'IA', 'Agência Pública']
+#       - path: https://apublica.org/2023/08/eduardo-bolsonaro-teve-125-reunioes-com-membros-da-extrema-direita-do-continente/
+#         image: /projects/rlille.png
+#         title: "Eduardo Bolsonaro teve 125 reuniões com membros da extrema direita do continente"
+#         date: "2023-08-07"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Agência Pública']
+#       - path: https://apublica.org/2023/07/a-cracolandia-e-resultado-do-proprio-projeto-de-cidade-diz-pesquisador/
+#         image: /projects/rlille.png
+#         title: "Dados mostram que ações policiais não reduziram fluxo na Cracolândia, diz pesquisador"
+#         date: "2023-07-18"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Entrevista', 'Sociedade', 'Cracolândia', 'Agência Pública']
+#       - path: https://apublica.org/2023/06/censo-2022-brasil-tem-11-milhoes-de-casas-e-apartamentos-vagos/
+#         image: /projects/rlille.png
+#         title: "Censo 2022: Brasil tem 11 milhões de casas e apartamentos vagos"
+#         date: "2023-06-29"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Dados', 'Censo', 'Agência Pública']
+#       - path: https://apublica.org/2023/06/dez-anos-de-protestos-qual-o-perfil-dos-manifestantes-que-vao-as-ruas-no-brasil/
+#         image: /projects/rlille.png
+#         title: "Dez anos de protestos: qual o perfil dos manifestantes que vão às ruas no Brasil?"
+#         date: "2023-06-07"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Agência Pública']
+#       - path: https://apublica.org/2023/03/3-anos-de-pandemia-pacientes-com-covid-longa-e-sequelas-nao-conseguem-tratamento-no-sus/
+#         image: /projects/rlille.png
+#         title: "3 anos de pandemia: pacientes com covid longa e sequelas não conseguem tratamento no SUS"
+#         date: "2023-03-10"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Agência Pública']
+#       - path: https://apublica.org/2023/02/campeoes-de-ausencias-e-omissoes-o-papel-de-cada-ministerio-nas-atas-secretas/
+#         image: /projects/rlille.png
+#         title: "Campeões de ausências e omissões: o papel de cada ministério nas atas secretas"
+#         date: "2023-02-22"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2023/01/maioria-dos-onibus-que-transportaram-terroristas-sao-do-parana-e-sao-paulo/
+#         image: /projects/rlille.png
+#         title: "Maioria dos ônibus que transportaram terroristas são do Paraná e São Paulo"
+#         date: "2023-01-09"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Violência, Agência Pública']
+#       - path: https://educacao.uol.com.br/noticias/2022/10/09/em-7-anos-federais-deixaram-de-ofertar-19-das-vagas-destinadas-a-negros.htm
+#         image: /projects/rlille.png
+#         title: "Em 7 anos, federais deixaram de ofertar 19% das vagas destinadas a negros"
+#         date: "2022-10-09"
+#         description: "UOL"
+#         categories: ['Cotas', 'Educação', 'Racismo', 'UOL']
+#       - path: https://apublica.org/2022/09/77-reunioes-com-a-direita-americana/
+#         image: /projects/rlille.png
+#         title: "77 reuniões com a direita americana"
+#         date: "2022-09-29"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Agência Pública']
+#       - path: https://apublica.org/2022/08/candidatos-as-eleicoes-deste-ano-tem-r-84-milhoes-em-multas-ambientais/
+#         image: /projects/rlille.png
+#         title: "Candidatos às eleições deste ano têm R$ 84 milhões em multas ambientais"
+#         date: "2022-08-17"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Socioambiental, Agência Pública']
+#       - path: https://apublica.org/2022/08/partido-militar-mais-de-15-mil-candidatos-militares-concorrem-nas-eleicoes-neste-ano/
+#         image: /projects/rlille.png
+#         title: "Partido militar: mais de 1,5 mil candidatos militares concorrem nas eleições neste ano"
+#         date: "2022-08-16"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Militares', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2022/08/candidatos-religiosos-declararam-patrimonio-milionario-nas-eleicoes/
+#         image: /projects/rlille.png
+#         title: "Candidatos religiosos declararam patrimônio milionário nas eleições"
+#         date: "2022-08-16"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder religioso', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/sentinela/2022/08/a-construcao-do-reinado-de-michelle-nas-redes-bolsonaristas/
+#         image: /projects/rlille.png
+#         title: "A construção do reinado de Michelle nas redes bolsonaristas"
+#         date: "2022-08-11"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Tecnologia', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/sentinela/2022/08/o-que-aconteceu-depois-da-decisao-de-moraes-sobre-fake-news-que-relacionavam-pt-ao-pcc/
+#         image: /projects/rlille.png
+#         title: "O que aconteceu depois da decisão de Moraes sobre fake news que relacionavam PT ao PCC?"
+#         date: "2022-08-02"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Tecnologia', 'Justiça', 'Agência Pública']
+#       - path: https://apublica.org/2022/07/madeireiros-foram-principais-beneficiados-por-canetada-de-bim-no-ibama/
+#         image: /projects/rlille.png
+#         title: "Madeireiros foram principais beneficiados por canetada de Bim no Ibama"
+#         date: "2022-07-14"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambeintal', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2022/06/despacho-de-presidente-do-ibama-pode-custar-ao-menos-r-36-bilhoes-a-uniao/
+#         image: /projects/rlille.png
+#         title: "Despacho de presidente do Ibama pode custar ao menos R$ 3,6 bilhões à União"
+#         date: "2022-06-27"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambeintal', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2022/04/mais-de-cem-mil-familias-foram-afetadas-em-uma-decada-de-conflitos-no-campo-na-amazonia/
+#         image: /projects/rlille.png
+#         title: "Mais de cem mil famílias foram afetadas em uma década de conflitos no campo na Amazônia"
+#         date: "2022-04-27"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambeintal', 'Violência', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2022/04/assassinatos-no-campo-em-2021-batem-recorde-dos-ultimos-quatro-anos/
+#         image: /projects/rlille.png
+#         title: "Assassinatos no campo em 2021 batem recorde dos últimos quatro anos"
+#         date: "2022-04-18"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambeintal', 'Violência', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2022/04/verba-do-orcamento-secreto-do-mec-vai-para-empresa-do-pai-de-aliado-de-arthur-lira/
+#         image: /projects/rlille.png
+#         title: "Verba do orçamento secreto do MEC vai para empresa do pai de aliado de Arthur Lira"
+#         date: "2022-04-06"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Empresas', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2022/01/2022-e-a-pandemia-omicron-vacinas-e-o-futuro-da-covid-19-no-brasil-segundo-pesquisadores/
+#         image: /projects/rlille.png
+#         title: "2022 e a pandemia: Ômicron, vacinas e o futuro da covid-19 no Brasil segundo pesquisadores"
+#         date: "2022-01-20"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Entrevista', 'Sociedade', 'covid-19', 'Agência Pública']
+#       - path: https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/
+#         image: /projects/rlille.png
+#         title: "Os privilegiados com a água do Cerrado baiano"
+#         date: "2021-12-08"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambeintal', 'Agência Pública']
+#       - path: https://apublica.org/2021/10/aplicativos-de-delivery-a-nova-faceta-do-trabalho-infantil/
+#         image: /projects/rlille.png
+#         title: "Aplicativos de delivery: a nova faceta do trabalho infantil"
+#         date: "2021-10-20"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Empresas', 'Agência Pública']
+#       - path: https://apublica.org/2021/06/ministerio-da-saude-pediu-a-exercito-envio-de-cloroquina-para-todo-o-brasil-com-emergencia/
+#         image: /projects/rlille.png
+#         title: "Ministério da Saúde pediu a Exército envio de cloroquina para todo o Brasil com emergência"
+#         date: "2021-06-24"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2021/04/farmacias-venderam-mais-de-52-milhoes-de-comprimidos-do-kit-covid-na-pandemia/
+#         image: /projects/rlille.png
+#         title: "Farmácias venderam mais de 52 milhões de comprimidos do “kit covid” na pandemia"
+#         date: "2021-04-20"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'Empresas', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2021/03/com-colapso-profissionais-de-saude-dizem-que-remedios-de-intubacao-estao-acabando/
+#         image: /projects/rlille.png
+#         title: "Com colapso, profissionais de saúde dizem que remédios de intubação estão acabando"
+#         date: "2021-03-25"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Agência Pública']
+#       - path: https://apublica.org/2021/03/brasil-registra-duas-vezes-mais-pessoas-brancas-vacinadas-que-negras/
+#         image: /projects/rlille.png
+#         title: "Brasil registra duas vezes mais pessoas brancas vacinadas que negras"
+#         date: "2021-03-15"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2021/03/o-mapa-da-cloroquina-como-governo-bolsonaro-enviou-28-milhoes-de-comprimidos-para-todo-o-brasil/
+#         image: /projects/rlille.png
+#         title: "O Mapa da cloroquina: como governo Bolsonaro enviou 2,8 milhões de comprimidos para todo o Brasil"
+#         date: "2021-03-01"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Poder', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2021/02/trancoso-arraial-dajuda-caraiva-os-jatinhos-voaram-o-coronavirus-ficou/
+#         image: /projects/rlille.png
+#         title: "Trancoso, Arraial D’Ajuda, Caraíva: os jatinhos voaram, o coronavírus ficou"
+#         date: "2021-02-01"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2021/01/com-coronavirus-periodo-de-queimadas-na-amazonia-tem-28-mil-hospitalizacoes-por-problemas-respiratorios/
+#         image: /projects/rlille.png
+#         title: "Com coronavírus, período de queimadas na Amazônia tem 28 mil hospitalizações por problemas respiratórios"
+#         date: "2021-01-27"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/11/85-cidades-brasileiras-elegem-prefeitos-e-vices-multados-por-infracoes-ambientais/
+#         image: /projects/rlille.png
+#         title: "85 cidades brasileiras elegem prefeitos e vices multados por infrações ambientais"
+#         date: "2020-11-18"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/11/eleicoes-2020-candidatos-tem-mais-de-r-175-milhoes-em-multas-ambientais/
+#         image: /projects/rlille.png
+#         title: "Eleições 2020: candidatos têm mais de R$ 175 milhões em multas ambientais"
+#         date: "2020-11-11"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/10/na-amazonia-118-politicos-com-multas-ambientais-concorrem-as-eleicoes/
+#         image: /projects/rlille.png
+#         title: "Na Amazônia, 118 políticos com multas ambientais concorrem às eleições"
+#         date: "2020-10-07"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+#       - path: https://clarousp.wixsite.com/equilibrio/post/a-medida-de-uma-beleza-sem-medida?fbclid=IwAR1Q5lmMYaIU_OEfkcWuOV66pElYXnWEi6aFaDNqm7j3IcFdzG9mrZDgNZ4
+#         image: /projects/rlille.png
+#         title: "A medida de uma beleza sem medida"
+#         date: "2020-09-22"
+#         description: "claro!"
+#         categories: ['Jornal laboratório', 'Beleza', 'USP']
+#       - path: https://apublica.org/2020/09/incendios-ja-tomam-quase-metade-das-terras-indigenas-no-pantanal/
+#         image: /projects/rlille.png
+#         title: "Incêndios já tomam quase metade das terras indígenas no Pantanal"
+#         date: "2020-09-17"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/08/governo-bolsonaro-reduz-multas-em-municipios-onde-desmatamento-cresce/
+#         image: /projects/rlille.png
+#         title: "Governo Bolsonaro reduz multas em municípios onde desmatamento cresce"
+#         date: "2020-08-24"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+#       - path: http://www.jornaldocampus.usp.br/index.php/2020/07/pos-graduacao-em-quarentena/
+#         image: /projects/rlille.png
+#         title: "Pós-graduação em quarentena"
+#         date: "2020-07-24"
+#         description: "Jornal do Campus"
+#         categories: ['Jornal laboratório', 'covid-19', 'Pós-graduação', 'USP']
+#       - path: https://apublica.org/2020/07/pequenas-cidades-brasileiras-tem-mais-de-10-mil-mortes-por-coronavirus/
+#         image: /projects/rlille.png
+#         title: "Pequenas cidades brasileiras têm mais de 10 mil mortes por coronavírus"
+#         date: "2020-07-09"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: http://www.jornaldocampus.usp.br/index.php/2020/07/recepcao-ou-decepcao-dos-calouros/
+#         image: /projects/rlille.png
+#         title: "Recepção ou decepção dos calouros?"
+#         date: "2020-07-09"
+#         description: "Jornal do Campus"
+#         categories: ['Jornal laboratório', 'covid-19', 'USP']
+#       - path: https://apublica.org/2020/05/enquanto-leitos-de-uti-do-sus-chegam-ao-limite-ha-vagas-nos-hospitais-privados/
+#         image: /projects/rlille.png
+#         title: "Enquanto leitos de UTI do SUS chegam ao limite, há vagas nos hospitais privados"
+#         date: "2020-05-21"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/
+#         image: /projects/rlille.png
+#         title: "Em duas semanas, número de negros mortos por coronavírus é cinco vezes maior no Brasil"
+#         date: "2020-05-06"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'Racismo', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/04/brasil-tem-milhoes-em-grupo-de-risco-para-o-coronavirus/
+#         image: /projects/rlille.png
+#         title: "Brasil tem milhões em grupo de risco para o coronavírus"
+#         date: "2020-04-02"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/03/a-caixa-preta-do-coronavirus-no-brasil/
+#         image: /projects/rlille.png
+#         title: "A caixa-preta do coronavírus no Brasil"
+#         date: "2020-03-25"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/03/em-alerta-por-coronavirus-prisoes-ja-enfrentam-epidemia-de-tuberculose/
+#         image: /projects/rlille.png
+#         title: "Em alerta por coronavírus, prisões já enfrentam epidemia de tuberculose"
+#         date: "2020-03-17"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://apublica.org/2020/03/em-meio-a-pandemia-de-coronavirus-brasil-enfrenta-desertos-de-utis/
+#         image: /projects/rlille.png
+#         title: "Em meio à pandemia de coronavírus, Brasil enfrenta “desertos” de UTIs"
+#         date: "2020-03-13"
+#         description: "Agência Pública de Jornalismo Investigativo"
+#         categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+#       - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/18/nacoes-do-centro-de-sao-paulo/
+#         image: /projects/rlille.png
+#         title: "Nações do centro de São Paulo"
+#         date: "2019-12-18"
+#         description: "Agência Universitária de Notícias"
+#         categories: ['Jornal laboratório', 'USP']
+#       - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/09/lei-de-acesso-a-informacao-e-prejudicada-pela-desorganizacao-de-arquivos/
+#         image: /projects/rlille.png
+#         title: "Lei de Acesso à Informação é prejudicada pela desorganização de arquivos"
+#         date: "2019-12-09"
+#         description: "Agência Universitária de Notícias"
+#         categories: ['Jornal laboratório', 'LAI', 'Arquivos', 'IEB', 'USP']
+#       - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/06/presenca-do-capital-brasileiro-marca-relacao-entre-brasil-e-mocambique/
+#         image: /projects/rlille.png
+#         title: "Presença do capital brasileiro marca relação entre Brasil e Moçambique"
+#         date: "2019-12-06"
+#         description: "Agência Universitária de Notícias"
+#         categories: ['Jornal laboratório', 'Brasil', 'Moçambique', 'IEB', 'USP']
+#       - path: https://aun.webhostusp.sti.usp.br/index.php/2019/11/12/obra-do-racionais-mcs-e-reconhecida-tardiamente-pela-academia-e-midia/
+#         image: /projects/rlille.png
+#         title: "Obra do Racionais MC’s é reconhecida tardiamente pela academia e mídia"
+#         date: "2019-11-12"
+#         description: "Agência Universitária de Notícias"
+#         categories: ['Jornal laboratório', 'Racionais', 'Música', 'IEB', 'USP']
+#       - path: http://aun.webhostusp.sti.usp.br/index.php/2019/10/30/clube-de-biologia-sintetica-questiona-a-ciencia-rapida-por-meio-de-tecnicas-hacker-e-criatividade/
+#         image: /projects/rlille.png
+#         title: "Clube de Biologia Sintética questiona a “ciência rápida” por meio de técnicas hacker e criatividade"
+#         date: "2019-10-30"
+#         description: "Agência Universitária de Notícias"
+#         categories: ['Jornal laboratório', 'conhecimento aberto', 'IEB', 'USP']
+#       - path: https://aun.webhostusp.sti.usp.br/index.php/2019/10/25/sampa-midnight-evidencia-cenario-musical-independente-dos-anos-80/
+#         image: /projects/rlille.png
+#         title: "“Sampa Midnight” evidencia cenário musical independente dos anos 80"
+#         date: "2019-10-25"
+#         description: "Agência Universitária de Notícias"
+#         categories: ['Jornal laboratório', 'Itamar Assumpção', 'Música', 'IEB', 'USP']
+#       - path: http://jornalismojunior.com.br/turma-da-monica-para-jovens-e-adultos/
+#         image: /projects/rlille.png
+#         title: "Turma da Mônica para jovens e adultos"
+#         date: "2019-07-01"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Turma da Mônica']
+#       - path: http://jornalismojunior.com.br/perifacon-cultura-pop-produzida-e-consumida-pela-quebrada/
+#         image: /projects/rlille.png
+#         title: "PerifaCon: Cultura pop produzida e consumida pela quebrada"
+#         date: "2019-03-27"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Perifacon']
+#       - path: http://jornalismojunior.com.br/tocando-em-casa-cinco-artistas-brasileiros-para-ver-no-lollapalooza-brasil-2019/
+#         image: /projects/rlille.png
+#         title: "Tocando em casa: Cinco artistas brasileiros para ver no Lollapalooza Brasil 2019"
+#         date: "2019-03-22"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Música', 'Lollapalooza']
+#       - path: http://jornalismojunior.com.br/entre-china-e-turquia-os-uigures/
+#         image: /projects/rlille.png
+#         title: "Entre China e Turquia, os uigures"
+#         date: "2019-02-17"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Sociedade', 'Internacional']
+#       - path: http://jornalismojunior.com.br/quem-frequenta-o-ccsp/
+#         image: /projects/rlille.png
+#         title: "Quem frequenta o CCSP?"
+#         date: "2019-01-26"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Sociedade']
+#       - path: http://jornalismojunior.com.br/dentro-da-noite-veloz-ha-esperanca-de-vida-apos-a-noite/
+#         image: /projects/rlille.png
+#         title: "Resenha: Dentro da noite veloz - Há esperança de vida após a noite"
+#         date: "2019-01-17"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Resenha', 'Livro']
+#       - path: http://jornalismojunior.com.br/resenha-sopa-de-salsicha/
+#         image: /projects/rlille.png
+#         title: "Resenha: Sopa de salsicha"
+#         date: "2018-12-18"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Resenha', 'HQ']
+#       - path: http://jornalismojunior.com.br/o-legado-da-14a-edicao-da-pixel-show/
+#         image: /projects/rlille.png
+#         title: "O legado da 14ª edição da Pixel Show"
+#         date: "2018-11-16"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Perifacon']
+#       - path: http://jornalismojunior.com.br/a-entrega-amorosa-de-hilda-hilst-em-jubilo-memoria-noviciado-da-paixao/
+#         image: /projects/rlille.png
+#         title: "A entrega amorosa de Hilda Hilst em Júbilo, memória, noviciado da paixão"
+#         date: "2018-11-08"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Resenha', 'Livro']
+#       - path: http://jornalismojunior.com.br/como-acontece-a-representacao-do-cientista-na-cultura-pop-brasileira/
+#         image: /projects/rlille.png
+#         title: "Como acontece a representação do cientista na cultura pop brasileira"
+#         date: "2018-09-26"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Ciência']
+#       - path: http://jornalismojunior.com.br/humanos-sonham-com-ovelhas-de-verdade/
+#         image: /projects/rlille.png
+#         title: "Humanos sonham com ovelhas de verdade"
+#         date: "2018-08-01"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Resenha', 'Livro', 'Ciência']
+#       - path: http://jornalismojunior.com.br/silva-leva-brasileiro-para-o-palco-do-sesc-vila-mariana/
+#         image: /projects/rlille.png
+#         title: "Silva leva Brasileiro para o palco do SESC Vila Mariana"
+#         date: "2018-07-04"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Resenha']
+#       - path: http://jornalismojunior.com.br/como-o-tamanho-da-russia-interfere-em-seus-fusos-horarios-e-nas-suas-diferentes-paisagens/
+#         image: /projects/rlille.png
+#         title: "Como o tamanho da Rússia interfere em seus fusos horários e nas suas diferentes paisagens"
+#         date: "2018-06-09"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Internacional', 'Ciência']
+#       - path: http://jornalismojunior.com.br/ajustando-os-ponteiros-o-que-significa-termos-um-relogio-biologico/
+#         image: /projects/rlille.png
+#         title: "Ajustando os ponteiros: o que significa termos um “relógio biológico”?"
+#         date: "2018-05-28"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Saúde', 'Ciência']
+#       - path: http://jornalismojunior.com.br/o-que-rolou-no-terceiro-dia-do-pint-of-science/
+#         image: /projects/rlille.png
+#         title: "Além dos genes: que vem de nossos pais e o que vem do meio ambiente"
+#         date: "2018-05-23"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
+#       - path: http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/
+#         image: /projects/rlille.png
+#         title: "A flecha do tempo: Porque envelhecemos e nunca rejuvenescemos"
+#         date: "2018-05-21"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
+#       - path: http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/
+#         image: /projects/rlille.png
+#         title: "O conceito de infinito na física e matemática"
+#         date: "2018-05-21"
+#         description: "Jornalismo Júnior"
+#         categories: ['Jornalismo Júnior', 'Ciência', 'Cobertura', 'Evento']
 ---
+
+```{r}
+#| echo: false
+
+
+# ::: {#edu-exp}
+# :::
+# 
+# ## Reportagens mais recentes
+# 
+# ::: {#publicacoes}
+# :::
+# 
+# ## Últimos posts
+# 
+# ::: {#blog}
+# :::
+
+```
 
 ::: {#edu-exp}
 :::
 
-Sou uma pessoa. Uma mulher negra, filha da Cida e do Paulo. Mas também sou analista de dados na [Agência Pública](https://apublica.org/), jornalista formada pela Universidade de São Paulo, com período de intercâmbio em Empreendedorismo e Inovação realizado na Universidade do Texas em Austin, nos EUA. Tenho especialização em [Jornalismo de Dados, Automação e Data Storytelling](https://www.insper.edu.br/pos-graduacao/master-em-jornalismo-de-dados-automacao-e-data-storytelling/) pelo Insper. Antes disso, me formei em Biomedicina pela Universidade Federal de São Paulo e defendi um mestrado em Ciências pela mesma instituição.
+::: {style="text-align:center"}
+Este site está em constante construção
 
-Atualmente faço parte da organização da [R-Ladies São Paulo](https://rladies-sp.org/), grupo que busca promover a diversidade de gênero na comunidade da linguagem programação R. Me interesso por tecnologia, dados, conhecimento aberto e suas relações com direitos humanos. E às vezes toco cordas com arco (já tentei violino e violoncelo, agora tô firme na viola erudita), brinco com fotografia analógica e faço uns desenhos.
-
-Você pode ver meu currículo [mais detalhado aqui](https://biamuniz.github.io/resume/)
-
-## Reportagens mais recentes
-
-::: {#publicacoes}
+Seja bem-vindo, mas esteja ciente da bagunça :P
 :::
 
-## Últimos posts
-
-::: {#blog}
-:::
+![](https://i.gifer.com/YVPE.gif){fig-alt="Gif animado com o pokémon Pikachu utilizando uma britadeira, embaixo de uma placa com a frase \"under construction\"" fig-align="center" width="336"}
