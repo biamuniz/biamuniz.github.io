@@ -7,7 +7,7 @@ categories:
   - "jardim"
 lang: pt
 toc: true 
-draft: false
+draft: true
 image: https://giphy.com/stickers/plant-pusheen-Y3ksQyRozoCYjMXBQc
 execute: 
   warning: false
