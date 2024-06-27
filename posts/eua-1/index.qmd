@@ -10,7 +10,7 @@ categories:
   - "NYC"
 lang: pt
 toc: true 
-draft: false
+draft: true
 image: "images/sonic.jpg"
 execute: 
   warning: false
