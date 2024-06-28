@@ -10,15 +10,15 @@
     ]
   },
   {
+    "listing": "/code/index.html",
+    "items": []
+  },
+  {
     "listing": "/publicacoes.html",
     "items": []
   },
   {
     "listing": "/talks/index.html",
-    "items": []
-  },
-  {
-    "listing": "/code/index.html",
     "items": []
   }
 ]

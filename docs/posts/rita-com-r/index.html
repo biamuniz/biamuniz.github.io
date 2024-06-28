@@ -149,6 +149,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../../talks/index.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../code/index.html"> 
+<span class="menu-text">Código</span></a>
+  </li>  
 </ul>
 </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -745,7 +749,7 @@ Importante
 </div>
 <p>Os “oh oh”, “ai ai”, “yeah yeah”, “ah ah” poderiam ser acrescentados às stopwords. Resolvi deixar depois de lembrar de uma entrevista da Rita no programa Altas Horas, em que ela fala desses “uououou” como parte da sua “vocação” para backing vocal.</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="images/collage2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" data-glightbox="description: .lightbox-desc-5" title="Serginho Groisman recebe Rita Lee no programa Altas Horas (Imagem: Reprodução)"><img src="images/collage2.png" class="colagem img-fluid quarto-figure quarto-figure-center figure-img" alt="Serginho Groisman recebe Rita Lee no programa Altas Horas (Imagem: Reprodução)"></a></p>
+<figure class="figure"><p><a href="images/collage2.png" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="Serginho Groisman recebe Rita Lee no programa Altas Horas (Imagem: Reprodução)"><img src="images/collage2.png" class="colagem img-fluid quarto-figure quarto-figure-center figure-img" alt="Serginho Groisman recebe Rita Lee no programa Altas Horas (Imagem: Reprodução)"></a></p>
 <figcaption>Serginho Groisman recebe Rita Lee no programa Altas Horas (Imagem: Reprodução)</figcaption></figure>
 </div>
 <p>Para ter mais ideia do contexto no qual esses bigramas se inserem, vamos detectá-los nos versos e exibir o verso inteiro. Para isso, primeiro a gente retira a pontuação da coluna verso, para que isso não atrapalhe na detecção de bigramas separados por um ponto, vírgula, etc:</p>
@@ -829,7 +833,7 @@ Importante
 </section><section id="um-monte-de-gente-feliz" class="level2"><h2 class="anchored" data-anchor-id="um-monte-de-gente-feliz">“…um monte de gente feliz”</h2>
 <p>É difícil pensar em considerações finais sobre um legado tão vasto e uma pessoa tão cheia de adjetivos. Mas Rita pensou e acho que não há palavras melhores que as dela para finalizar esse post:</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="images/feliz.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" data-glightbox="description: .lightbox-desc-7" title="Palavras que encerram a autobiografia de Rita Lee (Imagem: Reprodução/gshow)"><img src="images/feliz.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Palavras que encerram a autobiografia de Rita Lee (Imagem: Reprodução/gshow)"></a></p>
+<figure class="figure"><p><a href="images/feliz.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-7" data-gallery="quarto-lightbox-gallery-7" title="Palavras que encerram a autobiografia de Rita Lee (Imagem: Reprodução/gshow)"><img src="images/feliz.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Palavras que encerram a autobiografia de Rita Lee (Imagem: Reprodução/gshow)"></a></p>
 <figcaption>Palavras que encerram a autobiografia de Rita Lee (Imagem: Reprodução/gshow)</figcaption></figure>
 </div>
 
@@ -1305,7 +1309,7 @@ dateElements.forEach((el) => {
     "$1<sup style='font-size:0.5em;font-style:italic;'>$2</sup>"
   );
 });
-</script><script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom"});
+</script><script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
