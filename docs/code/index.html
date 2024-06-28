@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-description","listing-image"],
+      searchColumns: ["listing-title"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -171,6 +171,10 @@ window.Quarto = {
     <a class="nav-link" href="../talks/index.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../code/index.html" aria-current="page"> 
+<span class="menu-text">Código</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -221,12 +225,6 @@ window.Quarto = {
          <option value="listing-title" data-direction="asc">
           Título
         </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Data - Mais antigo
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Data - O mais novo
-        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -235,28 +233,59 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1708657200000">
-<div class="thumbnail">
-<p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">
-<p><img src="thumbcolabora.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="0">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">Uma introdução ao jornalismo de dados | Curso Inclusão e Diversidade</a>
+<a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external">Quadro Societário e informações da Receita Federal de Empresas</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external">Reconhecimentp de entidades nos títulos da Folha de S. Paulo</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external"></a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">Script para ler arquivos .dbc e converter em .csv</a>
 </h3>
 <div class="listing-subtitle">
 <a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external"></a>
 </div>
-<div class="listing-description">
-<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">Esta aula faz parte do curso de formação em jornalismo independente e empreendedorismo promovido pelo #Colabora no programa Inclusão e Diversidade. Nesta aula introdutória são discutidos conceitos, técnicas e ferramentas para analisar e apresentar informações através de dados. O módulo apresenta…</a>
+</div>
+<div class="metadata">
+<p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external">Raspagem da página de busca da Folha de S. Paulo</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external"></a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">
-<div class="listing-date">
-23 de fev. de 2024
-</div>
+<p><a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external">
 </a>
 </div>
 </div>

@@ -10,11 +10,13 @@ listing:
   sort-ui: true
   filter-ui: true
   max-description-length: 300
-  fields: [title, date, description, image]
   contents:
+    - path: https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6
+      title: "Quadro Societário e informações da Receita Federal de Empresas"
+    - path: https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2
+      title: "Reconhecimentp de entidades nos títulos da Folha de S. Paulo"
     - path: https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b
-      title: "Uma introdução ao jornalismo de dados | Curso Inclusão e Diversidade"
-      date: "2024-02-23"
-      description: "Esta aula faz parte do curso de formação em jornalismo independente e empreendedorismo promovido pelo #Colabora no programa Inclusão e Diversidade. Nesta aula introdutória são discutidos conceitos, técnicas e ferramentas para analisar e apresentar informações através de dados. O módulo apresenta diferentes etapas do fluxo de trabalho no jornalismo de dados como: coleta, limpeza, análise e visualização. Além disso, apresenta referências jornalísticas para se ambientar e se inspirar na produção de reportagens orientadas por dados."
-      image: thumbcolabora.jpg
+      title: "Script para ler arquivos .dbc e converter em .csv"
+    - path: https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88
+      title: "Raspagem da página de busca da Folha de S. Paulo"
 ---
