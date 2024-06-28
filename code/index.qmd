@@ -6,17 +6,27 @@ title-block-banner: true
 image: /assets/images/social-profile.png
 listing:
   sort: "date desc"
-  type: default
+  type: table
   sort-ui: true
   filter-ui: true
   max-description-length: 300
   contents:
     - path: https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6
       title: "Quadro Societário e informações da Receita Federal de Empresas"
+      categories: ['Python']
     - path: https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2
-      title: "Reconhecimentp de entidades nos títulos da Folha de S. Paulo"
+      title: "Reconhecimento de entidades nos títulos da Folha de S. Paulo"
+      categories: ['Python']
     - path: https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b
       title: "Script para ler arquivos .dbc e converter em .csv"
+      categories: ['R']
     - path: https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88
       title: "Raspagem da página de busca da Folha de S. Paulo"
+      categories: ['Python']
+    - path: https://gist.github.com/biamuniz/d9cf55b0c4d7ea422f6c97942ad8c37e
+      title: "Baixa e concatena os dados de multas ambientais aplicadas pelo Ibama"
+      categories: ['Python']
+    - path: https://gist.github.com/biamuniz/91c64d1c8e283237225795c69f909bd5
+      title: "Cria um mapa com rcityviews dos arredores do SESC Pompeia e salva em SVG"
+      categories: ['R']
 ---

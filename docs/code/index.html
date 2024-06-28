@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title"],
+      searchColumns: ["listing-title","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -215,15 +215,18 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Ordenar por</option>
        <option value="index" data-direction="asc">Padrão</option>
-         <option value="listing-title" data-direction="asc">
+         <option value="listing-title-sort" data-direction="asc">
           Título
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          Categorias
         </option>
      </select>
   </div>
@@ -232,64 +235,68 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external">Quadro Societário e informações da Receita Federal de Empresas</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external">Reconhecimentp de entidades nos títulos da Folha de S. Paulo</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">Script para ler arquivos .dbc e converter em .csv</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external">Raspagem da página de busca da Folha de S. Paulo</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external"></a></p><a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="no-external">
-</a>
-</div>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Categorias</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Python" data-listing-title-sort="Quadro Societário e informações da Receita Federal de Empresas">
+<td>
+<a href="https://gist.github.com/biamuniz/f4ae3f27bd44eb615226a8f1f9640bb6" class="title listing-title">Quadro Societário e informações da Receita Federal de Empresas</a>
+</td>
+<td>
+<span class="listing-categories">Python</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Python" data-listing-title-sort="Reconhecimento de entidades nos títulos da Folha de S. Paulo">
+<td>
+<a href="https://gist.github.com/biamuniz/f285a75622f7b693a3f9b8480de8b6e2" class="title listing-title">Reconhecimento de entidades nos títulos da Folha de S. Paulo</a>
+</td>
+<td>
+<span class="listing-categories">Python</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="R" data-listing-title-sort="Script para ler arquivos .dbc e converter em .csv">
+<td>
+<a href="https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b" class="title listing-title">Script para ler arquivos .dbc e converter em .csv</a>
+</td>
+<td>
+<span class="listing-categories">R</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Python" data-listing-title-sort="Raspagem da página de busca da Folha de S. Paulo">
+<td>
+<a href="https://gist.github.com/biamuniz/e12c81af26dec7b509de8a4063a98f88" class="title listing-title">Raspagem da página de busca da Folha de S. Paulo</a>
+</td>
+<td>
+<span class="listing-categories">Python</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Python" data-listing-title-sort="Baixa e concatena os dados de multas ambientais aplicadas pelo Ibama">
+<td>
+<a href="https://gist.github.com/biamuniz/d9cf55b0c4d7ea422f6c97942ad8c37e" class="title listing-title">Baixa e concatena os dados de multas ambientais aplicadas pelo Ibama</a>
+</td>
+<td>
+<span class="listing-categories">Python</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="R" data-listing-title-sort="Cria um mapa com rcityviews dos arredores do SESC Pompeia e salva em SVG">
+<td>
+<a href="https://gist.github.com/biamuniz/91c64d1c8e283237225795c69f909bd5" class="title listing-title">Cria um mapa com rcityviews dos arredores do SESC Pompeia e salva em SVG</a>
+</td>
+<td>
+<span class="listing-categories">R</span>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 Sem itens correspondentes
 </div>
