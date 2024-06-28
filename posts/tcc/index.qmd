@@ -15,7 +15,7 @@ execute:
 ---
 
 ::: callout-note
-Post publicado orinalmente no [meu perfil](linkedin.com/in/bmuniz) do LinkedIn
+Post publicado originalmente no [meu perfil](linkedin.com/in/bmuniz) do LinkedIn
 :::
 
 No dia 12 eu apresentei meu TCC na [Escola de Comunicações e Artes (ECA-USP)](https://www.linkedin.com/company/ecauspoficial/): Uma análise dos títulos de notícias com temática racial publicadas pela Folha de S. Paulo entre 2013 e 2022. Fiz isso seguindo o fluxo de trabalho do jornalismo de dados e usando algumas técnicas de ddj. Fundamentei minha proposta em conceitos sobre cor, raça e racismo no Brasil (em especial na chamada “grande imprensa”), e na importância de títulos e pautas para "hierarquizar e desierarquizar vozes" (li [fabiana moraes](https://www.linkedin.com/in/fabiana-moraes-835600141/) e abriu minha mente pra tanta coisa haha).
