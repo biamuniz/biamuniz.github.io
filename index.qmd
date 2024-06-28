@@ -487,10 +487,16 @@ about:
 ::: {#edu-exp}
 :::
 
-::: {style="text-align:center"}
-Este site está em constante construção
+```{r}
+#| echo: false
 
-Seja bem-vindo, mas esteja ciente da bagunça :P
-:::
+# ::: {style="text-align:center"}
+# Este site está em constante construção
+# 
+# Seja bem-vindo, mas esteja ciente da bagunça :P
+# :::
+# 
+# ![](/assets/q0dd3k02unqb1.gif){fig-alt="Gif animado com o pokémon Pikachu utilizando uma britadeira, embaixo de uma placa com a frase \"under construction\"" fig-align="center" width="2000"}
+```
 
-![](/assets/q0dd3k02unqb1.gif){fig-alt="Gif animado com o pokémon Pikachu utilizando uma britadeira, embaixo de uma placa com a frase \"under construction\"" fig-align="center" width="2000"}
+

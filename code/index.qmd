@@ -1,0 +1,20 @@
+---
+title: "Código"
+subtitle: "Alguns códigos em Python ou R que uso no dia a dia"
+page-layout: full
+title-block-banner: true
+image: /assets/images/social-profile.png
+listing:
+  sort: "date desc"
+  type: default
+  sort-ui: true
+  filter-ui: true
+  max-description-length: 300
+  fields: [title, date, description, image]
+  contents:
+    - path: https://gist.github.com/biamuniz/26d9fd8d416563363ee5591162f61f5b
+      title: "Uma introdução ao jornalismo de dados | Curso Inclusão e Diversidade"
+      date: "2024-02-23"
+      description: "Esta aula faz parte do curso de formação em jornalismo independente e empreendedorismo promovido pelo #Colabora no programa Inclusão e Diversidade. Nesta aula introdutória são discutidos conceitos, técnicas e ferramentas para analisar e apresentar informações através de dados. O módulo apresenta diferentes etapas do fluxo de trabalho no jornalismo de dados como: coleta, limpeza, análise e visualização. Além disso, apresenta referências jornalísticas para se ambientar e se inspirar na produção de reportagens orientadas por dados."
+      image: thumbcolabora.jpg
+---
