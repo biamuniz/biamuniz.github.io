@@ -10,7 +10,7 @@ categories:
   - "NYC"
 lang: pt
 toc: true 
-draft: true
+draft: false
 image: "images/sonic.jpg"
 execute: 
   warning: false
@@ -21,21 +21,12 @@ Esse post é um relato "dataficado" sobre minha experiência nos EUA! Coletei e 
 
 Estive nos EUA durante quatro meses em 2022, entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos). Perrengues chiques estadunidenses.
 
-## Tá calor até de noite
-
-Cheguei em Austin no finalzinho do verão, mas ainda estava muito quente para os meus padrões (ainda não conhecia os efeitos dessas ondas de calor mais recentes no Brasil né). Quando eu comentava do calor, sempre tinha alguém pra falar "é que você não sentiu nos meses de julho e agosto". Quase um "lá em Curitiba" reverso.
-
-![](images/sonic.jpg){fig-align="center"}
 
 Eu não gosto das altas temperaturas. Até canto *ai que delícia o verão, a gente mostra o ombrinho* etc mas minha ligação com o calor acaba aí. Eu tenho pressão baixa, então a maior parte do tempo me preocupava em não passar mal (o que aconteceu algumas vezes no TX).
 
 ![Bonés, chapéus e óculos de sol viraram meus acessórios favoritos](images/sol.jpg){fig-align="center"}
 
-## Zero grau pra mim tá perfeito
-
-Por outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular ou de ver lagos congelados. Quando chegou o inverno, não tinha roupas pra um friozão porque acreditava que meu moletom universitário era suficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets de Austin.
-
-![](https://i.pinimg.com/736x/9e/f9/bf/9ef9bf2174d0c994e18a181cc0208313.jpg){fig-align="center"}
+Por outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular ou de ver lagos congelados. Quando chegou o inverno, não tinha roupas pra um friozão porque acreditava que meu moletom universitário era suficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets.
 
 Pensando nessas nuances na temperatura, fiz um gráfico que mostra as temperaturas diárias que encarei enquanto estive nos EUA.
 
@@ -67,7 +58,7 @@ Os dados eu peguei pra uma tarefa da disciplina *Reporting With Data*. Exportei 
 #| message: false
 #| warning: false
 #Carregando os dados
-df <- read.csv("data-raw/3643365.csv") |> 
+df <- read.csv("data/3643365.csv") |> 
   clean_names()
 
 #Formatando as datas
@@ -84,7 +75,7 @@ filtered_df$tmax <- fahrenheit.to.celsius(filtered_df$tmax)
 
 ```
 
-Agora tenho um dataframe com registros das temperaturas de Austin e Nova York! Porém, eu fiquei um tempinho de setembro em SP. Achava errado não incluir essa informação, então adicionei as temperaturas entre 1 e 6 de setembro:
+Agora tenho um dataframe com registros das temperaturas de Austin e Nova York. Porém, eu fiquei um tempinho de setembro em SP. Achava errado não incluir essa informação, então adicionei as temperaturas entre 1 e 6 de setembro:
 
 ```{r}
 # Substituição de dados do começo de setembro pela temperatura registrada em SP
@@ -126,7 +117,7 @@ dia_com_menor_amplitude <- filtered_df %>% mutate(amplitude = tmax - tmin) %>% f
 
 ```
 
-Também estilizei o título. Vi numa edição da newsletter do Albert Rapp esse jeito de colocar o título e achei bacana, porque posso retirar a legenda.
+Também estilizei o título. Vi numa edição da newsletter do Albert Rapp esse jeito de colocar o título e achei uma boa sacada, porque posso retirar a legenda.
 
 ```{r}
 #| message: false
@@ -140,7 +131,7 @@ my_title <- glue(
 
 ```
 
-O resultado! Admito que não ficou TÃO do jeito que eu queria, mas gostei de fazer um gráfico inteirinho no R, sem precisar de algum software de design.
+O resultado! Admito que não ficou TÃO do jeito que eu queria, mas gostei de fazer um gráfico inteirinho no R, sem precisar de algum software de design (viva o software livre).
 
 ```{r}
 #| message: false

@@ -7,7 +7,7 @@ categories:
   - "jardim"
 lang: pt
 toc: true 
-draft: true
+draft: false
 image: https://giphy.com/stickers/plant-pusheen-Y3ksQyRozoCYjMXBQc
 execute: 
   warning: false
@@ -24,7 +24,7 @@ Me chamo Bianca, sou filha da dona Cida e do seu Paulo. Sou uma mulher negra de 
 
 A internet é o principal lugar que achei para fazer essa troca de conhecimento, falar besteira e ser fangirl. No tempo que o tumblr era [*not safe for work*](https://staff.tumblr.com/post/180758987165/a-better-more-positive-tumblr)*,* eu era uma adolescente bem quietinha mas com muita vontade de falar sobre tudo (coloca aqui alguma música do Simple Plan sobre crescer) que eu aprendia, lia, escutava. A forma que achei pra isso foi publicar o que eu pensava na internet. Foi na *www* que conheci gente que fazia o mesmo que eu e me senti parte de uma comunidade.
 
-Mas eu não imaginava que ficaria cada vez mais estranha essa convivência com redes sociais. Tenho uma *presença nas redes* desde 2010; são mais de dez anos gritando pras paredes do twitter (antes disso eu tive um perfil no Orkut, alimentado 1x por semana na lan house). De lá pra cá, eu passei no vestibular algumas vezes, descobri muitos hobbies e desisti de outros tantos, defendi um mestrado, fiz uma transição de carreira meio confusa, comecei a trabalhar, fui em muito rolê sozinha, entrei em espaços que nunca imaginei que um dia eu poderia ocupar, entendi que minha tristeza era depressão, fui morar sozinha e talvez tenha virado adulta. Tudo isso documentado em posts.
+Mas eu não imaginava que ficaria cada vez mais estranha essa convivência com redes sociais. Tenho uma *presença nas redes* desde 2010; são mais de dez anos gritando pras paredes do twitter (antes disso eu tive um perfil no Orkut, alimentado 1x por semana na lan house). De lá pra cá, eu passei no vestibular algumas vezes, descobri muitos hobbies e desisti de outros tantos, defendi um mestrado, fiz uma transição de carreira meio confusa, comecei a trabalhar, fui em muito rolê sozinha, entrei em espaços que nunca imaginei que um dia eu poderia ocupar, entendi algumas coisas sobre ansiedade e depressão, fui morar sozinha e talvez tenha virado adulta. Tudo isso documentado em posts.
 
 Também nesse tempo as redes sociais ganharam uma pira por engajamento e expectativas que eu não sei lidar muito bem. Nada contra métricas e tal, mas sempre parece que você precisa performar algo para os outros em troca de atenção, de dinheiro, de dopamina na forma de like. Ser uma persona bem estabelecida na internet só ferra com a cabecinha de quem é uma pessoa real, um processo. No meio disso, surgiram bots, trolls, haters e mais outros termos em inglês associados a vida digital que também me causaram estranheza.
 
