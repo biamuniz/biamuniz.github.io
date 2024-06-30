@@ -42,6 +42,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/nutshell-1.0.7/nutshell.js"></script>
+<script src="site_libs/quarto-contrib/nutshell-1.0.7/nutshell_options.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,8 +81,8 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      page: 30,
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-image","listing-title","listing-date","listing-description","listing-categories"],
     };
@@ -218,14 +220,14 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Ordenar por</option>
        <option value="index" data-direction="asc">Padrão</option>
-         <option value="listing-title-sort" data-direction="asc">
+         <option value="listing-title" data-direction="asc">
           Título
         </option>
          <option value="listing-date-sort" data-direction="asc">
@@ -234,9 +236,6 @@ window.Quarto = {
          <option value="listing-date-sort" data-direction="desc">
           Data - O mais novo
         </option>
-         <option value="listing-description" data-direction="asc">
-          Descrição
-        </option>
      </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
@@ -244,837 +243,1414 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Data</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Descrição</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Reportagem,Socioambiental,Racismo,Racismo Ambiental,Agência Pública" data-listing-date-sort="1708311600000" data-listing-title-sort="Bairros periféricos e de maioria negra são os mais afetados por desastres em São Paulo">
-<td>
-<span class="listing-date">19 de fev. de 2024</span>
-</td>
-<td>
-<a href="https://apublica.org/2024/02/bairros-perifericos-e-de-maioria-negra-sao-os-mais-afetados-por-desastres-em-sao-paulo/" class="title listing-title">Bairros periféricos e de maioria negra são os mais afetados por desastres em São Paulo</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Cobertura,OSINT,Escola de Dados,conhecimento aberto,evento" data-listing-date-sort="1701399600000" data-listing-title-sort="Inteligência de Fontes Abertas - OSINT: muito mais que a ferramenta da vez">
-<td>
-<span class="listing-date">1 de dez. de 2023</span>
-</td>
-<td>
-<a href="https://escoladedados.org/coda/coda2023/inteligencia-de-fontes-abertas-osint/" class="title listing-title">Inteligência de Fontes Abertas - OSINT: muito mais que a ferramenta da vez</a>
-</td>
-<td>
-<span class="listing-description">Documentação - CODA.Br</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Cobertura,Github,Escola de Dados,conhecimento aberto,evento" data-listing-date-sort="1701399600000" data-listing-title-sort="Versionando as suas análises com Git e Github">
-<td>
-<span class="listing-date">1 de dez. de 2023</span>
-</td>
-<td>
-<a href="https://escoladedados.org/coda/coda2023/versionando-as-suas-analises-com-git-e-github/" class="title listing-title">Versionando as suas análises com Git e Github</a>
-</td>
-<td>
-<span class="listing-description">Documentação - CODA.Br</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Cobertura,LAI,Transparência,Escola de Dados,conhecimento aberto,Evento" data-listing-date-sort="1701399600000" data-listing-title-sort="Sobrevivendo ao juridiquês: o que preciso saber sobre leis para acessar e utilizar dados públicos">
-<td>
-<span class="listing-date">1 de dez. de 2023</span>
-</td>
-<td>
-<a href="https://escoladedados.org/coda/coda2023/sobrevivendo-ao-juridiques-o-que-preciso-saber-sobre-leis-para-acessar-e-utilizar-dados-publicos/" class="title listing-title">Sobrevivendo ao juridiquês: o que preciso saber sobre leis para acessar e utilizar dados públicos</a>
-</td>
-<td>
-<span class="listing-description">Documentação - CODA.Br</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Entrevista,Sociedade,Racismo,Agência Pública" data-listing-date-sort="1700449200000" data-listing-title-sort="Racismo é barreira para ensino da história e da cultura afro-brasileira nas escolas">
-<td>
-<span class="listing-date">20 de nov. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/11/racismo-e-barreira-para-ensino-da-historia-e-da-cultura-afro-brasileira-nas-escolas/" class="title listing-title">Racismo é barreira para ensino da história e da cultura afro-brasileira nas escolas</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="Reportagem,Sociedade,Racismo Ambiental,Agência Pública" data-listing-date-sort="1699671600000" data-listing-title-sort="Em São Paulo, corte de luz na periferia é até 8 vezes mais frequente que no centro">
-<td>
-<span class="listing-date">11 de nov. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/11/em-sao-paulo-corte-de-luz-na-periferia-e-ate-8-vezes-mais-frequente-que-no-centro/" class="title listing-title">Em São Paulo, corte de luz na periferia é até 8 vezes mais frequente que no centro</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="Entrevista,Poder,Tecnologia,IA,Agência Pública" data-listing-date-sort="1698980400000" data-listing-title-sort="Entrevista: Inteligência artificial deve afetar próximas eleições e a democracia">
-<td>
-<span class="listing-date">3 de nov. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/11/entrevista-inteligencia-artificial-deve-afetar-proximas-eleicoes-e-a-democracia/" class="title listing-title">Entrevista: Inteligência artificial deve afetar próximas eleições e a democracia</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="Reportagem,Poder,Agência Pública" data-listing-date-sort="1691377200000" data-listing-title-sort="Eduardo Bolsonaro teve 125 reuniões com membros da extrema direita do continente">
-<td>
-<span class="listing-date">7 de ago. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/08/eduardo-bolsonaro-teve-125-reunioes-com-membros-da-extrema-direita-do-continente/" class="title listing-title">Eduardo Bolsonaro teve 125 reuniões com membros da extrema direita do continente</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="Entrevista,Sociedade,Cracolândia,Agência Pública" data-listing-date-sort="1689649200000" data-listing-title-sort="Dados mostram que ações policiais não reduziram fluxo na Cracolândia, diz pesquisador">
-<td>
-<span class="listing-date">18 de jul. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/07/a-cracolandia-e-resultado-do-proprio-projeto-de-cidade-diz-pesquisador/" class="title listing-title">Dados mostram que ações policiais não reduziram fluxo na Cracolândia, diz pesquisador</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="Reportagem,Sociedade,Dados,Censo,Agência Pública" data-listing-date-sort="1688007600000" data-listing-title-sort="Censo 2022: Brasil tem 11 milhões de casas e apartamentos vagos">
-<td>
-<span class="listing-date">29 de jun. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/06/censo-2022-brasil-tem-11-milhoes-de-casas-e-apartamentos-vagos/" class="title listing-title">Censo 2022: Brasil tem 11 milhões de casas e apartamentos vagos</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="10" data-categories="Reportagem,Sociedade,Agência Pública" data-listing-date-sort="1686106800000" data-listing-title-sort="Dez anos de protestos: qual o perfil dos manifestantes que vão às ruas no Brasil?">
-<td>
-<span class="listing-date">7 de jun. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/06/dez-anos-de-protestos-qual-o-perfil-dos-manifestantes-que-vao-as-ruas-no-brasil/" class="title listing-title">Dez anos de protestos: qual o perfil dos manifestantes que vão às ruas no Brasil?</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="Reportagem,Sociedade,Saúde,covid-19,Agência Pública" data-listing-date-sort="1678417200000" data-listing-title-sort="3 anos de pandemia: pacientes com covid longa e sequelas não conseguem tratamento no SUS">
-<td>
-<span class="listing-date">10 de mar. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/03/3-anos-de-pandemia-pacientes-com-covid-longa-e-sequelas-nao-conseguem-tratamento-no-sus/" class="title listing-title">3 anos de pandemia: pacientes com covid longa e sequelas não conseguem tratamento no SUS</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="12" data-categories="Reportagem,Poder,Dados,Agência Pública" data-listing-date-sort="1677034800000" data-listing-title-sort="Campeões de ausências e omissões: o papel de cada ministério nas atas secretas">
-<td>
-<span class="listing-date">22 de fev. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/02/campeoes-de-ausencias-e-omissoes-o-papel-de-cada-ministerio-nas-atas-secretas/" class="title listing-title">Campeões de ausências e omissões: o papel de cada ministério nas atas secretas</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="13" data-categories="Reportagem,Poder,Violência, Agência Pública" data-listing-date-sort="1673233200000" data-listing-title-sort="Maioria dos ônibus que transportaram terroristas são do Paraná e São Paulo">
-<td>
-<span class="listing-date">9 de jan. de 2023</span>
-</td>
-<td>
-<a href="https://apublica.org/2023/01/maioria-dos-onibus-que-transportaram-terroristas-sao-do-parana-e-sao-paulo/" class="title listing-title">Maioria dos ônibus que transportaram terroristas são do Paraná e São Paulo</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="14" data-categories="Cotas,Educação,Racismo,UOL" data-listing-date-sort="1665284400000" data-listing-title-sort="Em 7 anos, federais deixaram de ofertar 19% das vagas destinadas a negros">
-<td>
-<span class="listing-date">9 de out. de 2022</span>
-</td>
-<td>
-<a href="https://educacao.uol.com.br/noticias/2022/10/09/em-7-anos-federais-deixaram-de-ofertar-19-das-vagas-destinadas-a-negros.htm" class="title listing-title">Em 7 anos, federais deixaram de ofertar 19% das vagas destinadas a negros</a>
-</td>
-<td>
-<span class="listing-description">UOL</span>
-</td>
-</tr>
-<tr data-index="15" data-categories="Reportagem,Poder,Agência Pública" data-listing-date-sort="1664420400000" data-listing-title-sort="77 reuniões com a direita americana">
-<td>
-<span class="listing-date">29 de set. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/09/77-reunioes-com-a-direita-americana/" class="title listing-title">77 reuniões com a direita americana</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="16" data-categories="Reportagem,Poder,Socioambiental, Agência Pública" data-listing-date-sort="1660705200000" data-listing-title-sort="Candidatos às eleições deste ano têm R$ 84 milhões em multas ambientais">
-<td>
-<span class="listing-date">17 de ago. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/08/candidatos-as-eleicoes-deste-ano-tem-r-84-milhoes-em-multas-ambientais/" class="title listing-title">Candidatos às eleições deste ano têm R$ 84 milhões em multas ambientais</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="17" data-categories="Reportagem,Militares,Dados,Agência Pública" data-listing-date-sort="1660618800000" data-listing-title-sort="Partido militar: mais de 1,5 mil candidatos militares concorrem nas eleições neste ano">
-<td>
-<span class="listing-date">16 de ago. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/08/partido-militar-mais-de-15-mil-candidatos-militares-concorrem-nas-eleicoes-neste-ano/" class="title listing-title">Partido militar: mais de 1,5 mil candidatos militares concorrem nas eleições neste ano</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="18" data-categories="Reportagem,Poder religioso,Dados,Agência Pública" data-listing-date-sort="1660618800000" data-listing-title-sort="Candidatos religiosos declararam patrimônio milionário nas eleições">
-<td>
-<span class="listing-date">16 de ago. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/08/candidatos-religiosos-declararam-patrimonio-milionario-nas-eleicoes/" class="title listing-title">Candidatos religiosos declararam patrimônio milionário nas eleições</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="19" data-categories="Reportagem,Poder,Tecnologia,Dados,Agência Pública" data-listing-date-sort="1660186800000" data-listing-title-sort="A construção do reinado de Michelle nas redes bolsonaristas">
-<td>
-<span class="listing-date">11 de ago. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/sentinela/2022/08/a-construcao-do-reinado-de-michelle-nas-redes-bolsonaristas/" class="title listing-title">A construção do reinado de Michelle nas redes bolsonaristas</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="20" data-categories="Reportagem,Poder,Tecnologia,Justiça,Agência Pública" data-listing-date-sort="1659409200000" data-listing-title-sort="O que aconteceu depois da decisão de Moraes sobre fake news que relacionavam PT ao PCC?">
-<td>
-<span class="listing-date">2 de ago. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/sentinela/2022/08/o-que-aconteceu-depois-da-decisao-de-moraes-sobre-fake-news-que-relacionavam-pt-ao-pcc/" class="title listing-title">O que aconteceu depois da decisão de Moraes sobre fake news que relacionavam PT ao PCC?</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="21" data-categories="Reportagem,Socioambeintal,Poder,Dados,Agência Pública" data-listing-date-sort="1657767600000" data-listing-title-sort="Madeireiros foram principais beneficiados por canetada de Bim no Ibama">
-<td>
-<span class="listing-date">14 de jul. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/07/madeireiros-foram-principais-beneficiados-por-canetada-de-bim-no-ibama/" class="title listing-title">Madeireiros foram principais beneficiados por canetada de Bim no Ibama</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="22" data-categories="Reportagem,Socioambeintal,Poder,Dados,Agência Pública" data-listing-date-sort="1656298800000" data-listing-title-sort="Despacho de presidente do Ibama pode custar ao menos R$ 3,6 bilhões à União">
-<td>
-<span class="listing-date">27 de jun. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/06/despacho-de-presidente-do-ibama-pode-custar-ao-menos-r-36-bilhoes-a-uniao/" class="title listing-title">Despacho de presidente do Ibama pode custar ao menos R$ 3,6 bilhões à União</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="23" data-categories="Reportagem,Socioambeintal,Violência,Dados,Agência Pública" data-listing-date-sort="1651028400000" data-listing-title-sort="Mais de cem mil famílias foram afetadas em uma década de conflitos no campo na Amazônia">
-<td>
-<span class="listing-date">27 de abr. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/04/mais-de-cem-mil-familias-foram-afetadas-em-uma-decada-de-conflitos-no-campo-na-amazonia/" class="title listing-title">Mais de cem mil famílias foram afetadas em uma década de conflitos no campo na Amazônia</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="24" data-categories="Reportagem,Socioambeintal,Violência,Dados,Agência Pública" data-listing-date-sort="1650250800000" data-listing-title-sort="Assassinatos no campo em 2021 batem recorde dos últimos quatro anos">
-<td>
-<span class="listing-date">18 de abr. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/04/assassinatos-no-campo-em-2021-batem-recorde-dos-ultimos-quatro-anos/" class="title listing-title">Assassinatos no campo em 2021 batem recorde dos últimos quatro anos</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="25" data-categories="Reportagem,Empresas,Poder,Dados,Agência Pública" data-listing-date-sort="1649214000000" data-listing-title-sort="Verba do orçamento secreto do MEC vai para empresa do pai de aliado de Arthur Lira">
-<td>
-<span class="listing-date">6 de abr. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/04/verba-do-orcamento-secreto-do-mec-vai-para-empresa-do-pai-de-aliado-de-arthur-lira/" class="title listing-title">Verba do orçamento secreto do MEC vai para empresa do pai de aliado de Arthur Lira</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="26" data-categories="Entrevista,Sociedade,covid-19,Agência Pública" data-listing-date-sort="1642647600000" data-listing-title-sort="2022 e a pandemia: Ômicron, vacinas e o futuro da covid-19 no Brasil segundo pesquisadores">
-<td>
-<span class="listing-date">20 de jan. de 2022</span>
-</td>
-<td>
-<a href="https://apublica.org/2022/01/2022-e-a-pandemia-omicron-vacinas-e-o-futuro-da-covid-19-no-brasil-segundo-pesquisadores/" class="title listing-title">2022 e a pandemia: Ômicron, vacinas e o futuro da covid-19 no Brasil segundo pesquisadores</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="27" data-categories="Reportagem,Socioambeintal,Agência Pública" data-listing-date-sort="1638932400000" data-listing-title-sort="Os privilegiados com a água do Cerrado baiano">
-<td>
-<span class="listing-date">8 de dez. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/" class="title listing-title">Os privilegiados com a água do Cerrado baiano</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="28" data-categories="Reportagem,Sociedade,Empresas,Agência Pública" data-listing-date-sort="1634698800000" data-listing-title-sort="Aplicativos de delivery: a nova faceta do trabalho infantil">
-<td>
-<span class="listing-date">20 de out. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/10/aplicativos-de-delivery-a-nova-faceta-do-trabalho-infantil/" class="title listing-title">Aplicativos de delivery: a nova faceta do trabalho infantil</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="29" data-categories="Reportagem,Poder,Dados,Agência Pública" data-listing-date-sort="1624503600000" data-listing-title-sort="Ministério da Saúde pediu a Exército envio de cloroquina para todo o Brasil com emergência">
-<td>
-<span class="listing-date">24 de jun. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/06/ministerio-da-saude-pediu-a-exercito-envio-de-cloroquina-para-todo-o-brasil-com-emergencia/" class="title listing-title">Ministério da Saúde pediu a Exército envio de cloroquina para todo o Brasil com emergência</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="30" data-categories="Reportagem,Poder,Empresas,Dados,Agência Pública" data-listing-date-sort="1618887600000" data-listing-title-sort="Farmácias venderam mais de 52 milhões de comprimidos do “kit covid” na pandemia">
-<td>
-<span class="listing-date">20 de abr. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/04/farmacias-venderam-mais-de-52-milhoes-de-comprimidos-do-kit-covid-na-pandemia/" class="title listing-title">Farmácias venderam mais de 52 milhões de comprimidos do “kit covid” na pandemia</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="31" data-categories="Reportagem,Sociedade,Saúde,covid-19,Agência Pública" data-listing-date-sort="1616641200000" data-listing-title-sort="Com colapso, profissionais de saúde dizem que remédios de intubação estão acabando">
-<td>
-<span class="listing-date">25 de mar. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/03/com-colapso-profissionais-de-saude-dizem-que-remedios-de-intubacao-estao-acabando/" class="title listing-title">Com colapso, profissionais de saúde dizem que remédios de intubação estão acabando</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="32" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1615777200000" data-listing-title-sort="Brasil registra duas vezes mais pessoas brancas vacinadas que negras">
-<td>
-<span class="listing-date">15 de mar. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/03/brasil-registra-duas-vezes-mais-pessoas-brancas-vacinadas-que-negras/" class="title listing-title">Brasil registra duas vezes mais pessoas brancas vacinadas que negras</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="33" data-categories="Reportagem,Poder,covid-19,Dados,Agência Pública" data-listing-date-sort="1614567600000" data-listing-title-sort="O Mapa da cloroquina: como governo Bolsonaro enviou 2,8 milhões de comprimidos para todo o Brasil">
-<td>
-<span class="listing-date">1 de mar. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/03/o-mapa-da-cloroquina-como-governo-bolsonaro-enviou-28-milhoes-de-comprimidos-para-todo-o-brasil/" class="title listing-title">O Mapa da cloroquina: como governo Bolsonaro enviou 2,8 milhões de comprimidos para todo o Brasil</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="34" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1612148400000" data-listing-title-sort="Trancoso, Arraial D’Ajuda, Caraíva: os jatinhos voaram, o coronavírus ficou">
-<td>
-<span class="listing-date">1 de fev. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/02/trancoso-arraial-dajuda-caraiva-os-jatinhos-voaram-o-coronavirus-ficou/" class="title listing-title">Trancoso, Arraial D’Ajuda, Caraíva: os jatinhos voaram, o coronavírus ficou</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="35" data-categories="Reportagem,Socioambiental,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1611716400000" data-listing-title-sort="Com coronavírus, período de queimadas na Amazônia tem 28 mil hospitalizações por problemas respiratórios">
-<td>
-<span class="listing-date">27 de jan. de 2021</span>
-</td>
-<td>
-<a href="https://apublica.org/2021/01/com-coronavirus-periodo-de-queimadas-na-amazonia-tem-28-mil-hospitalizacoes-por-problemas-respiratorios/" class="title listing-title">Com coronavírus, período de queimadas na Amazônia tem 28 mil hospitalizações por problemas respiratórios</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="36" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1605668400000" data-listing-title-sort="85 cidades brasileiras elegem prefeitos e vices multados por infrações ambientais">
-<td>
-<span class="listing-date">18 de nov. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/11/85-cidades-brasileiras-elegem-prefeitos-e-vices-multados-por-infracoes-ambientais/" class="title listing-title">85 cidades brasileiras elegem prefeitos e vices multados por infrações ambientais</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="37" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1605063600000" data-listing-title-sort="Eleições 2020: candidatos têm mais de R$ 175 milhões em multas ambientais">
-<td>
-<span class="listing-date">11 de nov. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/11/eleicoes-2020-candidatos-tem-mais-de-r-175-milhoes-em-multas-ambientais/" class="title listing-title">Eleições 2020: candidatos têm mais de R$ 175 milhões em multas ambientais</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="38" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1602039600000" data-listing-title-sort="Na Amazônia, 118 políticos com multas ambientais concorrem às eleições">
-<td>
-<span class="listing-date">7 de out. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/10/na-amazonia-118-politicos-com-multas-ambientais-concorrem-as-eleicoes/" class="title listing-title">Na Amazônia, 118 políticos com multas ambientais concorrem às eleições</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="39" data-categories="Jornal laboratório,Beleza,USP" data-listing-date-sort="1600743600000" data-listing-title-sort="A medida de uma beleza sem medida">
-<td>
-<span class="listing-date">22 de set. de 2020</span>
-</td>
-<td>
-<a href="https://clarousp.wixsite.com/equilibrio/post/a-medida-de-uma-beleza-sem-medida?fbclid=IwAR1Q5lmMYaIU_OEfkcWuOV66pElYXnWEi6aFaDNqm7j3IcFdzG9mrZDgNZ4" class="title listing-title">A medida de uma beleza sem medida</a>
-</td>
-<td>
-<span class="listing-description">claro!</span>
-</td>
-</tr>
-<tr data-index="40" data-categories="Reportagem,Socioambiental,Dados,Agência Pública" data-listing-date-sort="1600311600000" data-listing-title-sort="Incêndios já tomam quase metade das terras indígenas no Pantanal">
-<td>
-<span class="listing-date">17 de set. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/09/incendios-ja-tomam-quase-metade-das-terras-indigenas-no-pantanal/" class="title listing-title">Incêndios já tomam quase metade das terras indígenas no Pantanal</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="41" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1598238000000" data-listing-title-sort="Governo Bolsonaro reduz multas em municípios onde desmatamento cresce">
-<td>
-<span class="listing-date">24 de ago. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/08/governo-bolsonaro-reduz-multas-em-municipios-onde-desmatamento-cresce/" class="title listing-title">Governo Bolsonaro reduz multas em municípios onde desmatamento cresce</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="42" data-categories="Jornal laboratório,covid-19,Pós-graduação,USP" data-listing-date-sort="1595559600000" data-listing-title-sort="Pós-graduação em quarentena">
-<td>
-<span class="listing-date">24 de jul. de 2020</span>
-</td>
-<td>
-<a href="http://www.jornaldocampus.usp.br/index.php/2020/07/pos-graduacao-em-quarentena/" class="title listing-title">Pós-graduação em quarentena</a>
-</td>
-<td>
-<span class="listing-description">Jornal do Campus</span>
-</td>
-</tr>
-<tr data-index="43" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1594263600000" data-listing-title-sort="Pequenas cidades brasileiras têm mais de 10 mil mortes por coronavírus">
-<td>
-<span class="listing-date">9 de jul. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/07/pequenas-cidades-brasileiras-tem-mais-de-10-mil-mortes-por-coronavirus/" class="title listing-title">Pequenas cidades brasileiras têm mais de 10 mil mortes por coronavírus</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="44" data-categories="Jornal laboratório,covid-19,USP" data-listing-date-sort="1594263600000" data-listing-title-sort="Recepção ou decepção dos calouros?">
-<td>
-<span class="listing-date">9 de jul. de 2020</span>
-</td>
-<td>
-<a href="http://www.jornaldocampus.usp.br/index.php/2020/07/recepcao-ou-decepcao-dos-calouros/" class="title listing-title">Recepção ou decepção dos calouros?</a>
-</td>
-<td>
-<span class="listing-description">Jornal do Campus</span>
-</td>
-</tr>
-<tr data-index="45" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1590030000000" data-listing-title-sort="Enquanto leitos de UTI do SUS chegam ao limite, há vagas nos hospitais privados">
-<td>
-<span class="listing-date">21 de mai. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/05/enquanto-leitos-de-uti-do-sus-chegam-ao-limite-ha-vagas-nos-hospitais-privados/" class="title listing-title">Enquanto leitos de UTI do SUS chegam ao limite, há vagas nos hospitais privados</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="46" data-categories="Reportagem,Sociedade,Saúde,Racismo,covid-19,Dados,Agência Pública" data-listing-date-sort="1588734000000" data-listing-title-sort="Em duas semanas, número de negros mortos por coronavírus é cinco vezes maior no Brasil">
-<td>
-<span class="listing-date">6 de mai. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/" class="title listing-title">Em duas semanas, número de negros mortos por coronavírus é cinco vezes maior no Brasil</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="47" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1585796400000" data-listing-title-sort="Brasil tem milhões em grupo de risco para o coronavírus">
-<td>
-<span class="listing-date">2 de abr. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/04/brasil-tem-milhoes-em-grupo-de-risco-para-o-coronavirus/" class="title listing-title">Brasil tem milhões em grupo de risco para o coronavírus</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="48" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1585105200000" data-listing-title-sort="A caixa-preta do coronavírus no Brasil">
-<td>
-<span class="listing-date">25 de mar. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/03/a-caixa-preta-do-coronavirus-no-brasil/" class="title listing-title">A caixa-preta do coronavírus no Brasil</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="49" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1584414000000" data-listing-title-sort="Em alerta por coronavírus, prisões já enfrentam epidemia de tuberculose">
-<td>
-<span class="listing-date">17 de mar. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/03/em-alerta-por-coronavirus-prisoes-ja-enfrentam-epidemia-de-tuberculose/" class="title listing-title">Em alerta por coronavírus, prisões já enfrentam epidemia de tuberculose</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="50" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1584068400000" data-listing-title-sort="Em meio à pandemia de coronavírus, Brasil enfrenta “desertos” de UTIs">
-<td>
-<span class="listing-date">13 de mar. de 2020</span>
-</td>
-<td>
-<a href="https://apublica.org/2020/03/em-meio-a-pandemia-de-coronavirus-brasil-enfrenta-desertos-de-utis/" class="title listing-title">Em meio à pandemia de coronavírus, Brasil enfrenta “desertos” de UTIs</a>
-</td>
-<td>
-<span class="listing-description">Agência Pública de Jornalismo Investigativo</span>
-</td>
-</tr>
-<tr data-index="51" data-categories="Jornal laboratório,USP" data-listing-date-sort="1576638000000" data-listing-title-sort="Nações do centro de São Paulo">
-<td>
-<span class="listing-date">18 de dez. de 2019</span>
-</td>
-<td>
-<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/12/18/nacoes-do-centro-de-sao-paulo/" class="title listing-title">Nações do centro de São Paulo</a>
-</td>
-<td>
-<span class="listing-description">Agência Universitária de Notícias</span>
-</td>
-</tr>
-<tr data-index="52" data-categories="Jornal laboratório,LAI,Arquivos,IEB,USP" data-listing-date-sort="1575860400000" data-listing-title-sort="Lei de Acesso à Informação é prejudicada pela desorganização de arquivos">
-<td>
-<span class="listing-date">9 de dez. de 2019</span>
-</td>
-<td>
-<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/12/09/lei-de-acesso-a-informacao-e-prejudicada-pela-desorganizacao-de-arquivos/" class="title listing-title">Lei de Acesso à Informação é prejudicada pela desorganização de arquivos</a>
-</td>
-<td>
-<span class="listing-description">Agência Universitária de Notícias</span>
-</td>
-</tr>
-<tr data-index="53" data-categories="Jornal laboratório,Brasil,Moçambique,IEB,USP" data-listing-date-sort="1575601200000" data-listing-title-sort="Presença do capital brasileiro marca relação entre Brasil e Moçambique">
-<td>
-<span class="listing-date">6 de dez. de 2019</span>
-</td>
-<td>
-<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/12/06/presenca-do-capital-brasileiro-marca-relacao-entre-brasil-e-mocambique/" class="title listing-title">Presença do capital brasileiro marca relação entre Brasil e Moçambique</a>
-</td>
-<td>
-<span class="listing-description">Agência Universitária de Notícias</span>
-</td>
-</tr>
-<tr data-index="54" data-categories="Jornal laboratório,Racionais,Música,IEB,USP" data-listing-date-sort="1573527600000" data-listing-title-sort="Obra do Racionais MC’s é reconhecida tardiamente pela academia e mídia">
-<td>
-<span class="listing-date">12 de nov. de 2019</span>
-</td>
-<td>
-<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/11/12/obra-do-racionais-mcs-e-reconhecida-tardiamente-pela-academia-e-midia/" class="title listing-title">Obra do Racionais MC’s é reconhecida tardiamente pela academia e mídia</a>
-</td>
-<td>
-<span class="listing-description">Agência Universitária de Notícias</span>
-</td>
-</tr>
-<tr data-index="55" data-categories="Jornal laboratório,conhecimento aberto,IEB,USP" data-listing-date-sort="1572404400000" data-listing-title-sort="Clube de Biologia Sintética questiona a “ciência rápida” por meio de técnicas hacker e criatividade">
-<td>
-<span class="listing-date">30 de out. de 2019</span>
-</td>
-<td>
-<a href="http://aun.webhostusp.sti.usp.br/index.php/2019/10/30/clube-de-biologia-sintetica-questiona-a-ciencia-rapida-por-meio-de-tecnicas-hacker-e-criatividade/" class="title listing-title">Clube de Biologia Sintética questiona a “ciência rápida” por meio de técnicas hacker e criatividade</a>
-</td>
-<td>
-<span class="listing-description">Agência Universitária de Notícias</span>
-</td>
-</tr>
-<tr data-index="56" data-categories="Jornal laboratório,Itamar Assumpção,Música,IEB,USP" data-listing-date-sort="1571972400000" data-listing-title-sort="“Sampa Midnight” evidencia cenário musical independente dos anos 80">
-<td>
-<span class="listing-date">25 de out. de 2019</span>
-</td>
-<td>
-<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/10/25/sampa-midnight-evidencia-cenario-musical-independente-dos-anos-80/" class="title listing-title">“Sampa Midnight” evidencia cenário musical independente dos anos 80</a>
-</td>
-<td>
-<span class="listing-description">Agência Universitária de Notícias</span>
-</td>
-</tr>
-<tr data-index="57" data-categories="Jornalismo Júnior,Cultura,Turma da Mônica" data-listing-date-sort="1561950000000" data-listing-title-sort="Turma da Mônica para jovens e adultos">
-<td>
-<span class="listing-date">1 de jul. de 2019</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/turma-da-monica-para-jovens-e-adultos/" class="title listing-title">Turma da Mônica para jovens e adultos</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="58" data-categories="Jornalismo Júnior,Cultura,Cobertura,Evento,Perifacon" data-listing-date-sort="1553655600000" data-listing-title-sort="PerifaCon: Cultura pop produzida e consumida pela quebrada">
-<td>
-<span class="listing-date">27 de mar. de 2019</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/perifacon-cultura-pop-produzida-e-consumida-pela-quebrada/" class="title listing-title">PerifaCon: Cultura pop produzida e consumida pela quebrada</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="59" data-categories="Jornalismo Júnior,Cultura,Música,Lollapalooza" data-listing-date-sort="1553223600000" data-listing-title-sort="Tocando em casa: Cinco artistas brasileiros para ver no Lollapalooza Brasil 2019">
-<td>
-<span class="listing-date">22 de mar. de 2019</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/tocando-em-casa-cinco-artistas-brasileiros-para-ver-no-lollapalooza-brasil-2019/" class="title listing-title">Tocando em casa: Cinco artistas brasileiros para ver no Lollapalooza Brasil 2019</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="60" data-categories="Jornalismo Júnior,Sociedade,Internacional" data-listing-date-sort="1550372400000" data-listing-title-sort="Entre China e Turquia, os uigures">
-<td>
-<span class="listing-date">17 de fev. de 2019</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/entre-china-e-turquia-os-uigures/" class="title listing-title">Entre China e Turquia, os uigures</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="61" data-categories="Jornalismo Júnior,Sociedade" data-listing-date-sort="1548468000000" data-listing-title-sort="Quem frequenta o CCSP?">
-<td>
-<span class="listing-date">26 de jan. de 2019</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/quem-frequenta-o-ccsp/" class="title listing-title">Quem frequenta o CCSP?</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="62" data-categories="Jornalismo Júnior,Cultura,Resenha,Livro" data-listing-date-sort="1547690400000" data-listing-title-sort="Resenha: Dentro da noite veloz - Há esperança de vida após a noite">
-<td>
-<span class="listing-date">17 de jan. de 2019</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/dentro-da-noite-veloz-ha-esperanca-de-vida-apos-a-noite/" class="title listing-title">Resenha: Dentro da noite veloz - Há esperança de vida após a noite</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="63" data-categories="Jornalismo Júnior,Cultura,Resenha,HQ" data-listing-date-sort="1545098400000" data-listing-title-sort="Resenha: Sopa de salsicha">
-<td>
-<span class="listing-date">18 de dez. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/resenha-sopa-de-salsicha/" class="title listing-title">Resenha: Sopa de salsicha</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="64" data-categories="Jornalismo Júnior,Cultura,Cobertura,Evento,Perifacon" data-listing-date-sort="1542333600000" data-listing-title-sort="O legado da 14ª edição da Pixel Show">
-<td>
-<span class="listing-date">16 de nov. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/o-legado-da-14a-edicao-da-pixel-show/" class="title listing-title">O legado da 14ª edição da Pixel Show</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="65" data-categories="Jornalismo Júnior,Cultura,Resenha,Livro" data-listing-date-sort="1541642400000" data-listing-title-sort="A entrega amorosa de Hilda Hilst em Júbilo, memória, noviciado da paixão">
-<td>
-<span class="listing-date">8 de nov. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/a-entrega-amorosa-de-hilda-hilst-em-jubilo-memoria-noviciado-da-paixao/" class="title listing-title">A entrega amorosa de Hilda Hilst em Júbilo, memória, noviciado da paixão</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="66" data-categories="Jornalismo Júnior,Cultura,Ciência" data-listing-date-sort="1537930800000" data-listing-title-sort="Como acontece a representação do cientista na cultura pop brasileira">
-<td>
-<span class="listing-date">26 de set. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/como-acontece-a-representacao-do-cientista-na-cultura-pop-brasileira/" class="title listing-title">Como acontece a representação do cientista na cultura pop brasileira</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="67" data-categories="Jornalismo Júnior,Resenha,Livro,Ciência" data-listing-date-sort="1533092400000" data-listing-title-sort="Humanos sonham com ovelhas de verdade">
-<td>
-<span class="listing-date">1 de ago. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/humanos-sonham-com-ovelhas-de-verdade/" class="title listing-title">Humanos sonham com ovelhas de verdade</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="68" data-categories="Jornalismo Júnior,Cultura,Cobertura,Evento,Resenha" data-listing-date-sort="1530673200000" data-listing-title-sort="Silva leva Brasileiro para o palco do SESC Vila Mariana">
-<td>
-<span class="listing-date">4 de jul. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/silva-leva-brasileiro-para-o-palco-do-sesc-vila-mariana/" class="title listing-title">Silva leva Brasileiro para o palco do SESC Vila Mariana</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="69" data-categories="Jornalismo Júnior,Internacional,Ciência" data-listing-date-sort="1528513200000" data-listing-title-sort="Como o tamanho da Rússia interfere em seus fusos horários e nas suas diferentes paisagens">
-<td>
-<span class="listing-date">9 de jun. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/como-o-tamanho-da-russia-interfere-em-seus-fusos-horarios-e-nas-suas-diferentes-paisagens/" class="title listing-title">Como o tamanho da Rússia interfere em seus fusos horários e nas suas diferentes paisagens</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="70" data-categories="Jornalismo Júnior,Saúde,Ciência" data-listing-date-sort="1527476400000" data-listing-title-sort="Ajustando os ponteiros: o que significa termos um “relógio biológico”?">
-<td>
-<span class="listing-date">28 de mai. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/ajustando-os-ponteiros-o-que-significa-termos-um-relogio-biologico/" class="title listing-title">Ajustando os ponteiros: o que significa termos um “relógio biológico”?</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="71" data-categories="Jornalismo Júnior,Ciência,Cobertura,Evento" data-listing-date-sort="1527044400000" data-listing-title-sort="Além dos genes: que vem de nossos pais e o que vem do meio ambiente">
-<td>
-<span class="listing-date">23 de mai. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/o-que-rolou-no-terceiro-dia-do-pint-of-science/" class="title listing-title">Além dos genes: que vem de nossos pais e o que vem do meio ambiente</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="72" data-categories="Jornalismo Júnior,Ciência,Cobertura,Evento" data-listing-date-sort="1526871600000" data-listing-title-sort="A flecha do tempo: Porque envelhecemos e nunca rejuvenescemos">
-<td>
-<span class="listing-date">21 de mai. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/" class="title listing-title">A flecha do tempo: Porque envelhecemos e nunca rejuvenescemos</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-<tr data-index="73" data-categories="Jornalismo Júnior,Ciência,Cobertura,Evento" data-listing-date-sort="1526871600000" data-listing-title-sort="O conceito de infinito na física e matemática">
-<td>
-<span class="listing-date">21 de mai. de 2018</span>
-</td>
-<td>
-<a href="http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/" class="title listing-title">O conceito de infinito na física e matemática</a>
-</td>
-<td>
-<span class="listing-description">Jornalismo Júnior</span>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Reportagem,Socioambiental,Racismo,Racismo Ambiental,Agência Pública" data-listing-date-sort="1708311600000">
+<a href="https://apublica.org/2024/02/bairros-perifericos-e-de-maioria-negra-sao-os-mais-afetados-por-desastres-em-sao-paulo/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bairros periféricos e de maioria negra são os mais afetados por desastres em São Paulo
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+19 de fev. de 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Cobertura,OSINT,Escola de Dados,conhecimento aberto,evento" data-listing-date-sort="1701399600000">
+<a href="https://escoladedados.org/coda/coda2023/inteligencia-de-fontes-abertas-osint/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Inteligência de Fontes Abertas - OSINT: muito mais que a ferramenta da vez
+</h5>
+<div class="card-text listing-description">
+Documentação - CODA.Br
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de dez. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Cobertura,Github,Escola de Dados,conhecimento aberto,evento" data-listing-date-sort="1701399600000">
+<a href="https://escoladedados.org/coda/coda2023/versionando-as-suas-analises-com-git-e-github/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Versionando as suas análises com Git e Github
+</h5>
+<div class="card-text listing-description">
+Documentação - CODA.Br
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de dez. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Cobertura,LAI,Transparência,Escola de Dados,conhecimento aberto,Evento" data-listing-date-sort="1701399600000">
+<a href="https://escoladedados.org/coda/coda2023/sobrevivendo-ao-juridiques-o-que-preciso-saber-sobre-leis-para-acessar-e-utilizar-dados-publicos/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sobrevivendo ao juridiquês: o que preciso saber sobre leis para acessar e utilizar dados públicos
+</h5>
+<div class="card-text listing-description">
+Documentação - CODA.Br
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de dez. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Entrevista,Sociedade,Racismo,Agência Pública" data-listing-date-sort="1700449200000">
+<a href="https://apublica.org/2023/11/racismo-e-barreira-para-ensino-da-historia-e-da-cultura-afro-brasileira-nas-escolas/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Racismo é barreira para ensino da história e da cultura afro-brasileira nas escolas
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+20 de nov. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Reportagem,Sociedade,Racismo Ambiental,Agência Pública" data-listing-date-sort="1699671600000">
+<a href="https://apublica.org/2023/11/em-sao-paulo-corte-de-luz-na-periferia-e-ate-8-vezes-mais-frequente-que-no-centro/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Em São Paulo, corte de luz na periferia é até 8 vezes mais frequente que no centro
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+11 de nov. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Entrevista,Poder,Tecnologia,IA,Agência Pública" data-listing-date-sort="1698980400000">
+<a href="https://apublica.org/2023/11/entrevista-inteligencia-artificial-deve-afetar-proximas-eleicoes-e-a-democracia/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Entrevista: Inteligência artificial deve afetar próximas eleições e a democracia
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+3 de nov. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Reportagem,Poder,Agência Pública" data-listing-date-sort="1691377200000">
+<a href="https://apublica.org/2023/08/eduardo-bolsonaro-teve-125-reunioes-com-membros-da-extrema-direita-do-continente/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Eduardo Bolsonaro teve 125 reuniões com membros da extrema direita do continente
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+7 de ago. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Entrevista,Sociedade,Cracolândia,Agência Pública" data-listing-date-sort="1689649200000">
+<a href="https://apublica.org/2023/07/a-cracolandia-e-resultado-do-proprio-projeto-de-cidade-diz-pesquisador/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dados mostram que ações policiais não reduziram fluxo na Cracolândia, diz pesquisador
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de jul. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Reportagem,Sociedade,Dados,Censo,Agência Pública" data-listing-date-sort="1688007600000">
+<a href="https://apublica.org/2023/06/censo-2022-brasil-tem-11-milhoes-de-casas-e-apartamentos-vagos/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Censo 2022: Brasil tem 11 milhões de casas e apartamentos vagos
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+29 de jun. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Reportagem,Sociedade,Agência Pública" data-listing-date-sort="1686106800000">
+<a href="https://apublica.org/2023/06/dez-anos-de-protestos-qual-o-perfil-dos-manifestantes-que-vao-as-ruas-no-brasil/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Dez anos de protestos: qual o perfil dos manifestantes que vão às ruas no Brasil?
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+7 de jun. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Reportagem,Sociedade,Saúde,covid-19,Agência Pública" data-listing-date-sort="1678417200000">
+<a href="https://apublica.org/2023/03/3-anos-de-pandemia-pacientes-com-covid-longa-e-sequelas-nao-conseguem-tratamento-no-sus/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+3 anos de pandemia: pacientes com covid longa e sequelas não conseguem tratamento no SUS
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+10 de mar. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Reportagem,Poder,Dados,Agência Pública" data-listing-date-sort="1677034800000">
+<a href="https://apublica.org/2023/02/campeoes-de-ausencias-e-omissoes-o-papel-de-cada-ministerio-nas-atas-secretas/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campeões de ausências e omissões: o papel de cada ministério nas atas secretas
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+22 de fev. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="Reportagem,Poder,Violência, Agência Pública" data-listing-date-sort="1673233200000">
+<a href="https://apublica.org/2023/01/maioria-dos-onibus-que-transportaram-terroristas-sao-do-parana-e-sao-paulo/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Maioria dos ônibus que transportaram terroristas são do Paraná e São Paulo
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+9 de jan. de 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="Cotas,Educação,Racismo,UOL" data-listing-date-sort="1665284400000">
+<a href="https://educacao.uol.com.br/noticias/2022/10/09/em-7-anos-federais-deixaram-de-ofertar-19-das-vagas-destinadas-a-negros.htm" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Em 7 anos, federais deixaram de ofertar 19% das vagas destinadas a negros
+</h5>
+<div class="card-text listing-description">
+UOL
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+9 de out. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="Reportagem,Poder,Agência Pública" data-listing-date-sort="1664420400000">
+<a href="https://apublica.org/2022/09/77-reunioes-com-a-direita-americana/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+77 reuniões com a direita americana
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+29 de set. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="Reportagem,Poder,Socioambiental, Agência Pública" data-listing-date-sort="1660705200000">
+<a href="https://apublica.org/2022/08/candidatos-as-eleicoes-deste-ano-tem-r-84-milhoes-em-multas-ambientais/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Candidatos às eleições deste ano têm R$ 84 milhões em multas ambientais
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+17 de ago. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="Reportagem,Militares,Dados,Agência Pública" data-listing-date-sort="1660618800000">
+<a href="https://apublica.org/2022/08/partido-militar-mais-de-15-mil-candidatos-militares-concorrem-nas-eleicoes-neste-ano/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Partido militar: mais de 1,5 mil candidatos militares concorrem nas eleições neste ano
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+16 de ago. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="Reportagem,Poder religioso,Dados,Agência Pública" data-listing-date-sort="1660618800000">
+<a href="https://apublica.org/2022/08/candidatos-religiosos-declararam-patrimonio-milionario-nas-eleicoes/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Candidatos religiosos declararam patrimônio milionário nas eleições
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+16 de ago. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="Reportagem,Poder,Tecnologia,Dados,Agência Pública" data-listing-date-sort="1660186800000">
+<a href="https://apublica.org/sentinela/2022/08/a-construcao-do-reinado-de-michelle-nas-redes-bolsonaristas/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A construção do reinado de Michelle nas redes bolsonaristas
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+11 de ago. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="Reportagem,Poder,Tecnologia,Justiça,Agência Pública" data-listing-date-sort="1659409200000">
+<a href="https://apublica.org/sentinela/2022/08/o-que-aconteceu-depois-da-decisao-de-moraes-sobre-fake-news-que-relacionavam-pt-ao-pcc/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O que aconteceu depois da decisão de Moraes sobre fake news que relacionavam PT ao PCC?
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2 de ago. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="Reportagem,Socioambeintal,Poder,Dados,Agência Pública" data-listing-date-sort="1657767600000">
+<a href="https://apublica.org/2022/07/madeireiros-foram-principais-beneficiados-por-canetada-de-bim-no-ibama/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Madeireiros foram principais beneficiados por canetada de Bim no Ibama
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+14 de jul. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="Reportagem,Socioambeintal,Poder,Dados,Agência Pública" data-listing-date-sort="1656298800000">
+<a href="https://apublica.org/2022/06/despacho-de-presidente-do-ibama-pode-custar-ao-menos-r-36-bilhoes-a-uniao/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Despacho de presidente do Ibama pode custar ao menos R$ 3,6 bilhões à União
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+27 de jun. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="23" data-categories="Reportagem,Socioambeintal,Violência,Dados,Agência Pública" data-listing-date-sort="1651028400000">
+<a href="https://apublica.org/2022/04/mais-de-cem-mil-familias-foram-afetadas-em-uma-decada-de-conflitos-no-campo-na-amazonia/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mais de cem mil famílias foram afetadas em uma década de conflitos no campo na Amazônia
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+27 de abr. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="24" data-categories="Reportagem,Socioambeintal,Violência,Dados,Agência Pública" data-listing-date-sort="1650250800000">
+<a href="https://apublica.org/2022/04/assassinatos-no-campo-em-2021-batem-recorde-dos-ultimos-quatro-anos/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Assassinatos no campo em 2021 batem recorde dos últimos quatro anos
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de abr. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="25" data-categories="Reportagem,Empresas,Poder,Dados,Agência Pública" data-listing-date-sort="1649214000000">
+<a href="https://apublica.org/2022/04/verba-do-orcamento-secreto-do-mec-vai-para-empresa-do-pai-de-aliado-de-arthur-lira/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Verba do orçamento secreto do MEC vai para empresa do pai de aliado de Arthur Lira
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+6 de abr. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="26" data-categories="Entrevista,Sociedade,covid-19,Agência Pública" data-listing-date-sort="1642647600000">
+<a href="https://apublica.org/2022/01/2022-e-a-pandemia-omicron-vacinas-e-o-futuro-da-covid-19-no-brasil-segundo-pesquisadores/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+2022 e a pandemia: Ômicron, vacinas e o futuro da covid-19 no Brasil segundo pesquisadores
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+20 de jan. de 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="27" data-categories="Reportagem,Socioambeintal,Agência Pública" data-listing-date-sort="1638932400000">
+<a href="https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Os privilegiados com a água do Cerrado baiano
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+8 de dez. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="28" data-categories="Reportagem,Sociedade,Empresas,Agência Pública" data-listing-date-sort="1634698800000">
+<a href="https://apublica.org/2021/10/aplicativos-de-delivery-a-nova-faceta-do-trabalho-infantil/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aplicativos de delivery: a nova faceta do trabalho infantil
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+20 de out. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="29" data-categories="Reportagem,Poder,Dados,Agência Pública" data-listing-date-sort="1624503600000">
+<a href="https://apublica.org/2021/06/ministerio-da-saude-pediu-a-exercito-envio-de-cloroquina-para-todo-o-brasil-com-emergencia/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ministério da Saúde pediu a Exército envio de cloroquina para todo o Brasil com emergência
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+24 de jun. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="30" data-categories="Reportagem,Poder,Empresas,Dados,Agência Pública" data-listing-date-sort="1618887600000">
+<a href="https://apublica.org/2021/04/farmacias-venderam-mais-de-52-milhoes-de-comprimidos-do-kit-covid-na-pandemia/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Farmácias venderam mais de 52 milhões de comprimidos do “kit covid” na pandemia
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+20 de abr. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="31" data-categories="Reportagem,Sociedade,Saúde,covid-19,Agência Pública" data-listing-date-sort="1616641200000">
+<a href="https://apublica.org/2021/03/com-colapso-profissionais-de-saude-dizem-que-remedios-de-intubacao-estao-acabando/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Com colapso, profissionais de saúde dizem que remédios de intubação estão acabando
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+25 de mar. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="32" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1615777200000">
+<a href="https://apublica.org/2021/03/brasil-registra-duas-vezes-mais-pessoas-brancas-vacinadas-que-negras/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Brasil registra duas vezes mais pessoas brancas vacinadas que negras
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+15 de mar. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="33" data-categories="Reportagem,Poder,covid-19,Dados,Agência Pública" data-listing-date-sort="1614567600000">
+<a href="https://apublica.org/2021/03/o-mapa-da-cloroquina-como-governo-bolsonaro-enviou-28-milhoes-de-comprimidos-para-todo-o-brasil/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O Mapa da cloroquina: como governo Bolsonaro enviou 2,8 milhões de comprimidos para todo o Brasil
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de mar. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="34" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1612148400000">
+<a href="https://apublica.org/2021/02/trancoso-arraial-dajuda-caraiva-os-jatinhos-voaram-o-coronavirus-ficou/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Trancoso, Arraial D’Ajuda, Caraíva: os jatinhos voaram, o coronavírus ficou
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de fev. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="35" data-categories="Reportagem,Socioambiental,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1611716400000">
+<a href="https://apublica.org/2021/01/com-coronavirus-periodo-de-queimadas-na-amazonia-tem-28-mil-hospitalizacoes-por-problemas-respiratorios/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Com coronavírus, período de queimadas na Amazônia tem 28 mil hospitalizações por problemas respiratórios
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+27 de jan. de 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="36" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1605668400000">
+<a href="https://apublica.org/2020/11/85-cidades-brasileiras-elegem-prefeitos-e-vices-multados-por-infracoes-ambientais/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+85 cidades brasileiras elegem prefeitos e vices multados por infrações ambientais
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de nov. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="37" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1605063600000">
+<a href="https://apublica.org/2020/11/eleicoes-2020-candidatos-tem-mais-de-r-175-milhoes-em-multas-ambientais/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Eleições 2020: candidatos têm mais de R$ 175 milhões em multas ambientais
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+11 de nov. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="38" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1602039600000">
+<a href="https://apublica.org/2020/10/na-amazonia-118-politicos-com-multas-ambientais-concorrem-as-eleicoes/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Na Amazônia, 118 políticos com multas ambientais concorrem às eleições
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+7 de out. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="39" data-categories="Jornal laboratório,Beleza,USP" data-listing-date-sort="1600743600000">
+<a href="https://clarousp.wixsite.com/equilibrio/post/a-medida-de-uma-beleza-sem-medida?fbclid=IwAR1Q5lmMYaIU_OEfkcWuOV66pElYXnWEi6aFaDNqm7j3IcFdzG9mrZDgNZ4" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A medida de uma beleza sem medida
+</h5>
+<div class="card-text listing-description">
+claro!
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+22 de set. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="40" data-categories="Reportagem,Socioambiental,Dados,Agência Pública" data-listing-date-sort="1600311600000">
+<a href="https://apublica.org/2020/09/incendios-ja-tomam-quase-metade-das-terras-indigenas-no-pantanal/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Incêndios já tomam quase metade das terras indígenas no Pantanal
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+17 de set. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="41" data-categories="Reportagem,Socioambiental,Poder,Dados,Agência Pública" data-listing-date-sort="1598238000000">
+<a href="https://apublica.org/2020/08/governo-bolsonaro-reduz-multas-em-municipios-onde-desmatamento-cresce/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Governo Bolsonaro reduz multas em municípios onde desmatamento cresce
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+24 de ago. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="42" data-categories="Jornal laboratório,covid-19,Pós-graduação,USP" data-listing-date-sort="1595559600000">
+<a href="http://www.jornaldocampus.usp.br/index.php/2020/07/pos-graduacao-em-quarentena/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pós-graduação em quarentena
+</h5>
+<div class="card-text listing-description">
+Jornal do Campus
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+24 de jul. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="43" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1594263600000">
+<a href="https://apublica.org/2020/07/pequenas-cidades-brasileiras-tem-mais-de-10-mil-mortes-por-coronavirus/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pequenas cidades brasileiras têm mais de 10 mil mortes por coronavírus
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+9 de jul. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="44" data-categories="Jornal laboratório,covid-19,USP" data-listing-date-sort="1594263600000">
+<a href="http://www.jornaldocampus.usp.br/index.php/2020/07/recepcao-ou-decepcao-dos-calouros/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Recepção ou decepção dos calouros?
+</h5>
+<div class="card-text listing-description">
+Jornal do Campus
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+9 de jul. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="45" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1590030000000">
+<a href="https://apublica.org/2020/05/enquanto-leitos-de-uti-do-sus-chegam-ao-limite-ha-vagas-nos-hospitais-privados/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Enquanto leitos de UTI do SUS chegam ao limite, há vagas nos hospitais privados
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+21 de mai. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="46" data-categories="Reportagem,Sociedade,Saúde,Racismo,covid-19,Dados,Agência Pública" data-listing-date-sort="1588734000000">
+<a href="https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Em duas semanas, número de negros mortos por coronavírus é cinco vezes maior no Brasil
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+6 de mai. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="47" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1585796400000">
+<a href="https://apublica.org/2020/04/brasil-tem-milhoes-em-grupo-de-risco-para-o-coronavirus/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Brasil tem milhões em grupo de risco para o coronavírus
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+2 de abr. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="48" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1585105200000">
+<a href="https://apublica.org/2020/03/a-caixa-preta-do-coronavirus-no-brasil/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A caixa-preta do coronavírus no Brasil
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+25 de mar. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="49" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1584414000000">
+<a href="https://apublica.org/2020/03/em-alerta-por-coronavirus-prisoes-ja-enfrentam-epidemia-de-tuberculose/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Em alerta por coronavírus, prisões já enfrentam epidemia de tuberculose
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+17 de mar. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="50" data-categories="Reportagem,Sociedade,Saúde,covid-19,Dados,Agência Pública" data-listing-date-sort="1584068400000">
+<a href="https://apublica.org/2020/03/em-meio-a-pandemia-de-coronavirus-brasil-enfrenta-desertos-de-utis/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Em meio à pandemia de coronavírus, Brasil enfrenta “desertos” de UTIs
+</h5>
+<div class="card-text listing-description">
+Agência Pública de Jornalismo Investigativo
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+13 de mar. de 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="51" data-categories="Jornal laboratório,USP" data-listing-date-sort="1576638000000">
+<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/12/18/nacoes-do-centro-de-sao-paulo/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nações do centro de São Paulo
+</h5>
+<div class="card-text listing-description">
+Agência Universitária de Notícias
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de dez. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="52" data-categories="Jornal laboratório,LAI,Arquivos,IEB,USP" data-listing-date-sort="1575860400000">
+<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/12/09/lei-de-acesso-a-informacao-e-prejudicada-pela-desorganizacao-de-arquivos/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lei de Acesso à Informação é prejudicada pela desorganização de arquivos
+</h5>
+<div class="card-text listing-description">
+Agência Universitária de Notícias
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+9 de dez. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="53" data-categories="Jornal laboratório,Brasil,Moçambique,IEB,USP" data-listing-date-sort="1575601200000">
+<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/12/06/presenca-do-capital-brasileiro-marca-relacao-entre-brasil-e-mocambique/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Presença do capital brasileiro marca relação entre Brasil e Moçambique
+</h5>
+<div class="card-text listing-description">
+Agência Universitária de Notícias
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+6 de dez. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="54" data-categories="Jornal laboratório,Racionais,Música,IEB,USP" data-listing-date-sort="1573527600000">
+<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/11/12/obra-do-racionais-mcs-e-reconhecida-tardiamente-pela-academia-e-midia/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Obra do Racionais MC’s é reconhecida tardiamente pela academia e mídia
+</h5>
+<div class="card-text listing-description">
+Agência Universitária de Notícias
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+12 de nov. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="55" data-categories="Jornal laboratório,conhecimento aberto,IEB,USP" data-listing-date-sort="1572404400000">
+<a href="http://aun.webhostusp.sti.usp.br/index.php/2019/10/30/clube-de-biologia-sintetica-questiona-a-ciencia-rapida-por-meio-de-tecnicas-hacker-e-criatividade/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Clube de Biologia Sintética questiona a “ciência rápida” por meio de técnicas hacker e criatividade
+</h5>
+<div class="card-text listing-description">
+Agência Universitária de Notícias
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+30 de out. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="56" data-categories="Jornal laboratório,Itamar Assumpção,Música,IEB,USP" data-listing-date-sort="1571972400000">
+<a href="https://aun.webhostusp.sti.usp.br/index.php/2019/10/25/sampa-midnight-evidencia-cenario-musical-independente-dos-anos-80/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+“Sampa Midnight” evidencia cenário musical independente dos anos 80
+</h5>
+<div class="card-text listing-description">
+Agência Universitária de Notícias
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+25 de out. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="57" data-categories="Jornalismo Júnior,Cultura,Turma da Mônica" data-listing-date-sort="1561950000000">
+<a href="http://jornalismojunior.com.br/turma-da-monica-para-jovens-e-adultos/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Turma da Mônica para jovens e adultos
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de jul. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="58" data-categories="Jornalismo Júnior,Cultura,Cobertura,Evento,Perifacon" data-listing-date-sort="1553655600000">
+<a href="http://jornalismojunior.com.br/perifacon-cultura-pop-produzida-e-consumida-pela-quebrada/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+PerifaCon: Cultura pop produzida e consumida pela quebrada
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+27 de mar. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="59" data-categories="Jornalismo Júnior,Cultura,Música,Lollapalooza" data-listing-date-sort="1553223600000">
+<a href="http://jornalismojunior.com.br/tocando-em-casa-cinco-artistas-brasileiros-para-ver-no-lollapalooza-brasil-2019/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tocando em casa: Cinco artistas brasileiros para ver no Lollapalooza Brasil 2019
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+22 de mar. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="60" data-categories="Jornalismo Júnior,Sociedade,Internacional" data-listing-date-sort="1550372400000">
+<a href="http://jornalismojunior.com.br/entre-china-e-turquia-os-uigures/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Entre China e Turquia, os uigures
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+17 de fev. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="61" data-categories="Jornalismo Júnior,Sociedade" data-listing-date-sort="1548468000000">
+<a href="http://jornalismojunior.com.br/quem-frequenta-o-ccsp/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Quem frequenta o CCSP?
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+26 de jan. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="62" data-categories="Jornalismo Júnior,Cultura,Resenha,Livro" data-listing-date-sort="1547690400000">
+<a href="http://jornalismojunior.com.br/dentro-da-noite-veloz-ha-esperanca-de-vida-apos-a-noite/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Resenha: Dentro da noite veloz - Há esperança de vida após a noite
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+17 de jan. de 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="63" data-categories="Jornalismo Júnior,Cultura,Resenha,HQ" data-listing-date-sort="1545098400000">
+<a href="http://jornalismojunior.com.br/resenha-sopa-de-salsicha/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Resenha: Sopa de salsicha
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+18 de dez. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="64" data-categories="Jornalismo Júnior,Cultura,Cobertura,Evento,Perifacon" data-listing-date-sort="1542333600000">
+<a href="http://jornalismojunior.com.br/o-legado-da-14a-edicao-da-pixel-show/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O legado da 14ª edição da Pixel Show
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+16 de nov. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="65" data-categories="Jornalismo Júnior,Cultura,Resenha,Livro" data-listing-date-sort="1541642400000">
+<a href="http://jornalismojunior.com.br/a-entrega-amorosa-de-hilda-hilst-em-jubilo-memoria-noviciado-da-paixao/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A entrega amorosa de Hilda Hilst em Júbilo, memória, noviciado da paixão
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+8 de nov. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="66" data-categories="Jornalismo Júnior,Cultura,Ciência" data-listing-date-sort="1537930800000">
+<a href="http://jornalismojunior.com.br/como-acontece-a-representacao-do-cientista-na-cultura-pop-brasileira/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Como acontece a representação do cientista na cultura pop brasileira
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+26 de set. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="67" data-categories="Jornalismo Júnior,Resenha,Livro,Ciência" data-listing-date-sort="1533092400000">
+<a href="http://jornalismojunior.com.br/humanos-sonham-com-ovelhas-de-verdade/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Humanos sonham com ovelhas de verdade
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 de ago. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="68" data-categories="Jornalismo Júnior,Cultura,Cobertura,Evento,Resenha" data-listing-date-sort="1530673200000">
+<a href="http://jornalismojunior.com.br/silva-leva-brasileiro-para-o-palco-do-sesc-vila-mariana/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Silva leva Brasileiro para o palco do SESC Vila Mariana
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+4 de jul. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="69" data-categories="Jornalismo Júnior,Internacional,Ciência" data-listing-date-sort="1528513200000">
+<a href="http://jornalismojunior.com.br/como-o-tamanho-da-russia-interfere-em-seus-fusos-horarios-e-nas-suas-diferentes-paisagens/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Como o tamanho da Rússia interfere em seus fusos horários e nas suas diferentes paisagens
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+9 de jun. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="70" data-categories="Jornalismo Júnior,Saúde,Ciência" data-listing-date-sort="1527476400000">
+<a href="http://jornalismojunior.com.br/ajustando-os-ponteiros-o-que-significa-termos-um-relogio-biologico/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ajustando os ponteiros: o que significa termos um “relógio biológico”?
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+28 de mai. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="71" data-categories="Jornalismo Júnior,Ciência,Cobertura,Evento" data-listing-date-sort="1527044400000">
+<a href="http://jornalismojunior.com.br/o-que-rolou-no-terceiro-dia-do-pint-of-science/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Além dos genes: que vem de nossos pais e o que vem do meio ambiente
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+23 de mai. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="72" data-categories="Jornalismo Júnior,Ciência,Cobertura,Evento" data-listing-date-sort="1526871600000">
+<a href="http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A flecha do tempo: Porque envelhecemos e nunca rejuvenescemos
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+21 de mai. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="73" data-categories="Jornalismo Júnior,Ciência,Cobertura,Evento" data-listing-date-sort="1526871600000">
+<a href="http://jornalismojunior.com.br/o-que-rolou-no-primeiro-dia-do-pint-of-science/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+O conceito de infinito na física e matemática
+</h5>
+<div class="card-text listing-description">
+Jornalismo Júnior
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+21 de mai. de 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 Sem itens correspondentes
 </div>

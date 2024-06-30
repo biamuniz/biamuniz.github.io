@@ -4,9 +4,11 @@ subtitle: "Reportagens, artigos e entrevistas publicadas em diferentes veículos
 page-layout: full
 title-block-banner: true
 image: /assets/images/social-profile.png
+filters:
+  - nutshell
 listing:
   sort: "date desc"
-  type: table
+  type: grid
   categories: true
   sort-ui: true
   filter-ui: true
