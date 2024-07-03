@@ -1,0 +1,256 @@
+---
+title: "[Jornalismo]{style='color: #853D5E; font-family: Bitter'}"
+subtitle: "Trabalhos selecionados entre reportagens, artigos e entrevistas publicadas em diferentes veículos"
+page-layout: full
+title-block-banner: true
+image: /assets/images/social-profile.png
+filters:
+  - nutshell
+listing:
+  sort: "date desc"
+  type: grid
+ # categories: cloud
+  sort-ui: true
+  filter-ui: true
+  max-description-length: 200
+  fields: [date, title, description, image]
+  contents:
+  - path: https://mapadosconflitos.apublica.org/
+    image: "img/mapadosconflitos.jpg"
+    title: "Mapa dos Conflitos - Uma década de violência e injustiça fundiária na Amazônia Legal"
+  #  date: "2024-02-19"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Agência Pública', "CPT"]
+  - path: https://data.apublica.org/brasil-pais-dos-agrotoxicos/
+    image: "img/bragrotoxicos.jpg"
+    title: "Brasil, país dos agrotóxicos"
+  #  date: "2024-02-19"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Agência Pública']
+  - path: https://apublica.org/2024/02/bairros-perifericos-e-de-maioria-negra-sao-os-mais-afetados-por-desastres-em-sao-paulo/
+    image: "img/capa.jpg"
+    title: "Bairros periféricos e de maioria negra são os mais afetados por desastres em São Paulo"
+    date: "2024-02-19"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Racismo', 'Agência Pública']
+  - path: https://apublica.org/2023/11/em-sao-paulo-corte-de-luz-na-periferia-e-ate-8-vezes-mais-frequente-que-no-centro/
+    image: "img/luz.jpg"
+    title: "Em São Paulo, corte de luz na periferia é até 8 vezes mais frequente que no centro"
+    date: "2023-11-11"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Dados', 'Sociedade', 'Racismo', 'Agência Pública']
+  - path: https://apublica.org/2023/11/entrevista-inteligencia-artificial-deve-afetar-proximas-eleicoes-e-a-democracia/
+    image: "img/img27.jpg"
+    title: "Entrevista: Inteligência artificial deve afetar próximas eleições e a democracia"
+    date: "2023-11-03"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Entrevista', 'Poder,Tecnologia', 'IA', 'Agência Pública']
+  - path: https://apublica.org/2023/07/a-cracolandia-e-resultado-do-proprio-projeto-de-cidade-diz-pesquisador/
+    image: "img/img36.jpg"
+    title: "Dados mostram que ações policiais não reduziram fluxo na Cracolândia, diz pesquisador"
+    date: "2023-07-18"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Entrevista', 'Sociedade', 'Cracolândia', 'Agência Pública']
+  - path: https://apublica.org/2023/06/censo-2022-brasil-tem-11-milhoes-de-casas-e-apartamentos-vagos/
+    image: "img/censo-vagos.jpg"
+    title: "Censo 2022: Brasil tem 11 milhões de casas e apartamentos vagos"
+    date: "2023-06-29"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Dados', 'Censo', 'Agência Pública']
+  - path: https://apublica.org/2023/02/campeoes-de-ausencias-e-omissoes-o-papel-de-cada-ministerio-nas-atas-secretas/
+    image: "img/img23.jpeg"
+    title: "Campeões de ausências e omissões: o papel de cada ministério nas atas secretas"
+    date: "2023-02-22"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Poder', 'Dados', 'Agência Pública']
+  - path: https://educacao.uol.com.br/noticias/2022/10/09/em-7-anos-federais-deixaram-de-ofertar-19-das-vagas-destinadas-a-negros.htm
+    image: "https://conteudo.imguol.com.br/c/noticias/7e/2022/07/04/giovana-xavier-professora-da-ufrj-criou-curso-para-enfatizar-o-trabalho-intelectual-de-mulheres-negras-frequentado-em-grande-parte-por-cotistas-1656969568117_v2_900x506.jpg"
+    title: "Em 7 anos, federais deixaram de ofertar 19% das vagas destinadas a negros"
+    date: "2022-10-09"
+    description: "UOL"
+    categories: ['Cotas', 'Educação', 'Racismo', 'UOL']
+  - path: https://apublica.org/2022/09/77-reunioes-com-a-direita-americana/
+    image: "img/77reunioes.jpg"
+    title: "77 reuniões com a direita americana"
+    date: "2022-09-29"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Poder', 'Agência Pública']
+  - path: https://apublica.org/2022/08/partido-militar-mais-de-15-mil-candidatos-militares-concorrem-nas-eleicoes-neste-ano/
+    image: "img/partidomilitar.jpg"
+    title: "Partido militar: mais de 1,5 mil candidatos militares concorrem nas eleições neste ano"
+    date: "2022-08-16"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Militares', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2022/07/madeireiros-foram-principais-beneficiados-por-canetada-de-bim-no-ibama/
+    image: "img/bim2.jpg"
+    title: "Madeireiros foram principais beneficiados por canetada de Bim no Ibama"
+    date: "2022-07-14"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2022/06/despacho-de-presidente-do-ibama-pode-custar-ao-menos-r-36-bilhoes-a-uniao/
+    image: "img/bim1.jpg"
+    title: "Despacho de presidente do Ibama pode custar ao menos R$ 3,6 bilhões à União"
+    date: "2022-06-27"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2022/04/mais-de-cem-mil-familias-foram-afetadas-em-uma-decada-de-conflitos-no-campo-na-amazonia/
+    image: "img/conflitos2.jpg"
+    title: "Mais de cem mil famílias foram afetadas em uma década de conflitos no campo na Amazônia"
+    date: "2022-04-27"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Violência', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2022/04/assassinatos-no-campo-em-2021-batem-recorde-dos-ultimos-quatro-anos/
+    image: "img/conflitos1.jpg"
+    title: "Assassinatos no campo em 2021 batem recorde dos últimos quatro anos"
+    date: "2022-04-18"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Violência', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2022/04/verba-do-orcamento-secreto-do-mec-vai-para-empresa-do-pai-de-aliado-de-arthur-lira/
+    image: "img/liramec.jpg"
+    title: "Verba do orçamento secreto do MEC vai para empresa do pai de aliado de Arthur Lira"
+    date: "2022-04-06"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Empresas', 'Poder', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/
+    image: "img/aguaba.jpg"
+    title: "Os privilegiados com a água do Cerrado baiano"
+    date: "2021-12-08"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Agência Pública']
+  - path: https://apublica.org/2021/10/aplicativos-de-delivery-a-nova-faceta-do-trabalho-infantil/
+    image: "img/delivery.jpg"
+    title: "Aplicativos de delivery: a nova faceta do trabalho infantil"
+    date: "2021-10-20"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Empresas', 'Agência Pública']
+  - path: https://apublica.org/2021/04/farmacias-venderam-mais-de-52-milhoes-de-comprimidos-do-kit-covid-na-pandemia/
+    image: "img/farmaciacq.jpg"
+    title: "Farmácias venderam mais de 52 milhões de comprimidos do “kit covid” na pandemia"
+    date: "2021-04-20"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Poder', 'Empresas', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2021/03/brasil-registra-duas-vezes-mais-pessoas-brancas-vacinadas-que-negras/
+    image: "img/vacina.jpg"
+    title: "Brasil registra duas vezes mais pessoas brancas vacinadas que negras"
+    date: "2021-03-15"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2021/03/o-mapa-da-cloroquina-como-governo-bolsonaro-enviou-28-milhoes-de-comprimidos-para-todo-o-brasil/
+    image: "img/mapacloroquina.jpg"
+    title: "O Mapa da cloroquina: como governo Bolsonaro enviou 2,8 milhões de comprimidos para todo o Brasil"
+    date: "2021-03-01"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Poder', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2021/01/com-coronavirus-periodo-de-queimadas-na-amazonia-tem-28-mil-hospitalizacoes-por-problemas-respiratorios/
+    image: "img/covidqueimadas.jpg"
+    title: "Com coronavírus, período de queimadas na Amazônia tem 28 mil hospitalizações por problemas respiratórios"
+    date: "2021-01-27"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2020/11/eleicoes-2020-candidatos-tem-mais-de-r-175-milhoes-em-multas-ambientais/
+    image: "img/candidatosmultas.jpg"
+    title: "Eleições 2020: candidatos têm mais de R$ 175 milhões em multas ambientais"
+    date: "2020-11-11"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+  - path: https://clarousp.wixsite.com/equilibrio/post/a-medida-de-uma-beleza-sem-medida?fbclid=IwAR1Q5lmMYaIU_OEfkcWuOV66pElYXnWEi6aFaDNqm7j3IcFdzG9mrZDgNZ4
+    image: "img/claro.jpg"
+    title: "A medida de uma beleza sem medida"
+    date: "2020-09-22"
+    description: "claro!"
+    categories: ['Jornal laboratório', 'Beleza', 'USP']
+  - path: https://apublica.org/2020/09/incendios-ja-tomam-quase-metade-das-terras-indigenas-no-pantanal/
+    image: "img/incendioti.jpg"
+    title: "Incêndios já tomam quase metade das terras indígenas no Pantanal"
+    date: "2020-09-17"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2020/08/governo-bolsonaro-reduz-multas-em-municipios-onde-desmatamento-cresce/
+    image: "img/multasedesmatamento.jpg"
+    title: "Governo Bolsonaro reduz multas em municípios onde desmatamento cresce"
+    date: "2020-08-24"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Socioambiental', 'Poder', 'Dados', 'Agência Pública']
+  - path: http://www.jornaldocampus.usp.br/index.php/2020/07/pos-graduacao-em-quarentena/
+    image: "https://www.jornaldocampus.usp.br/wp-content/uploads/2020/07/Design-sem-nome-2.png"
+    title: "Pós-graduação em quarentena"
+    date: "2020-07-24"
+    description: "Jornal do Campus"
+    categories: ['Jornal laboratório', 'covid-19', 'Pós-graduação', 'USP']
+  - path: https://apublica.org/2020/05/em-duas-semanas-numero-de-negros-mortos-por-coronavirus-e-cinco-vezes-maior-no-brasil/
+    image: "img/covid.jpg"
+    title: "Em duas semanas, número de negros mortos por coronavírus é cinco vezes maior no Brasil"
+    date: "2020-05-06"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Saúde', 'Racismo', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2020/03/a-caixa-preta-do-coronavirus-no-brasil/
+    image: "img/caixacovid.jpg"
+    title: "A caixa-preta do coronavírus no Brasil"
+    date: "2020-03-25"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2020/03/em-alerta-por-coronavirus-prisoes-ja-enfrentam-epidemia-de-tuberculose/
+    image: "img/prisoes.jpg"
+    title: "Em alerta por coronavírus, prisões já enfrentam epidemia de tuberculose"
+    date: "2020-03-17"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://apublica.org/2020/03/em-meio-a-pandemia-de-coronavirus-brasil-enfrenta-desertos-de-utis/
+    image: "img/desertouti.jpg"
+    title: "Em meio à pandemia de coronavírus, Brasil enfrenta “desertos” de UTIs"
+    date: "2020-03-13"
+    description: "Agência Pública de Jornalismo Investigativo"
+    categories: ['Reportagem', 'Sociedade', 'Saúde', 'covid-19', 'Dados', 'Agência Pública']
+  - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/09/lei-de-acesso-a-informacao-e-prejudicada-pela-desorganizacao-de-arquivos/
+    image: "https://aun.webhostusp.sti.usp.br/wp-content/uploads/pasted-image-0-12-678x381.png"
+    title: "Lei de Acesso à Informação é prejudicada pela desorganização de arquivos"
+    date: "2019-12-09"
+    description: "Agência Universitária de Notícias"
+    categories: ['Jornal laboratório', 'LAI', 'Arquivos', 'IEB', 'USP']
+  - path: https://aun.webhostusp.sti.usp.br/index.php/2019/12/06/presenca-do-capital-brasileiro-marca-relacao-entre-brasil-e-mocambique/
+    image: "https://aun.webhostusp.sti.usp.br/wp-content/uploads/Lula-Guebuza-2008-1024x517.jpg"
+    title: "Presença do capital brasileiro marca relação entre Brasil e Moçambique"
+    date: "2019-12-06"
+    description: "Agência Universitária de Notícias"
+    categories: ['Jornal laboratório', 'Brasil', 'Moçambique', 'IEB', 'USP']
+  - path: https://aun.webhostusp.sti.usp.br/index.php/2019/11/12/obra-do-racionais-mcs-e-reconhecida-tardiamente-pela-academia-e-midia/
+    image: "https://aun.webhostusp.sti.usp.br/wp-content/uploads/b-1-678x381.png"
+    title: "Obra do Racionais MC’s é reconhecida tardiamente pela academia e mídia"
+    date: "2019-11-12"
+    description: "Agência Universitária de Notícias"
+    categories: ['Jornal laboratório', 'Racionais', 'Música', 'IEB', 'USP']
+  - path: http://aun.webhostusp.sti.usp.br/index.php/2019/10/30/clube-de-biologia-sintetica-questiona-a-ciencia-rapida-por-meio-de-tecnicas-hacker-e-criatividade/
+    image: "https://aun.webhostusp.sti.usp.br/wp-content/uploads/synbiobrasil-300x200-1.jpg"
+    title: "Clube de Biologia Sintética questiona a “ciência rápida” por meio de técnicas hacker e criatividade"
+    date: "2019-10-30"
+    description: "Agência Universitária de Notícias"
+    categories: ['Jornal laboratório', 'conhecimento aberto', 'IEB', 'USP']
+  - path: https://aun.webhostusp.sti.usp.br/index.php/2019/10/25/sampa-midnight-evidencia-cenario-musical-independente-dos-anos-80/
+    image: "https://aun.webhostusp.sti.usp.br/wp-content/uploads/SampaMidnight-Bianca.png"
+    title: "“Sampa Midnight” evidencia cenário musical independente dos anos 80"
+    date: "2019-10-25"
+    description: "Agência Universitária de Notícias"
+    categories: ['Jornal laboratório', 'Itamar Assumpção', 'Música', 'IEB', 'USP']
+  - path: http://jornalismojunior.com.br/turma-da-monica-para-jovens-e-adultos/
+    image: "img/jornalismojr.png"
+    title: "Turma da Mônica para jovens e adultos"
+    date: "2019-07-01"
+    description: "Jornalismo Júnior"
+    categories: ['Jornalismo Júnior', 'Cultura', 'Turma da Mônica']
+  - path: http://jornalismojunior.com.br/perifacon-cultura-pop-produzida-e-consumida-pela-quebrada/
+    image: "img/jornalismojr.png"
+    title: "PerifaCon: Cultura pop produzida e consumida pela quebrada"
+    date: "2019-03-27"
+    description: "Jornalismo Júnior"
+    categories: ['Jornalismo Júnior', 'Cultura', 'Cobertura', 'Evento', 'Perifacon']
+  - path: http://jornalismojunior.com.br/ajustando-os-ponteiros-o-que-significa-termos-um-relogio-biologico/
+    image: "img/jornalismojr.png"
+    title: "Ajustando os ponteiros: o que significa termos um “relógio biológico”?"
+    date: "2018-05-28"
+    description: "Jornalismo Júnior"
+    categories: ['Jornalismo Júnior', 'Saúde', 'Ciência']
+toc: true
+toc-location: left
+---
+
+

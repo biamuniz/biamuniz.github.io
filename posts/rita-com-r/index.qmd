@@ -8,7 +8,7 @@ categories:
   - "Comunidade"
   - "Música"
 lang: pt
-draft: true
+draft: false
 toc: true 
 image: "images/toda.png"
 ---

@@ -7,6 +7,8 @@ categories:
   - "Visualização de Dados"
   - "Insper"
   - "Música"
+  
+image: "https://c.tenor.com/EEazF-9OR0IAAAAC/anitta-anittapress.gif"
 lang: pt
 toc: true 
 #draft: true 

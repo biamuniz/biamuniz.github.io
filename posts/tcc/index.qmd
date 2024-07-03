@@ -8,7 +8,7 @@ categories:
 #  - "USP"
 lang: pt
 toc: true 
-image: "tcc.jpg"
+image: "tcc_capa.png"
 execute: 
   warning: false
   message: false

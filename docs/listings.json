@@ -3,22 +3,25 @@
     "listing": "/blog.html",
     "items": [
       "/posts/serigrafia/index.html",
+      "/posts/eua/index.html",
       "/posts/mini-projetos-master-ddj/insper.html",
       "/posts/tcc/index.html",
+      "/posts/rita-com-r/index.html",
       "/posts/mentindo-com-graficos/index.html",
-      "/posts/oxigenio-manaus/index.html"
+      "/posts/oxigenio-manaus/index.html",
+      "/posts/jardim/index.html"
     ]
   },
   {
-    "listing": "/code/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publicacoes.html",
+    "listing": "/programacao/index.html",
     "items": []
   },
   {
     "listing": "/talks/index.html",
+    "items": []
+  },
+  {
+    "listing": "/jornalismo/index.html",
     "items": []
   }
 ]

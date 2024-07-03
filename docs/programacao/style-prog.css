@@ -1,0 +1,4 @@
+.g-col-1 {
+    border: 2px dotted $blue; /* Substitua #ff0000 pela cor desejada */
+    font-family: Raleway;
+}

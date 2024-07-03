@@ -5,17 +5,19 @@ project:
     - _headers
 
 website:
-#  title: "Bianca M"
-  description: "A data science blog and portfolio by Bianca Muniz"
-  favicon: icons8-home-32.png
+ # title: "BM"
+  description: "um portfólio/blog/cantinho na internet"
+ # favicon: icons8-home-32.png
   image: /assets/images/social-profile.png
   site-url: https://biamuniz.github.io
-  repo-url: https://github.com/mcanouil/biamuniz.github.io
+  repo-url: https://github.com/biamuniz.github.io
   open-graph: true
   twitter-card: true
   page-navigation: true
   page-footer:
-    border: true
+    background: "DCD4CA"
+    foreground: "black"
+    #border: true
     left: |
       Powered by [Quarto](https://quarto.org).
     center: |
@@ -23,32 +25,36 @@ website:
     right: |
       License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
   navbar:
-   # title: "BM"
+    background: "transparent"
+    foreground: "black"
+    title: "[BM]{style='color: #853D5E; font-weight: bold; font-family: Bitter'}"
     search: true
-    logo: assets/icons8-home-32.png
+    logo: assets/icons8-casa-50.png
     right:
-      - text: Sobre
+      - text: "[Sobre]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
         href: sobre.qmd
-      - text: Blog
-        href: blog.qmd
-      - text: Publicações
-        href: publicacoes.qmd
-      - text: Talks
+      - text: "[Portfólio]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
+        menu:
+          - text: "[Programação]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
+            href: programacao/index.qmd
+          - text: "[Jornalismo]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
+            href: jornalismo/index.qmd
+          - text: "[Pesquisa]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
+            href: jornalismo/index.qmd
+      - text: "[Apresentações]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
         href: talks/index.qmd
-      - text: Código
-        href: code/index.qmd
+      - text: "[Blog]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
+        href: blog.qmd
 
 format:
   html:
-    theme:
-      - assets/stylesheets/coeos.scss
+    theme: assets/stylesheets/coeos.scss
+   # css: styles.css
     lang: pt-br
-#    date-format: 'dddd[, the] Do [of] MMMM, YYYY'
     highlight-style: github-dark
     code-copy: true
     code-link: true
     anchor-sections: true
-   # email-obfuscation: javascript
     link-external-newwindow: true
     fig-align: center
     code-tools:
@@ -66,6 +72,7 @@ format:
             );
           });
           </script>
+
 
 lightbox: auto
 

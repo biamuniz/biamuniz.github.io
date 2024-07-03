@@ -1,12 +1,12 @@
 ---
-title: "Talks"
+title: "[Talks]{style='color: #853D5E; font-family: Bitter'}"
 subtitle: "Palestras, workshops e outras apresentações que eu participei"
 page-layout: full
 title-block-banner: true
 image: /assets/images/social-profile.png
 listing:
   sort: "date desc"
-  type: grid
+  type: default
   sort-ui: true
   filter-ui: true
   max-description-length: 300

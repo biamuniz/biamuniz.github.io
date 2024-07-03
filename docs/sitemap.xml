@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://biamuniz.github.io/blog.html</loc>
-    <lastmod>2024-03-16T21:57:32.311Z</lastmod>
+    <lastmod>2024-07-02T14:23:51.931Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/programacao/index.html</loc>
+    <lastmod>2024-07-03T00:58:00.329Z</lastmod>
   </url>
   <url>
     <loc>https://biamuniz.github.io/sobre.html</loc>
-    <lastmod>2024-06-17T10:19:51.144Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/code/index.html</loc>
-    <lastmod>2024-06-28T12:56:53.108Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/mentindo-com-graficos/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.329Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/serigrafia/index.html</loc>
-    <lastmod>2024-06-30T19:43:38.089Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/publicacoes.html</loc>
-    <lastmod>2024-06-30T05:18:06.924Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/mini-projetos-master-ddj/insper.html</loc>
-    <lastmod>2024-03-30T19:14:17.369Z</lastmod>
-  </url>
-  <url>
-    <loc>https://biamuniz.github.io/posts/tcc/index.html</loc>
-    <lastmod>2024-06-28T13:14:28.503Z</lastmod>
+    <lastmod>2024-07-03T00:54:42.607Z</lastmod>
   </url>
   <url>
     <loc>https://biamuniz.github.io/posts/oxigenio-manaus/index.html</loc>
     <lastmod>2024-03-16T21:57:32.334Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/talks/index.html</loc>
-    <lastmod>2024-03-16T21:57:32.340Z</lastmod>
+    <loc>https://biamuniz.github.io/posts/rita-com-r/index.html</loc>
+    <lastmod>2024-06-30T20:08:28.787Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/index.html</loc>
-    <lastmod>2024-06-28T12:37:20.647Z</lastmod>
+    <loc>https://biamuniz.github.io/posts/tcc/index.html</loc>
+    <lastmod>2024-07-03T04:23:11.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/posts/eua/index.html</loc>
+    <lastmod>2024-07-01T10:59:01.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/posts/mini-projetos-master-ddj/insper.html</loc>
+    <lastmod>2024-03-30T19:14:17.369Z</lastmod>
   </url>
   <url>
     <loc>https://biamuniz.github.io/posts/jardim/index.html</loc>
-    <lastmod>2024-06-30T19:57:34.882Z</lastmod>
+    <lastmod>2024-06-30T20:18:27.879Z</lastmod>
   </url>
   <url>
-    <loc>https://biamuniz.github.io/posts/eua-1/index.html</loc>
-    <lastmod>2024-06-30T20:04:31.634Z</lastmod>
+    <loc>https://biamuniz.github.io/posts/serigrafia/index.html</loc>
+    <lastmod>2024-06-30T19:43:38.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/posts/mentindo-com-graficos/index.html</loc>
+    <lastmod>2024-07-01T10:54:41.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/talks/index.html</loc>
+    <lastmod>2024-07-03T00:59:05.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/index.html</loc>
+    <lastmod>2024-07-03T00:59:53.444Z</lastmod>
+  </url>
+  <url>
+    <loc>https://biamuniz.github.io/jornalismo/index.html</loc>
+    <lastmod>2024-07-03T00:57:26.115Z</lastmod>
   </url>
 </urlset>
