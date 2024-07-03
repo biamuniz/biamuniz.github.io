@@ -1,6 +1,6 @@
 ---
-title: "Serigrafia, gostoso demais"
-subtitle: "mais uma oficina de criatividade no SESC"
+title: "Primeiras impressões sobre as minhas primeiras impressões serigráficas"
+subtitle: "serigrafia, gostoso demais"
 date: "2024-06-30"
 categories: 
 # exemplo de categorias:
@@ -18,7 +18,7 @@ execute:
   message: false
 ---
 
-Sempre gostei de desenhar e aprender processos diferentes que envolvam desenho, com materiais diferentes, em superfícies que não tô habituada. Isso me motivou à me inscrever em maio numa oficina de Introdução à Serigrafia, no SESC Pompeia, que foi finalizada na semana passada. O instrutor foi o grande [Bruno Perê](https://www.instagram.com/perepecias/) e a turma contava com muitas pessoas *das artes e design*. Minha bagagem de jornalismo e dados parecia de pouca utilidade na atividade, mas criatividade e colaboração não se limitam a arte né. Foi muito bom focar numa atividade manual e exercitar minha presença durante a criação.
+Sempre gostei de desenhar e aprender processos que envolvam desenho, com materiais diferentes, em superfícies que não tô habituada. Isso me motivou à me inscrever em maio numa oficina de Introdução à Serigrafia, no SESC Pompeia, que foi finalizada na semana passada. O instrutor foi o grande [Bruno Perê](https://www.instagram.com/perepecias/) e a turma contava com muitas pessoas *das artes e design*. Minha bagagem de jornalismo e dados parecia de pouca utilidade na atividade, mas criatividade e colaboração não se limitam a arte né. Foi muito bom focar numa atividade manual e exercitar minha presença durante a criação.
 
 ## O que é Serigrafia
 
@@ -26,7 +26,7 @@ Sempre gostei de desenhar e aprender processos diferentes que envolvam desenho, 
 
 Tem uma explicação mais bonitinha no [:Wikipedia](https://pt.wikipedia.org/wiki/Serigrafia), mas basicamente, funciona assim: você tem uma tela de tecido preparada com uma espécie de estêncil (um molde vazado) e a tinta é passada por essa tela com a ajuda de um rodo, puxador ou espátula. A tinta que ultrapassa o tecido cria uma imagem na superfície embaixo dela.
 
-O Perê mostrou primeiro como imprimir com estêncil e alguns pontos de atenção nesse processo (como as pontes nas letras, como segurar o estilete, por exemplo).
+O Perê mostrou primeiro como imprimir com estêncil e alguns pontos de atenção nesse processo (como as pontes nas letras e como segurar o estilete, por exemplo).
 
 ![primeira impressão, em grupo e com estêncil. Desenhamos o molde num sulfite, cortamos com estilete e fixamos o estêncil numa tela. O resultado foi esse dinossaurinho 🦖💩](img/collage1.png){fig-align="center"}
 
@@ -40,7 +40,7 @@ Confesso que não gostei muito do resultado. Levei um tempinho até pegar o jeit
 
 O processo de gravação da tela (matriz serigráfica) pode ser feito com fotossensibilidade. Tava ansiosa por isso porque minha experiência com estilete não foi tão boa e achava que no processo fotográfico os detalhes do meu desenho não se perderiam tão facilmente.
 
-Na oficina a gente preparava uma emulsão fotosensível, que era colocada sobre a tela, como mostrado no gif a seguir. Depois de secar a emulsão, era colocado um fotolito (os desenhos abaixo, impressos em sulfite e que receberam um monte de óleo pra ficar mais transparente) na parte externa da tela e essa área ficava em contato com uma mesa de luz por aproximadamente dois minutos.
+Na oficina a gente preparava uma emulsão fotosensível e aplicava sobre a tela, como mostrado no gif a seguir. Depois de secar a emulsão, era colocado um fotolito (os desenhos abaixo, impressos em sulfite e que receberam um monte de óleo pra ficar mais transparente) na parte externa da tela e essa área ficava em contato com uma mesa de luz por aproximadamente dois minutos. Depois disso, é só lavar com um jato de água.
 
 ::: columns
 ::: {.column width="50%"}
@@ -54,11 +54,10 @@ Na oficina a gente preparava uma emulsão fotosensível, que era colocada sobre 
 
 > *"Os pontos escuros do fotolito correspondem aos locais que ficarão vazados na tela, permitindo a passagem da tinta pela trama do tecido. Os pontos claros (onde a luz passará pelo fotolito atingindo a emulsão) são impermeabilizados pelo endurecimento da emulsão fotosensível exposta a luz. Para cada cor de impressão é utilizada uma matriz, resultando em um impresso com grande densidade de cor, saturação e textura".* (trecho retirado do texto "[O que é Serigrafia](https://www.printi.com.br/blog/o-que-e-serigrafia)", do blog da Printi)
 
-### Primeiras impressões sobre as minhas primeiras impressões
 
 O desenho abaixo eu fiz em 2021, com marcadores e sulfite. Gosto muito dele e achei que ficaria legal transformar numa estampa.
 
-![](images/sketch (83).jpg){fig-align="center" width="374"}
+![](images/sketch%20(83).jpg){fig-align="center" width="374"}
 
 O desafio: trabalhar com mais de uma cor.
 
