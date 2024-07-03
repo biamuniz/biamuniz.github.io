@@ -40,7 +40,7 @@ website:
           - text: "[Jornalismo]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
             href: jornalismo/index.qmd
           - text: "[Pesquisa]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
-            href: jornalismo/index.qmd
+            href: http://lattes.cnpq.br/1196190520296373
       - text: "[Apresentações]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
         href: talks/index.qmd
       - text: "[Blog]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
