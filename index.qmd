@@ -5,8 +5,8 @@ subtitle: "Jornalista de Dados"
 image: assets/bianca.png
 
 about:
-  template: solana
-  image-width: 30em
+  template: trestles
+  image-width: 20em
   image-shape: round
   id: hero-heading
   links:

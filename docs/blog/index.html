@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Talks</title>
+<title>Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-description','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-description","listing-image"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -128,11 +128,9 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Talks">
-<meta property="og:description" content="Palestras, workshops e outras apresentações que eu participei">
+<meta property="og:title" content="Blog">
 <meta property="og:image" content="https://biamuniz.github.io/assets/images/social-profile.png">
-<meta name="twitter:title" content="Talks">
-<meta name="twitter:description" content="Palestras, workshops e outras apresentações que eu participei">
+<meta name="twitter:title" content="Blog">
 <meta name="twitter:image" content="https://biamuniz.github.io/assets/images/social-profile.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -140,7 +138,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -181,11 +179,11 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../talks/index.html" aria-current="page"> 
+    <a class="nav-link" href="../talks/index.html"> 
 <span class="menu-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Apresentações</span></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Blog</span></span></a>
   </li>  
 </ul>
@@ -196,32 +194,32 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title"><span style="color: #853D5E; font-family: Bitter">Talks</span></h1>
-            <p class="subtitle lead">Palestras, workshops e outras apresentações que eu participei</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Análise exploratória"><span class="quarto-category-count category-cloud-2">Análise exploratória</span></div><div class="category" data-category="Comunidade"><span class="quarto-category-count category-cloud-2">Comunidade</span></div><div class="category" data-category="Desenvolvimento web"><span class="quarto-category-count category-cloud-2">Desenvolvimento web</span></div><div class="category" data-category="Insper"><span class="quarto-category-count category-cloud-4">Insper</span></div><div class="category" data-category="Intercâmbio"><span class="quarto-category-count category-cloud-2">Intercâmbio</span></div><div class="category" data-category="Música"><span class="quarto-category-count category-cloud-3">Música</span></div><div class="category" data-category="NYC"><span class="quarto-category-count category-cloud-2">NYC</span></div><div class="category" data-category="OSINT"><span class="quarto-category-count category-cloud-2">OSINT</span></div><div class="category" data-category="Pessoal"><span class="quarto-category-count category-cloud-2">Pessoal</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-2">R</span></div><div class="category" data-category="SESC"><span class="quarto-category-count category-cloud-2">SESC</span></div><div class="category" data-category="Serigrafia"><span class="quarto-category-count category-cloud-2">Serigrafia</span></div><div class="category" data-category="Texas"><span class="quarto-category-count category-cloud-2">Texas</span></div><div class="category" data-category="Visualização de Dados"><span class="quarto-category-count category-cloud-3">Visualização de Dados</span></div><div class="category" data-category="covid-19"><span class="quarto-category-count category-cloud-2">covid-19</span></div><div class="category" data-category="jardim"><span class="quarto-category-count category-cloud-2">jardim</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Blog</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
@@ -229,275 +227,301 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Padrão</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Data - Mais antigo
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Data - O mais novo
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1708657200000">
+<div class="quarto-post image-right" data-index="0" data-categories="Pessoal,SESC,Serigrafia" data-listing-date-sort="1719716400000" data-listing-file-modified-sort="1720054966246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="953">
 <div class="thumbnail">
-<p><a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external"></a></p><a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external">
-<p><img src="thumbcolabora.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external"></a></p>
+<p><a href="../blog/posts/serigrafia/index.html" class="no-external"></a></p><a href="../blog/posts/serigrafia/index.html" class="no-external">
+<p><img src="../blog/posts/serigrafia/img/capa.JPG" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/serigrafia/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external">Uma introdução ao jornalismo de dados | Curso Inclusão e Diversidade</a>
+<a href="../blog/posts/serigrafia/index.html" class="no-external">Primeiras impressões sobre as minhas primeiras impressões serigráficas</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external"></a>
+<a href="../blog/posts/serigrafia/index.html" class="no-external">serigrafia, gostoso demais</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Pessoal'); return false;">
+Pessoal
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SESC'); return false;">
+SESC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Serigrafia'); return false;">
+Serigrafia
+</div>
 </div>
 <div class="listing-description">
-<a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external">Esta aula faz parte do curso de formação em jornalismo independente e empreendedorismo promovido pelo #Colabora no programa Inclusão e Diversidade. Nesta aula introdutória são discutidos conceitos, técnicas e ferramentas para analisar e apresentar informações através de dados. O módulo apresenta…</a>
+<a href="../blog/posts/serigrafia/index.html" class="no-external">Sempre gostei de desenhar e aprender processos que envolvem desenho, com materiais diferentes, em superfícies que não estou habituada. Isso me motivou a me inscrever em maio…<em></em></a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://www.youtube.com/watch?v=Fl4YwD_xgAo&amp;ab_channel=Colabora-JornalismoSustent%C3%A1vel" class="no-external">
+<a href="../blog/posts/serigrafia/index.html" class="no-external">
 <div class="listing-date">
-23 de fev. de 2024
+30 de jun. de 2024
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1700708400000">
+<div class="quarto-post image-right" data-index="1" data-categories="Texas,R,Intercâmbio,NYC" data-listing-date-sort="1711249200000" data-listing-file-modified-sort="1719831541324" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1656">
 <div class="thumbnail">
-<p><a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external"></a></p><a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external">
-<p><img src="https://portalassobiar.com.br/wp-content/uploads/2022/07/PORTAL-ASSOBIAR-_LOGO.png" class="thumbnail-image"></p>
-</a><p><a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external"></a></p>
+<p><a href="../blog/posts/eua/index.html" class="no-external"></a></p><a href="../blog/posts/eua/index.html" class="no-external">
+<p><img src="../blog/posts/eua/capa.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/eua/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external">Passo a passo de uma reportagem com dados</a>
+<a href="../blog/posts/eua/index.html" class="no-external">DataBia nos EUA</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external"></a>
+<a href="../blog/posts/eua/index.html" class="no-external">Plotando as diferentes temperaturas em Austin e NYC</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Texas'); return false;">
+Texas
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Intercâmbio'); return false;">
+Intercâmbio
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('NYC'); return false;">
+NYC
+</div>
 </div>
 <div class="listing-description">
-<a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external">Aula do treinamento sobre jornalismo ambiental e cobertura de conflitos socioambientais do Portal Assobiar </a>
+<a href="../blog/posts/eua/index.html" class="no-external">Estive nos EUA durante quatro meses em 2022, entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://www.instagram.com/p/C0CVGiMJjFe/?img_index=2" class="no-external">
+<a href="../blog/posts/eua/index.html" class="no-external">
 <div class="listing-date">
-23 de nov. de 2023
+24 de mar. de 2024
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1698462000000">
+<div class="quarto-post image-right" data-index="2" data-categories="Visualização de Dados,Insper,Desenvolvimento web" data-listing-date-sort="1710730800000" data-listing-file-modified-sort="1711826057369" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="564">
 <div class="thumbnail">
-<p><a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external"></a></p><a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external">
-<p><img src="intro-r-2023.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external"></a></p>
+<p><a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external"></a></p><a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external">
+<p><img src="../blog/posts/mini-projetos-master-ddj/Insper.jpg" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external">Introdução ao R</a>
+<a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external">Mini-projetos em Datavis</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external"></a>
+<a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external">Trabalhos apresentados para a disciplina de Datavis Studio II do Master em Jornalismo de Dados, Automação e Data Storytelling do Insper.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Visualização de Dados'); return false;">
+Visualização de Dados
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Insper'); return false;">
+Insper
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Desenvolvimento web'); return false;">
+Desenvolvimento web
+</div>
 </div>
 <div class="listing-description">
-<a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external">Meetup organizado pela R-Ladies São Paulo</a>
+<a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external">Mais um post mega atrasado. Terminei a pós no Insper em Jornalismo de Dados, Automação e Data Storytelling no ano de 2022 (fui bolsista da primeira turma!) e só agora estou…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://www.meetup.com/pt-BR/rladies-sao-paulo/events/296720878/" class="no-external">
+<a href="../blog/posts/mini-projetos-master-ddj/insper.html" class="no-external">
 <div class="listing-date">
-28 de out. de 2023
+18 de mar. de 2024
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1697857200000">
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1703041200000" data-listing-file-modified-sort="1719980591232" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="501">
 <div class="thumbnail">
-<p><a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external"></a></p><a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external">
-<p><img src="ddj-rladiesrp.jpeg" class="thumbnail-image"></p>
-</a><p><a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external"></a></p>
+<p><a href="../blog/posts/tcc/index.html" class="no-external"></a></p><a href="../blog/posts/tcc/index.html" class="no-external">
+<p><img src="../blog/posts/tcc/tcc_capa.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/tcc/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external">Trabalhando com R no Jornalismo de Dados</a>
+<a href="../blog/posts/tcc/index.html" class="no-external">Apresentei o TCC</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external"></a>
+<a href="../blog/posts/tcc/index.html" class="no-external">e agora sou quaaaaaase jornalista</a>
 </div>
 <div class="listing-description">
-<a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external">Neste workshop, exploramos o uso do software R no jornalismo, acompanhando a produção de um relatório com Quarto que destrincha o fluxo de trabalho no jornalismo de dados.</a>
+<a href="../blog/posts/tcc/index.html" class="no-external">Post publicado originalmente no meu perfil do LinkedIn</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://biancamuniz.quarto.pub/ddj_rladiesrp/" class="no-external">
+<a href="../blog/posts/tcc/index.html" class="no-external">
 <div class="listing-date">
-21 de out. de 2023
+20 de dez. de 2023
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1693623600000">
+<div class="quarto-post image-right" data-index="4" data-categories="Análise exploratória,Comunidade,Música" data-listing-date-sort="1685674800000" data-listing-file-modified-sort="1719778108787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4277">
 <div class="thumbnail">
-<p><a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external"></a></p><a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external">
-<p><img src="https://escoladedados.org/wp-content/uploads/2023/05/Captura-de-Tela-2023-05-08-a%CC%80s-13.37.31.png" class="thumbnail-image"></p>
-</a><p><a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external"></a></p>
+<p><a href="../blog/posts/rita-com-r/index.html" class="no-external"></a></p><a href="../blog/posts/rita-com-r/index.html" class="no-external">
+<p><img src="../blog/posts/rita-com-r/images/toda.png" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/rita-com-r/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external">Planilha: uma grande aliada da análise de dados</a>
+<a href="../blog/posts/rita-com-r/index.html" class="no-external">Rita com R</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external"></a>
+<a href="../blog/posts/rita-com-r/index.html" class="no-external">Analisando a padroeira da liberdade com código</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Análise exploratória'); return false;">
+Análise exploratória
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Comunidade'); return false;">
+Comunidade
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Música'); return false;">
+Música
+</div>
 </div>
 <div class="listing-description">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external">Workshop facilitado no Coda Amazônia 2023</a>
+<a href="../blog/posts/rita-com-r/index.html" class="no-external">No dia 8 de maio o mundo da música ficou mais careta: Rita Lee, a rainha do rock brasileiro, padroeira da liberdade, a santa rita de sampa, nos deixou, mas não sem antes…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-planilhas.html" class="no-external">
+<a href="../blog/posts/rita-com-r/index.html" class="no-external">
 <div class="listing-date">
-2 de set. de 2023
+2 de jun. de 2023
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1693537200000">
+<div class="quarto-post image-right" data-index="5" data-categories="Visualização de Dados,Insper,Música" data-listing-date-sort="1648954800000" data-listing-file-modified-sort="1719831281132" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="303">
 <div class="thumbnail">
-<p><a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external"></a></p><a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external">
-<p><img src="https://escoladedados.org/wp-content/uploads/2023/05/Captura-de-Tela-2023-05-08-a%CC%80s-13.37.31.png" class="thumbnail-image"></p>
-</a><p><a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external"></a></p>
+<p><a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external"></a></p><a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external">
+<p><img src="https://c.tenor.com/EEazF-9OR0IAAAAC/anitta-anittapress.gif" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external">Workshop: Python + R juntos com Quarto</a>
+<a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external">Mentindo (e desmentindo) com gráficos</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external"></a>
+<a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external">Trabalho final da disciplina Datavis I com o objetivo de identificar técnicas de manipulação em visualizações de dados e saber como evitá-las.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Visualização de Dados'); return false;">
+Visualização de Dados
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Insper'); return false;">
+Insper
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Música'); return false;">
+Música
+</div>
 </div>
 <div class="listing-description">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external">Workshop facilitado no Coda Amazônia 2023</a>
+<a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external">A partir dos dados do Spotify Charts, produzi um gráfico para passar a mensagem de que a cantora Anitta, apesar do sucesso mundial recente e chegada ao #1 do Spotify Global…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://biancamuniz.quarto.pub/coda-amazonia-2023/workshop-quarto.html" class="no-external">
+<a href="../blog/posts/mentindo-com-graficos/index.html" class="no-external">
 <div class="listing-date">
-1 de set. de 2023
+3 de abr. de 2022
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1688266800000">
+<div class="quarto-post image-right" data-index="6" data-categories="Insper,covid-19,OSINT" data-listing-date-sort="1637204400000" data-listing-file-modified-sort="1710626252334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <div class="thumbnail">
-<p><a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external"></a></p><a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external">
-<p><img src="thumbddabrajia.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external"></a></p>
+<p><a href="../blog/posts/oxigenio-manaus/index.html" class="no-external"></a></p><a href="../blog/posts/oxigenio-manaus/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/oxigenio-manaus/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external">Visualizações de dados revelam problemas sociais</a>
+<a href="../blog/posts/oxigenio-manaus/index.html" class="no-external">OSINT: A crise de oxigênio em Manaus através de posts e notícias</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external"></a>
+<a href="../blog/posts/oxigenio-manaus/index.html" class="no-external">Recriando a cronologia dos acontecimentos que culminaram com a crise de oxigênio em Manaus usando técnicas de OSINT.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Insper'); return false;">
+Insper
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('covid-19'); return false;">
+covid-19
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('OSINT'); return false;">
+OSINT
+</div>
 </div>
 <div class="listing-description">
-<a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external">Crimes graves, crises e outros problemas sociais são temas de trabalhos brasileiros recentes e premiados. Essas matérias ganharam forma graças ao uso revolucionário do Dataviz. Conheça os trabalhos de Rodolfo Almeida para visualizar um mundo em crise na pandemia e o Mapa dos Conflitos, da Agência…</a>
+<a href="../blog/posts/oxigenio-manaus/index.html" class="no-external">No início do ano, a pandemia de covid-19 deixou um capítulo trágico no estado do Amazonas: a falta de cilindros de oxigênio, equipamento essencial para a manutenção de…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://www.youtube.com/watch?v=eJCF_pi-bkc&amp;t=2314s&amp;ab_channel=Abraji" class="no-external">
+<a href="../blog/posts/oxigenio-manaus/index.html" class="no-external">
 <div class="listing-date">
-2 de jul. de 2023
+18 de nov. de 2021
+</div>
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1667444400000">
+<div class="quarto-post image-right" data-index="7" data-categories="jardim" data-listing-date-sort="1604458800000" data-listing-file-modified-sort="1719778707879" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1087">
 <div class="thumbnail">
-<p><a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external"></a></p><a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external">
-<p><img src="codabr22.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external"></a></p>
+<p><a href="../blog/posts/jardim/index.html" class="no-external"></a></p><a href="../blog/posts/jardim/index.html" class="no-external">
+<p><img src="../blog/posts/jardim/giphy.gif" class="thumbnail-image"></p>
+</a><p><a href="../blog/posts/jardim/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external">Jornalismo de Dados com editores de planilhas</a>
+<a href="../blog/posts/jardim/index.html" class="no-external">preparando a terra</a>
 </h3>
 <div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external"></a>
+<a href="../blog/posts/jardim/index.html" class="no-external">um post sobre apresentações, internet e jardinagem</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('jardim'); return false;">
+jardim
+</div>
 </div>
 <div class="listing-description">
-<a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external">Com um editor de planilhas como o Google Sheets, Excel ou LibreOffice é possível fazer de uma contagem simples até busca por padrões em textos. Neste workshop, a partir de exercícios guiados, serão mostradas funções para “entrevistar uma planilha”, prós e contras do uso de editores e como…</a>
+<a href="../blog/posts/jardim/index.html" class="no-external">post colocado na internet em 4 de novembro de 2022 (sim, eu menti na data nos metadados mas só pra ficar coerente com a linha de pensamento), mas em constante construção.…</a>
 </div>
 </div>
 <div class="metadata">
-<a href="https://www.youtube.com/watch?v=HdH92Ih3fOs&amp;ab_channel=EscoladeDados" class="no-external">
+<a href="../blog/posts/jardim/index.html" class="no-external">
 <div class="listing-date">
-3 de nov. de 2022
+4 de nov. de 2020
 </div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-listing-date-sort="1659841200000">
-<div class="thumbnail">
-<p><a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external"></a></p><a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external">
-<p><img src="domingodedados2022.jpeg" class="thumbnail-image"></p>
-</a><p><a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external">Jornalismo de Dados para mudar realidades</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external">Apresentação no 4° Domingo de Dados da Abraji, em 2022.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="https://docs.google.com/presentation/d/e/2PACX-1vQsReUFnVVjOQcJ5ce58dIMaK_1usTRQKfusgPV6aN1icV9KrmmUDj_eNebM4OlgAK-Sh6Z6nBemzcQ/pub?start=false&amp;loop=false&amp;delayms=10000" class="no-external">
-<div class="listing-date">
-7 de ago. de 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-listing-date-sort="1658199600000">
-<div class="thumbnail">
-<p><a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external"></a></p><a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external">
-<p><img src="mapa-conflitos.jpg" class="thumbnail-image"></p>
-</a><p><a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external">A Pública em dados e o ‘Mapa dos Conflitos’</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external">Webinar da Escola de Dados</a>
-</div>
-</div>
-<div class="metadata">
-<a href="https://www.youtube.com/watch?v=Pt5lhsmjkOQ&amp;ab_channel=EscoladeDados" class="no-external">
-<div class="listing-date">
-19 de jul. de 2022
+<div class="listing-author">
+Bianca Muniz
 </div>
 </a>
 </div>

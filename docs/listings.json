@@ -23,5 +23,18 @@
   {
     "listing": "/jornalismo/index.html",
     "items": []
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/serigrafia/index.html",
+      "/blog/posts/eua/index.html",
+      "/blog/posts/mini-projetos-master-ddj/insper.html",
+      "/blog/posts/tcc/index.html",
+      "/blog/posts/rita-com-r/index.html",
+      "/blog/posts/mentindo-com-graficos/index.html",
+      "/blog/posts/oxigenio-manaus/index.html",
+      "/blog/posts/jardim/index.html"
+    ]
   }
 ]
