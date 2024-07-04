@@ -44,7 +44,7 @@ website:
       - text: "[Apresentações]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
         href: talks/index.qmd
       - text: "[Blog]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
-        href: blog/index.qmd
+        href: blog/
 
 format:
   html:
