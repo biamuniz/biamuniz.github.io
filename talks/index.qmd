@@ -12,6 +12,11 @@ listing:
   max-description-length: 300
   fields: [title, date, description, image]
   contents:
+    - path: https://bit.ly/intro-ddj-2024
+      title: "Introdução ao jornalismo de dados para jornalistas freelancers e de pequenas redaçõese"
+      date: "2024-07-14"
+      description: "Se você está começando no jornalismo de dados, é freelancer ou atua localmente, essa oficina é para você! Além da introdução ao jornalismo de dados, conheça experiências de como usá-lo em pequenas redações ou na vida freelancer. Os instrutores abordam: quais ferramentas usar; como organizar o seu tempo; diferentes formas de ampliar seus conhecimentos; tutoriais disponíveis sobre o tema; como seguir procurando melhores trabalhos e pautas, entre outros pontos."
+      image: abraji24.jpg
     - path: https://www.youtube.com/watch?v=Fl4YwD_xgAo&ab_channel=Colabora-JornalismoSustent%C3%A1vel
       title: "Uma introdução ao jornalismo de dados | Curso Inclusão e Diversidade"
       date: "2024-02-23"

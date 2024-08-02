@@ -1,0 +1,94 @@
+---
+title: "Todos os shows que vi desde 2013"
+subtitle: "e o que fui aprendendo no meio do caminho"
+date: "2024-07-21"
+categories: 
+# exemplo de categorias:
+  - "Pessoal"
+  - "Dados"
+lang: pt
+#toc: true 
+image: "tcc_capa.png"
+execute: 
+  warning: false
+  message: false
+  echo: false
+draft: true
+---
+
+
+```{r}
+# Carregar o pacote
+library(googlesheets4)
+library(tidyverse)
+library(janitor)
+library(plotly)
+
+# URL da planilha ou ID
+sheet_url <- "https://docs.google.com/spreadsheets/d/1tgWGanTiCr9tgHTd34MnDQ8gt0yDATghi-OoemokdJY/edit#gid=0"
+
+# Ler a planilha
+df <- read_sheet(sheet_url) |> clean_names()
+# Supondo que df já esteja carregado e contém as colunas: ano, show, local
+data_selected <- df %>% select(ano, show, local)
+```
+
+## Criando um sunburst
+
+
+```{r}
+# Criar a hierarquia para o gráfico sunburst
+data_sunburst <- data_selected %>%
+  group_by(ano, show, local) %>%
+  summarise(count = n()) %>%
+  ungroup() %>%
+  mutate(
+    ids = paste0(ano, ": ", show, " @", local),
+    parents = paste0(ano, ": ", show)
+  )
+
+# Adicionar uma linha para cada nível da hierarquia
+sunburst_data <- data_sunburst %>%
+  bind_rows(
+    data_selected %>% 
+      group_by(ano, show) %>%
+      summarise(count = n()) %>%
+      mutate(
+        ids = paste0(ano, ": ", show),
+        parents = as.character(ano)
+      ),
+    data_selected %>%
+      group_by(ano) %>%
+      summarise(count = n()) %>%
+      mutate(
+        ids = as.character(ano),
+        parents = ""
+      )
+  ) %>%
+  arrange(ids) # Ordenar os rótulos para garantir a ordem dos anos
+
+# Criar o gráfico sunburst
+sunburst_plot <- plot_ly(
+  labels = sunburst_data$ids,
+  parents = sunburst_data$parents,
+  values = sunburst_data$count,
+  type = 'sunburst',
+  branchvalues = 'total'
+)
+fig <- sunburst_plot %>%
+    layout(
+      grid = list(columns =2, rows = 1),
+      margin = list(l = 0, r = 0, b = 0, t = 0),
+      sunburstcolorway = c(
+        "#636efa","#EF553B","#00cc96","#ab63fa","#19d3f3",
+        "#e763fa", "#FECB52","#FFA15A","#FF6692","#B6E880"
+      ),
+      extendsunburstcolors = TRUE)
+# Exibir o gráfico
+fig
+```
+
+
+
+
+

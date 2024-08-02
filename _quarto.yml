@@ -51,7 +51,7 @@ format:
     theme: assets/stylesheets/coeos.scss
    # css: styles.css
     lang: pt-br
-    highlight-style: github-dark
+    highlight-style: breeze
     code-copy: true
     code-link: true
     anchor-sections: true

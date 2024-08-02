@@ -35,7 +35,7 @@ resources:
 ::: {#hero-heading}
 Eu mexo com **dados, desenho, ciência e jornalismo**. <br>
 
-Atualmente sou [jornalista de dados na Agência Pública](apublica.org){style="background-color:#FAE9D2;"} e membro da [R-Ladies São Paulo](https://rladies-sp.org/){style="background-color: #FAE9D2;"}, mas no passado já tive metida com [pesquisa acadêmica](http://lattes.cnpq.br/1196190520296373){style="background-color:#FAE9D2;"} na área de neurobiologia de transtornos psiquiátricos, projetos de comunicação científica e aulas de literatura. <br>
+Atualmente sou [jornalista de dados na Agência Pública](apublica.org){style="background-color:#FAE9D2;"} e membro da [R-Ladies São Paulo](https://rladies-sp.org/){style="background-color: #FAE9D2;"}, mas no passado já tive metida com [pesquisa acadêmica](http://lattes.cnpq.br/1196190520296373){style="background-color:#FAE9D2;"} na área de neurobiologia de transtornos psiquiátricos, projetos de comunicação científica e aulas de literatura. Também escrevo sobre os shows que assisto.<br>
 
 Aqui você vê um pouco dos meus projetos [profissionais e pessoais](/portfolio/){style="background-color:#FAE9D2"} nessas áreas, além de umas [apresentações](/talks/){style="background-color: #FAE9D2"} que fiz e alguns [devaneios](/blog/){style="background-color: #FAE9D2;"} da minha cabeça :)
 
