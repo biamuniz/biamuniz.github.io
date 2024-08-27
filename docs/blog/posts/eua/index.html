@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.528">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="author" content="Bianca Muniz">
+
 <title>DataBia nos EUA</title>
 <style>
 code{white-space: pre-wrap;}
@@ -54,6 +57,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
+
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
@@ -72,7 +76,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -99,6 +104,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Procurar"
   }
 }</script>
+
+
 <meta property="og:title" content="DataBia nos EUA">
 <meta property="og:description" content="Plotando as diferentes temperaturas em Austin e NYC">
 <meta property="og:image" content="https://biamuniz.github.io/blog/posts/eua/capa.png">
@@ -111,13 +118,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="twitter:image-width" content="1344">
 <meta name="twitter:card" content="summary_large_image">
 </head>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../assets/icons8-casa-50.png" alt="" class="navbar-logo"></a>
+    <img src="../../../assets/icons8-casa-50.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title"><span style="color: #853D5E; font-weight: bold; font-family: Bitter">BM</span></span>
     </a>
@@ -128,7 +139,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link" href="../../../sobre.html"> 
 <span class="menu-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Sobre</span></span></a>
   </li>  
@@ -136,8 +147,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-portfóliostylecolor-853d5e-font-weight-bold--webkit-text-stroke-0.1px-black" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Portfólio</span></span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-portfóliostylecolor-853d5e-font-weight-bold--webkit-text-stroke-0.1px-black">
-<li>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-portfóliostylecolor-853d5e-font-weight-bold--webkit-text-stroke-0.1px-black">    
+        <li>
     <a class="dropdown-item" href="../../../programacao/index.html">
  <span class="dropdown-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Programação</span></span></a>
   </li>  
@@ -150,7 +161,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Pesquisa</span></span></a>
   </li>  
     </ul>
-</li>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../../talks/index.html"> 
 <span class="menu-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Apresentações</span></span></a>
@@ -160,11 +171,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text"><span style="color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;">Blog</span></span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">DataBia nos EUA</h1>
             <p class="subtitle lead">Plotando as diferentes temperaturas em Austin e NYC</p>
@@ -202,35 +217,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Nesta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-<li>
-<a href="#m%C3%A3os-%C3%A0-obra" id="toc-mãos-à-obra" class="nav-link active" data-scroll-target="#m%C3%A3os-%C3%A0-obra">Mãos à obra</a>
+  <li><a href="#mãos-à-obra" id="toc-mãos-à-obra" class="nav-link active" data-scroll-target="#mãos-à-obra">Mãos à obra</a>
   <ul class="collapse">
-<li><a href="#setup-inicial" id="toc-setup-inicial" class="nav-link" data-scroll-target="#setup-inicial">Setup inicial</a></li>
-  <li><a href="#plotando-o-gr%C3%A1fico" id="toc-plotando-o-gráfico" class="nav-link" data-scroll-target="#plotando-o-gr%C3%A1fico">Plotando o gráfico</a></li>
+  <li><a href="#setup-inicial" id="toc-setup-inicial" class="nav-link" data-scroll-target="#setup-inicial">Setup inicial</a></li>
+  <li><a href="#plotando-o-gráfico" id="toc-plotando-o-gráfico" class="nav-link" data-scroll-target="#plotando-o-gráfico">Plotando o gráfico</a></li>
+  </ul></li>
   </ul>
-</li>
-  </ul></nav>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content"><p>Estive nos EUA durante quatro meses em 2022, entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos). Perrengues chiques estadunidenses.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>Estive nos EUA durante quatro meses em 2022, entre setembro e dezembro, do final do verão até o começo do inverno. Precisei lidar com o calor texano de 30°C (e muito suor, pressão baixa e protetor solar) e temperaturas negativas no inverno de Nova York (e o hábito de entrar em cafés quentinhos apenas pra reter o calor do meu corpo por uns minutos). Perrengues chiques estadunidenses.</p>
 <p>Eu não gosto das altas temperaturas. Até canto <em>ai que delícia o verão, a gente mostra o ombrinho</em> etc mas minha ligação com o calor acaba aí. Eu tenho pressão baixa, então a maior parte do tempo me preocupava em não passar mal (o que aconteceu algumas vezes no TX). Por outro lado, eu não tinha ideia do que era viver temperaturas tão baixas a ponto de travar meu celular ou de ver lagos congelados. Quando chegou o inverno, não tinha roupas pra um friozão porque acreditava que meu moletom universitário era suficiente hehe estava BEM enganada. Lá vai eu comprar um casacão nos outlets.</p>
 <p>Pensando nessas nuances, fiz um gráfico que mostra as temperaturas diárias que encarei enquanto estive nos EUA. Achei que seria bacana treinar minha fluência no tidyverse e conhecer outros pacotes do R revisitando umas informações do meu período de intercâmbio.</p>
-<section id="mãos-à-obra" class="level2"><h2 class="anchored" data-anchor-id="mãos-à-obra">Mãos à obra</h2>
-<section id="setup-inicial" class="level3"><h3 class="anchored" data-anchor-id="setup-inicial">Setup inicial</h3>
+<section id="mãos-à-obra" class="level2">
+<h2 class="anchored" data-anchor-id="mãos-à-obra">Mãos à obra</h2>
+<section id="setup-inicial" class="level3">
+<h3 class="anchored" data-anchor-id="setup-inicial">Setup inicial</h3>
 <div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">#Carregando os pacotes</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span> <span class="co">#para lidar com os dados (ggplot tá aí!)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://lubridate.tidyverse.org">lubridate</a></span><span class="op">)</span> <span class="co">#para lidar com as datas</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/geanders/weathermetrics/">weathermetrics</a></span><span class="op">)</span> <span class="co">#para converter a temperatura</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/sfirke/janitor">janitor</a></span><span class="op">)</span> <span class="co">#clean_names</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://wilkelab.org/ggtext/">ggtext</a></span><span class="op">)</span> <span class="co"># para suportar texto com HTML</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://glue.tidyverse.org/">glue</a></span><span class="op">)</span> <span class="co"># para criar strings</span></span>
-<span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/locales.html">Sys.setlocale</a></span><span class="op">(</span><span class="st">"LC_TIME"</span>, <span class="st">"pt_BR.UTF-8"</span><span class="op">)</span></span>
-<span><span class="co">## [1] "pt_BR.UTF-8"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Carregando os pacotes</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse) <span class="co">#para lidar com os dados (ggplot tá aí!)</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lubridate) <span class="co">#para lidar com as datas</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(weathermetrics) <span class="co">#para converter a temperatura</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor) <span class="co">#clean_names</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggtext) <span class="co"># para suportar texto com HTML</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(glue) <span class="co"># para criar strings</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">Sys.setlocale</span>(<span class="st">"LC_TIME"</span>, <span class="st">"pt_BR.UTF-8"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] "pt_BR.UTF-8"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Os dados eu peguei pra uma tarefa da disciplina <em>Reporting With Data</em>. Exportei do site os registros das estações de Austin e de Nova York, no período entre setembro e dezembro de 2022. Alguns desafios:</p>
 <ul>
@@ -240,170 +263,177 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Formatar datas.</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">#Carregando os dados</span></span>
-<span><span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/utils/read.table.html">read.csv</a></span><span class="op">(</span><span class="st">"data/3643365.csv"</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
-<span>  <span class="fu"><a href="https://sfirke.github.io/janitor/reference/clean_names.html">clean_names</a></span><span class="op">(</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co">#Formatando as datas</span></span>
-<span><span class="va">df</span><span class="op">$</span><span class="va">date</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">date</span>, format <span class="op">=</span> <span class="st">"%Y-%m-%d"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Filtrando os dados de acordo com as condições de data e estação metereológica</span></span>
-<span><span class="va">filtered_df</span> <span class="op">&lt;-</span> <span class="va">df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="op">(</span><span class="va">station</span> <span class="op">==</span> <span class="st">"USW00013958"</span> <span class="op">&amp;</span> <span class="va">date</span> <span class="op">&gt;=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-09-01"</span><span class="op">)</span> <span class="op">&amp;</span> <span class="va">date</span> <span class="op">&lt;=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-12-22"</span><span class="op">)</span><span class="op">)</span> <span class="op">|</span></span>
-<span>         <span class="op">(</span><span class="va">station</span> <span class="op">==</span> <span class="st">"USW00014732"</span> <span class="op">&amp;</span> <span class="va">date</span> <span class="op">&gt;=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-12-23"</span><span class="op">)</span><span class="op">)</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># converte os dados de fahrenheit para celsius</span></span>
-<span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/weathermetrics/man/fahrenheit.to.celsius.html">fahrenheit.to.celsius</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span></span>
-<span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/weathermetrics/man/fahrenheit.to.celsius.html">fahrenheit.to.celsius</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Carregando os dados</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"data/3643365.csv"</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">clean_names</span>()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Formatando as datas</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(df<span class="sc">$</span>date, <span class="at">format =</span> <span class="st">"%Y-%m-%d"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrando os dados de acordo com as condições de data e estação metereológica</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>filtered_df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>((station <span class="sc">==</span> <span class="st">"USW00013958"</span> <span class="sc">&amp;</span> date <span class="sc">&gt;=</span> <span class="fu">as.Date</span>(<span class="st">"2022-09-01"</span>) <span class="sc">&amp;</span> date <span class="sc">&lt;=</span> <span class="fu">as.Date</span>(<span class="st">"2022-12-22"</span>)) <span class="sc">|</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>         (station <span class="sc">==</span> <span class="st">"USW00014732"</span> <span class="sc">&amp;</span> date <span class="sc">&gt;=</span> <span class="fu">as.Date</span>(<span class="st">"2022-12-23"</span>)))</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># converte os dados de fahrenheit para celsius</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>filtered_df<span class="sc">$</span>tmin <span class="ot">&lt;-</span> <span class="fu">fahrenheit.to.celsius</span>(filtered_df<span class="sc">$</span>tmin)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>filtered_df<span class="sc">$</span>tmax <span class="ot">&lt;-</span> <span class="fu">fahrenheit.to.celsius</span>(filtered_df<span class="sc">$</span>tmax)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Agora tenho um dataframe com registros das temperaturas de Austin e Nova York. Porém, eu fiquei um tempinho de setembro em SP. Achava errado não incluir essa informação, então adicionei as temperaturas entre 1 e 6 de setembro:</p>
 <div class="cell">
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Substituição de dados do começo de setembro pela temperatura registrada em SP</span></span>
-<span><span class="va">sp_data</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span></span>
-<span>  name <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span><span class="op">)</span>,</span>
-<span>  date <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"2022-09-01"</span>, <span class="st">"2022-09-02"</span>, <span class="st">"2022-09-03"</span>, <span class="st">"2022-09-04"</span>, <span class="st">"2022-09-05"</span>, <span class="st">"2022-09-06"</span><span class="op">)</span>,</span>
-<span>  tmin <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">10.3</span>, <span class="fl">12.5</span>, <span class="fl">15.5</span>, <span class="fl">10</span>, <span class="fl">11.3</span>, <span class="fl">13.7</span><span class="op">)</span>,</span>
-<span>  tmax <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">26.9</span>, <span class="fl">30.2</span>, <span class="fl">23.7</span>, <span class="fl">15.1</span>, <span class="fl">19.3</span>, <span class="fl">23.9</span><span class="op">)</span></span>
-<span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Converter strings de data para tipo Date, se ainda não estiverem</span></span>
-<span><span class="va">sp_data</span><span class="op">$</span><span class="va">date</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="va">sp_data</span><span class="op">$</span><span class="va">date</span>, format <span class="op">=</span> <span class="st">"%Y-%m-%d"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Substituição dos valores de temperatura</span></span>
-<span><span class="va">filtered_df</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span></span>
-<span>    name <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html">ifelse</a></span><span class="op">(</span><span class="va">date</span> <span class="op"><a href="https://rdrr.io/r/base/match.html">%in%</a></span> <span class="va">sp_data</span><span class="op">$</span><span class="va">date</span>, <span class="va">sp_data</span><span class="op">$</span><span class="va">name</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/match.html">match</a></span><span class="op">(</span><span class="va">date</span>, <span class="va">sp_data</span><span class="op">$</span><span class="va">date</span><span class="op">)</span><span class="op">]</span>, <span class="va">name</span><span class="op">)</span>,</span>
-<span>    tmin <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html">ifelse</a></span><span class="op">(</span><span class="va">date</span> <span class="op"><a href="https://rdrr.io/r/base/match.html">%in%</a></span> <span class="va">sp_data</span><span class="op">$</span><span class="va">date</span>, <span class="va">sp_data</span><span class="op">$</span><span class="va">tmin</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/match.html">match</a></span><span class="op">(</span><span class="va">date</span>, <span class="va">sp_data</span><span class="op">$</span><span class="va">date</span><span class="op">)</span><span class="op">]</span>, <span class="va">tmin</span><span class="op">)</span>,</span>
-<span>    tmax <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html">ifelse</a></span><span class="op">(</span><span class="va">date</span> <span class="op"><a href="https://rdrr.io/r/base/match.html">%in%</a></span> <span class="va">sp_data</span><span class="op">$</span><span class="va">date</span>, <span class="va">sp_data</span><span class="op">$</span><span class="va">tmax</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/match.html">match</a></span><span class="op">(</span><span class="va">date</span>, <span class="va">sp_data</span><span class="op">$</span><span class="va">date</span><span class="op">)</span><span class="op">]</span>, <span class="va">tmax</span><span class="op">)</span></span>
-<span>  <span class="op">)</span></span>
-<span></span>
-<span><span class="va">filtered_df</span><span class="op">&lt;-</span><span class="va">filtered_df</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="va">name</span>, <span class="va">date</span>, <span class="va">tmin</span>, <span class="va">tmax</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Substituição de dados do começo de setembro pela temperatura registrada em SP</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>sp_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>, <span class="st">"SAO PAULO"</span>),</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">date =</span> <span class="fu">c</span>(<span class="st">"2022-09-01"</span>, <span class="st">"2022-09-02"</span>, <span class="st">"2022-09-03"</span>, <span class="st">"2022-09-04"</span>, <span class="st">"2022-09-05"</span>, <span class="st">"2022-09-06"</span>),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">tmin =</span> <span class="fu">c</span>(<span class="fl">10.3</span>, <span class="fl">12.5</span>, <span class="fl">15.5</span>, <span class="dv">10</span>, <span class="fl">11.3</span>, <span class="fl">13.7</span>),</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">tmax =</span> <span class="fu">c</span>(<span class="fl">26.9</span>, <span class="fl">30.2</span>, <span class="fl">23.7</span>, <span class="fl">15.1</span>, <span class="fl">19.3</span>, <span class="fl">23.9</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Converter strings de data para tipo Date, se ainda não estiverem</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>sp_data<span class="sc">$</span>date <span class="ot">&lt;-</span> <span class="fu">as.Date</span>(sp_data<span class="sc">$</span>date, <span class="at">format =</span> <span class="st">"%Y-%m-%d"</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Substituição dos valores de temperatura</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>filtered_df <span class="ot">&lt;-</span> filtered_df <span class="sc">%&gt;%</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">name =</span> <span class="fu">ifelse</span>(date <span class="sc">%in%</span> sp_data<span class="sc">$</span>date, sp_data<span class="sc">$</span>name[<span class="fu">match</span>(date, sp_data<span class="sc">$</span>date)], name),</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">tmin =</span> <span class="fu">ifelse</span>(date <span class="sc">%in%</span> sp_data<span class="sc">$</span>date, sp_data<span class="sc">$</span>tmin[<span class="fu">match</span>(date, sp_data<span class="sc">$</span>date)], tmin),</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    <span class="at">tmax =</span> <span class="fu">ifelse</span>(date <span class="sc">%in%</span> sp_data<span class="sc">$</span>date, sp_data<span class="sc">$</span>tmax[<span class="fu">match</span>(date, sp_data<span class="sc">$</span>date)], tmax)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>filtered_df<span class="ot">&lt;-</span>filtered_df <span class="sc">|&gt;</span> <span class="fu">select</span>(name, date, tmin, tmax)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section><section id="plotando-o-gráfico" class="level3"><h3 class="anchored" data-anchor-id="plotando-o-gráfico">Plotando o gráfico</h3>
+</section>
+<section id="plotando-o-gráfico" class="level3">
+<h3 class="anchored" data-anchor-id="plotando-o-gráfico">Plotando o gráfico</h3>
 <p>O processo de criar o gráfico foi ok; sabia que precisava fazer um “lollipop”. Mas não contava com o transtorno que é criar anotações e posicioná-las corretamente. Foi bem “tentativa e erro” essa parte, mas gostei do resultado.</p>
 <p>Primeiro, eu calculei os dias com maiores e menores valores para temperatura e amplitude térmica:</p>
 <div class="cell">
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dia_com_menor_temperatura</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">tmin</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">tmin</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="va">dia_com_maior_temperatura</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">tmax</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">tmax</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="va">dia_com_maior_amplitude</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>amplitude <span class="op">=</span> <span class="va">tmax</span> <span class="op">-</span> <span class="va">tmin</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">amplitude</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">amplitude</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="va">dia_com_menor_amplitude</span> <span class="op">&lt;-</span> <span class="va">filtered_df</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>amplitude <span class="op">=</span> <span class="va">tmax</span> <span class="op">-</span> <span class="va">tmin</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">amplitude</span> <span class="op">==</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">amplitude</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>dia_com_menor_temperatura <span class="ot">&lt;-</span> filtered_df <span class="sc">%&gt;%</span> <span class="fu">filter</span>(tmin <span class="sc">==</span> <span class="fu">min</span>(tmin))</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>dia_com_maior_temperatura <span class="ot">&lt;-</span> filtered_df <span class="sc">%&gt;%</span> <span class="fu">filter</span>(tmax <span class="sc">==</span> <span class="fu">max</span>(tmax))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>dia_com_maior_amplitude <span class="ot">&lt;-</span> filtered_df <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">amplitude =</span> tmax <span class="sc">-</span> tmin) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(amplitude <span class="sc">==</span> <span class="fu">max</span>(amplitude))</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>dia_com_menor_amplitude <span class="ot">&lt;-</span> filtered_df <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">amplitude =</span> tmax <span class="sc">-</span> tmin) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(amplitude <span class="sc">==</span> <span class="fu">min</span>(amplitude))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Também estilizei o título. Vi numa edição da newsletter do Albert Rapp esse jeito de colocar o título e achei uma boa sacada, porque posso retirar a legenda.</p>
 <div class="cell">
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Use o ggtext para o subtitle que requer HTML</span></span>
-<span><span class="va">my_title</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span></span>
-<span>  <span class="st">"Temperaturas &lt;b&gt;&lt;span style = 'color:blue;'&gt;mínimas&lt;/span&gt;&lt;/b&gt; e &lt;b&gt;&lt;span style = 'color:orange;'&gt;máximas&lt;/span&gt;&lt;/b&gt; durante meu período nos EUA"</span></span>
-<span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Use o ggtext para o subtitle que requer HTML</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>my_title <span class="ot">&lt;-</span> <span class="fu">glue</span>(</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"Temperaturas &lt;b&gt;&lt;span style = 'color:blue;'&gt;mínimas&lt;/span&gt;&lt;/b&gt; e &lt;b&gt;&lt;span style = 'color:orange;'&gt;máximas&lt;/span&gt;&lt;/b&gt; durante meu período nos EUA"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>O resultado! Admito que não ficou TÃO do jeito que eu queria, mas gostei de fazer um gráfico inteirinho no R, sem precisar de algum software de design (viva o software livre).</p>
 <div class="cell">
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ig_icon</span> <span class="op">&lt;-</span> <span class="st">"&amp;#xf16d"</span></span>
-<span><span class="va">my_caption</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span><span class="st">"Fontes: National Centers for Environmental Information; Climatempo. &lt;br&gt;Gráfico por Bianca Muniz (&lt;span style='font-family:\"Font Awesome 6 Brands\";'&gt;{ig_icon};&lt;/span&gt; biancmuniz)"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="co"># Cria o gráfico</span></span>
-<span><span class="va">figura</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span></span>
-<span>  <span class="va">filtered_df</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">date</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_segment.html">geom_segment</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">date</span>, xend <span class="op">=</span> <span class="va">date</span>, y <span class="op">=</span> <span class="va">tmin</span>, yend <span class="op">=</span> <span class="va">tmax</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>y <span class="op">=</span> <span class="va">tmin</span><span class="op">)</span>, color <span class="op">=</span> <span class="st">"blue"</span>, size <span class="op">=</span> <span class="fl">1</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_point.html">geom_point</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>y <span class="op">=</span> <span class="va">tmax</span><span class="op">)</span>, color <span class="op">=</span> <span class="st">"orange"</span>, size <span class="op">=</span> <span class="fl">1</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_abline.html">geom_hline</a></span><span class="op">(</span>yintercept <span class="op">=</span> <span class="fl">0</span>, linetype <span class="op">=</span> <span class="st">"solid"</span>, color <span class="op">=</span> <span class="st">"black"</span>, size <span class="op">=</span> <span class="fl">0.5</span><span class="op">)</span> <span class="op">+</span>  <span class="co"># Linha na temperatura zero</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_segment.html">geom_segment</a></span><span class="op">(</span></span>
-<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-09-07"</span><span class="op">)</span>, </span>
-<span>        y <span class="op">=</span> <span class="fl">20</span>, </span>
-<span>        xend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-09-07"</span><span class="op">)</span>, </span>
-<span>        yend <span class="op">=</span> <span class="op">-</span><span class="fl">8</span><span class="op">)</span>, </span>
-<span>    arrow <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/arrow.html">arrow</a></span><span class="op">(</span>type <span class="op">=</span> <span class="st">"closed"</span>, length <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fl">0.1</span>, <span class="st">"cm"</span><span class="op">)</span><span class="op">)</span>, color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op">(</span></span>
-<span>    <span class="st">"text"</span>, </span>
-<span>    x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-09-07"</span><span class="op">)</span>, </span>
-<span>    y <span class="op">=</span> <span class="op">-</span><span class="fl">12</span>, </span>
-<span>    label <span class="op">=</span> <span class="st">"Chegada em \nAustin: 7/set"</span>, </span>
-<span>    size <span class="op">=</span> <span class="fl">3</span>, </span>
-<span>    color <span class="op">=</span> <span class="st">"black"</span>,</span>
-<span>    family<span class="op">=</span><span class="st">"Raleway"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="va">my_title</span>,</span>
-<span>       subtitle <span class="op">=</span> <span class="st">"Registro das temperaturas nas cidades onde estive nos meses de setembro a dezembro de 2022"</span>, </span>
-<span>       x <span class="op">=</span> <span class="st">"Dia"</span>, </span>
-<span>       y <span class="op">=</span> <span class="st">"Temperatura (°C)"</span>,</span>
-<span>       caption <span class="op">=</span> <span class="va">my_caption</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_date.html">scale_x_date</a></span><span class="op">(</span>date_breaks <span class="op">=</span> <span class="st">"1 month"</span>, date_labels <span class="op">=</span> <span class="st">"%b"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/scale_continuous.html">scale_y_continuous</a></span><span class="op">(</span>breaks <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span>from <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">floor</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span> <span class="op">/</span> <span class="fl">10</span><span class="op">)</span> <span class="op">*</span> <span class="fl">10</span>, to <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html">ceiling</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">/</span> <span class="fl">10</span><span class="op">)</span> <span class="op">*</span> <span class="fl">10</span>, by <span class="op">=</span> <span class="fl">10</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_abline.html">geom_vline</a></span><span class="op">(</span>data <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html">data.frame</a></span><span class="op">(</span>date <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">date</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">date</span><span class="op">)</span>, by <span class="op">=</span> <span class="st">"1 month"</span><span class="op">)</span><span class="op">)</span>,</span>
-<span>             <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>xintercept <span class="op">=</span> <span class="va">date</span><span class="op">)</span>, linetype <span class="op">=</span> <span class="st">"dotted"</span>, color <span class="op">=</span> <span class="st">"gray"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span>plot.title <span class="op">=</span> <span class="fu"><a href="https://wilkelab.org/ggtext/reference/element_markdown.html">element_markdown</a></span><span class="op">(</span>size <span class="op">=</span> <span class="fl">12</span>, family <span class="op">=</span> <span class="st">"Bitter"</span>, face <span class="op">=</span> <span class="st">"bold"</span><span class="op">)</span>,</span>
-<span>        axis.text.x <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>angle <span class="op">=</span> <span class="fl">0</span>, vjust <span class="op">=</span> <span class="fl">0.5</span>, hjust <span class="op">=</span> <span class="op">-</span><span class="fl">1</span>, size <span class="op">=</span> <span class="fl">10</span><span class="op">)</span>,</span>
-<span>        plot.subtitle <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>family <span class="op">=</span> <span class="st">"Bitter"</span>, size <span class="op">=</span> <span class="fl">10</span><span class="op">)</span>,</span>
-<span>        axis.title <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>family <span class="op">=</span> <span class="st">"Bitter"</span><span class="op">)</span>,</span>
-<span>        panel.grid.minor <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_blank</a></span><span class="op">(</span><span class="op">)</span>,</span>
-<span>        axis.text.y <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/element.html">element_text</a></span><span class="op">(</span>size <span class="op">=</span> <span class="fl">10</span><span class="op">)</span>,</span>
-<span>        plot.caption <span class="op">=</span> <span class="fu"><a href="https://wilkelab.org/ggtext/reference/element_markdown.html">element_markdown</a></span><span class="op">(</span>family <span class="op">=</span> <span class="st">"Bitter"</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="co">## Adicionando setas</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_segment.html">geom_curve</a></span><span class="op">(</span></span>
-<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span></span>
-<span>      x <span class="op">=</span> <span class="va">dia_com_menor_temperatura</span><span class="op">$</span><span class="va">date</span> <span class="op">-</span><span class="fl">10</span>, </span>
-<span>      y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span>, </span>
-<span>      xend <span class="op">=</span> <span class="va">dia_com_menor_temperatura</span><span class="op">$</span><span class="va">date</span>, </span>
-<span>      yend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span> <span class="op">-</span> <span class="fl">2</span><span class="op">)</span>,</span>
-<span>    arrow <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/arrow.html">arrow</a></span><span class="op">(</span>length <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fl">0.1</span>, <span class="st">"cm"</span><span class="op">)</span><span class="op">)</span>, color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_segment.html">geom_curve</a></span><span class="op">(</span></span>
-<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span></span>
-<span>      x <span class="op">=</span> <span class="va">dia_com_maior_temperatura</span><span class="op">$</span><span class="va">date</span>, </span>
-<span>      y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">-</span><span class="fl">5</span>, </span>
-<span>      xend <span class="op">=</span> <span class="va">dia_com_maior_temperatura</span><span class="op">$</span><span class="va">date</span>, </span>
-<span>      yend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">+</span> <span class="fl">5</span><span class="op">)</span>, </span>
-<span>    arrow <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/arrow.html">arrow</a></span><span class="op">(</span>length <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fl">0.1</span>, <span class="st">"cm"</span><span class="op">)</span><span class="op">)</span>, color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_segment.html">geom_curve</a></span><span class="op">(</span></span>
-<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span></span>
-<span>      x <span class="op">=</span> <span class="va">dia_com_maior_amplitude</span><span class="op">$</span><span class="va">date</span>, </span>
-<span>      y <span class="op">=</span> <span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">+</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span><span class="op">)</span> <span class="op">/</span> <span class="fl">2</span>, </span>
-<span>      xend <span class="op">=</span> <span class="va">dia_com_maior_amplitude</span><span class="op">$</span><span class="va">date</span>, </span>
-<span>      yend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">+</span> <span class="fl">4</span><span class="op">)</span>, </span>
-<span>    arrow <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/arrow.html">arrow</a></span><span class="op">(</span>length <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/grid/unit.html">unit</a></span><span class="op">(</span><span class="fl">0.1</span>, <span class="st">"cm"</span><span class="op">)</span><span class="op">)</span>, color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_segment.html">geom_curve</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-09-07"</span><span class="op">)</span>, y <span class="op">=</span> <span class="fl">10</span>, xend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-10-16"</span><span class="op">)</span>, yend <span class="op">=</span> <span class="fl">10</span><span class="op">)</span>, </span>
-<span>             curvature <span class="op">=</span> <span class="fl">0</span>, color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span>  <span class="co"># Colchete</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op">(</span><span class="st">"text"</span>, x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/as.Date.html">as.Date</a></span><span class="op">(</span><span class="st">"2022-09-25"</span><span class="op">)</span>, y <span class="op">=</span> <span class="fl">5</span>, label <span class="op">=</span> <span class="st">"40 dias seguidos com \ntemperaturas acima de 30°C"</span>, </span>
-<span>           size <span class="op">=</span> <span class="fl">3</span>, color <span class="op">=</span> <span class="st">"black"</span>, family <span class="op">=</span> <span class="st">"Raleway"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="co">## Adicionando anotações</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op">(</span></span>
-<span>    <span class="st">"text"</span>, </span>
-<span>    x <span class="op">=</span> <span class="va">dia_com_menor_temperatura</span><span class="op">$</span><span class="va">date</span> <span class="op">-</span> <span class="fl">30</span>, </span>
-<span>    y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">min</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmin</span><span class="op">)</span> <span class="op">-</span> <span class="fl">4</span>, </span>
-<span>    label <span class="op">=</span> <span class="st">"Menor temperatura \nem todo o período:\n-13°C em NYC"</span>, </span>
-<span>    hjust <span class="op">=</span> <span class="fl">0</span>, </span>
-<span>    vjust <span class="op">=</span> <span class="fl">0</span>, </span>
-<span>    size <span class="op">=</span> <span class="fl">3</span>, </span>
-<span>    color <span class="op">=</span> <span class="st">"black"</span>, family <span class="op">=</span> <span class="st">"Raleway"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op">(</span></span>
-<span>    <span class="st">"text"</span>, </span>
-<span>    x <span class="op">=</span> <span class="va">dia_com_maior_temperatura</span><span class="op">$</span><span class="va">date</span>, </span>
-<span>    y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">-</span> <span class="fl">2</span>, </span>
-<span>    label <span class="op">=</span> <span class="st">"O dia mais quente: \n22/09, 37°C"</span>, </span>
-<span>    hjust <span class="op">=</span> <span class="fl">1</span>, </span>
-<span>    vjust <span class="op">=</span> <span class="op">-</span><span class="fl">0.75</span>, </span>
-<span>    size <span class="op">=</span> <span class="fl">3</span>, </span>
-<span>    color <span class="op">=</span> <span class="st">"black"</span>, family <span class="op">=</span> <span class="st">"Raleway"</span><span class="op">)</span> <span class="op">+</span></span>
-<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/annotate.html">annotate</a></span><span class="op">(</span></span>
-<span>    <span class="st">"text"</span>, </span>
-<span>    x <span class="op">=</span> <span class="va">dia_com_maior_amplitude</span><span class="op">$</span><span class="va">date</span><span class="op">-</span><span class="fl">10</span>, </span>
-<span>    y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html">max</a></span><span class="op">(</span><span class="va">filtered_df</span><span class="op">$</span><span class="va">tmax</span><span class="op">)</span> <span class="op">+</span> <span class="fl">10</span>, </span>
-<span>    label <span class="op">=</span> <span class="st">"No dia 22/12, último dia que estive no Texas \nantes de ir para NY, encarei uma diferença \nde 23°C entre a temperatura mínima e a máxima"</span>, </span>
-<span>    hjust <span class="op">=</span> <span class="fl">0.5</span>, </span>
-<span>    vjust <span class="op">=</span> <span class="fl">1</span>, </span>
-<span>    size <span class="op">=</span> <span class="fl">2.8</span>, </span>
-<span>    color <span class="op">=</span> <span class="st">"black"</span>, position <span class="op">=</span> <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/position_dodge.html">position_dodge</a></span><span class="op">(</span>width <span class="op">=</span> <span class="fl">0.2</span><span class="op">)</span>, family <span class="op">=</span> <span class="st">"Raleway"</span><span class="op">)</span></span>
-<span></span>
-<span><span class="va">figura</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ig_icon <span class="ot">&lt;-</span> <span class="st">"&amp;#xf16d"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>my_caption <span class="ot">&lt;-</span> <span class="fu">glue</span>(<span class="st">"Fontes: National Centers for Environmental Information; Climatempo. &lt;br&gt;Gráfico por Bianca Muniz (&lt;span style='font-family:</span><span class="sc">\"</span><span class="st">Font Awesome 6 Brands</span><span class="sc">\"</span><span class="st">;'&gt;{ig_icon};&lt;/span&gt; biancmuniz)"</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Cria o gráfico</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>figura <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  filtered_df, <span class="fu">aes</span>(<span class="at">x =</span> date)) <span class="sc">+</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> date, <span class="at">xend =</span> date, <span class="at">y =</span> tmin, <span class="at">yend =</span> tmax)) <span class="sc">+</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y =</span> tmin), <span class="at">color =</span> <span class="st">"blue"</span>, <span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y =</span> tmax), <span class="at">color =</span> <span class="st">"orange"</span>, <span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"solid"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">size =</span> <span class="fl">0.5</span>) <span class="sc">+</span>  <span class="co"># Linha na temperatura zero</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.Date</span>(<span class="st">"2022-09-07"</span>), </span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>        <span class="at">y =</span> <span class="dv">20</span>, </span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        <span class="at">xend =</span> <span class="fu">as.Date</span>(<span class="st">"2022-09-07"</span>), </span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">yend =</span> <span class="sc">-</span><span class="dv">8</span>), </span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">arrow =</span> <span class="fu">arrow</span>(<span class="at">type =</span> <span class="st">"closed"</span>, <span class="at">length =</span> <span class="fu">unit</span>(<span class="fl">0.1</span>, <span class="st">"cm"</span>)), <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>, </span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="fu">as.Date</span>(<span class="st">"2022-09-07"</span>), </span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="sc">-</span><span class="dv">12</span>, </span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">"Chegada em </span><span class="sc">\n</span><span class="st">Austin: 7/set"</span>, </span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">3</span>, </span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"black"</span>,</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">family=</span><span class="st">"Raleway"</span>) <span class="sc">+</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> my_title,</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Registro das temperaturas nas cidades onde estive nos meses de setembro a dezembro de 2022"</span>, </span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Dia"</span>, </span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Temperatura (°C)"</span>,</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>       <span class="at">caption =</span> my_caption) <span class="sc">+</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_date</span>(<span class="at">date_breaks =</span> <span class="st">"1 month"</span>, <span class="at">date_labels =</span> <span class="st">"%b"</span>) <span class="sc">+</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks =</span> <span class="fu">seq</span>(<span class="at">from =</span> <span class="fu">floor</span>(<span class="fu">min</span>(filtered_df<span class="sc">$</span>tmin) <span class="sc">/</span> <span class="dv">10</span>) <span class="sc">*</span> <span class="dv">10</span>, <span class="at">to =</span> <span class="fu">ceiling</span>(<span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">/</span> <span class="dv">10</span>) <span class="sc">*</span> <span class="dv">10</span>, <span class="at">by =</span> <span class="dv">10</span>)) <span class="sc">+</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_vline</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">date =</span> <span class="fu">seq</span>(<span class="fu">min</span>(filtered_df<span class="sc">$</span>date), <span class="fu">max</span>(filtered_df<span class="sc">$</span>date), <span class="at">by =</span> <span class="st">"1 month"</span>)),</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>             <span class="fu">aes</span>(<span class="at">xintercept =</span> date), <span class="at">linetype =</span> <span class="st">"dotted"</span>, <span class="at">color =</span> <span class="st">"gray"</span>) <span class="sc">+</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_markdown</span>(<span class="at">size =</span> <span class="dv">12</span>, <span class="at">family =</span> <span class="st">"Bitter"</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">0</span>, <span class="at">vjust =</span> <span class="fl">0.5</span>, <span class="at">hjust =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"Bitter"</span>, <span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">"Bitter"</span>),</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>        <span class="at">plot.caption =</span> <span class="fu">element_markdown</span>(<span class="at">family =</span> <span class="st">"Bitter"</span>)) <span class="sc">+</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>  <span class="do">## Adicionando setas</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_curve</span>(</span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>      <span class="at">x =</span> dia_com_menor_temperatura<span class="sc">$</span>date <span class="sc">-</span><span class="dv">10</span>, </span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>      <span class="at">y =</span> <span class="fu">min</span>(filtered_df<span class="sc">$</span>tmin), </span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>      <span class="at">xend =</span> dia_com_menor_temperatura<span class="sc">$</span>date, </span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a>      <span class="at">yend =</span> <span class="fu">min</span>(filtered_df<span class="sc">$</span>tmin) <span class="sc">-</span> <span class="dv">2</span>),</span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">arrow =</span> <span class="fu">arrow</span>(<span class="at">length =</span> <span class="fu">unit</span>(<span class="fl">0.1</span>, <span class="st">"cm"</span>)), <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_curve</span>(</span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a>      <span class="at">x =</span> dia_com_maior_temperatura<span class="sc">$</span>date, </span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a>      <span class="at">y =</span> <span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">-</span><span class="dv">5</span>, </span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a>      <span class="at">xend =</span> dia_com_maior_temperatura<span class="sc">$</span>date, </span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a>      <span class="at">yend =</span> <span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">+</span> <span class="dv">5</span>), </span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a>    <span class="at">arrow =</span> <span class="fu">arrow</span>(<span class="at">length =</span> <span class="fu">unit</span>(<span class="fl">0.1</span>, <span class="st">"cm"</span>)), <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_curve</span>(</span>
+<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(</span>
+<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a>      <span class="at">x =</span> dia_com_maior_amplitude<span class="sc">$</span>date, </span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a>      <span class="at">y =</span> (<span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">+</span> <span class="fu">min</span>(filtered_df<span class="sc">$</span>tmin)) <span class="sc">/</span> <span class="dv">2</span>, </span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a>      <span class="at">xend =</span> dia_com_maior_amplitude<span class="sc">$</span>date, </span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a>      <span class="at">yend =</span> <span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">+</span> <span class="dv">4</span>), </span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a>    <span class="at">arrow =</span> <span class="fu">arrow</span>(<span class="at">length =</span> <span class="fu">unit</span>(<span class="fl">0.1</span>, <span class="st">"cm"</span>)), <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_curve</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.Date</span>(<span class="st">"2022-09-07"</span>), <span class="at">y =</span> <span class="dv">10</span>, <span class="at">xend =</span> <span class="fu">as.Date</span>(<span class="st">"2022-10-16"</span>), <span class="at">yend =</span> <span class="dv">10</span>), </span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a>             <span class="at">curvature =</span> <span class="dv">0</span>, <span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span>  <span class="co"># Colchete</span></span>
+<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(<span class="st">"text"</span>, <span class="at">x =</span> <span class="fu">as.Date</span>(<span class="st">"2022-09-25"</span>), <span class="at">y =</span> <span class="dv">5</span>, <span class="at">label =</span> <span class="st">"40 dias seguidos com </span><span class="sc">\n</span><span class="st">temperaturas acima de 30°C"</span>, </span>
+<span id="cb6-67"><a href="#cb6-67" aria-hidden="true" tabindex="-1"></a>           <span class="at">size =</span> <span class="dv">3</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">family =</span> <span class="st">"Raleway"</span>) <span class="sc">+</span></span>
+<span id="cb6-68"><a href="#cb6-68" aria-hidden="true" tabindex="-1"></a>  <span class="do">## Adicionando anotações</span></span>
+<span id="cb6-69"><a href="#cb6-69" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb6-70"><a href="#cb6-70" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>, </span>
+<span id="cb6-71"><a href="#cb6-71" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> dia_com_menor_temperatura<span class="sc">$</span>date <span class="sc">-</span> <span class="dv">30</span>, </span>
+<span id="cb6-72"><a href="#cb6-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="fu">min</span>(filtered_df<span class="sc">$</span>tmin) <span class="sc">-</span> <span class="dv">4</span>, </span>
+<span id="cb6-73"><a href="#cb6-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">"Menor temperatura </span><span class="sc">\n</span><span class="st">em todo o período:</span><span class="sc">\n</span><span class="st">-13°C em NYC"</span>, </span>
+<span id="cb6-74"><a href="#cb6-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">0</span>, </span>
+<span id="cb6-75"><a href="#cb6-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="dv">0</span>, </span>
+<span id="cb6-76"><a href="#cb6-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">3</span>, </span>
+<span id="cb6-77"><a href="#cb6-77" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">family =</span> <span class="st">"Raleway"</span>) <span class="sc">+</span></span>
+<span id="cb6-78"><a href="#cb6-78" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb6-79"><a href="#cb6-79" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>, </span>
+<span id="cb6-80"><a href="#cb6-80" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> dia_com_maior_temperatura<span class="sc">$</span>date, </span>
+<span id="cb6-81"><a href="#cb6-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">-</span> <span class="dv">2</span>, </span>
+<span id="cb6-82"><a href="#cb6-82" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">"O dia mais quente: </span><span class="sc">\n</span><span class="st">22/09, 37°C"</span>, </span>
+<span id="cb6-83"><a href="#cb6-83" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="dv">1</span>, </span>
+<span id="cb6-84"><a href="#cb6-84" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="sc">-</span><span class="fl">0.75</span>, </span>
+<span id="cb6-85"><a href="#cb6-85" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="dv">3</span>, </span>
+<span id="cb6-86"><a href="#cb6-86" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">family =</span> <span class="st">"Raleway"</span>) <span class="sc">+</span></span>
+<span id="cb6-87"><a href="#cb6-87" aria-hidden="true" tabindex="-1"></a>  <span class="fu">annotate</span>(</span>
+<span id="cb6-88"><a href="#cb6-88" aria-hidden="true" tabindex="-1"></a>    <span class="st">"text"</span>, </span>
+<span id="cb6-89"><a href="#cb6-89" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> dia_com_maior_amplitude<span class="sc">$</span>date<span class="dv">-10</span>, </span>
+<span id="cb6-90"><a href="#cb6-90" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="fu">max</span>(filtered_df<span class="sc">$</span>tmax) <span class="sc">+</span> <span class="dv">10</span>, </span>
+<span id="cb6-91"><a href="#cb6-91" aria-hidden="true" tabindex="-1"></a>    <span class="at">label =</span> <span class="st">"No dia 22/12, último dia que estive no Texas </span><span class="sc">\n</span><span class="st">antes de ir para NY, encarei uma diferença </span><span class="sc">\n</span><span class="st">de 23°C entre a temperatura mínima e a máxima"</span>, </span>
+<span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a>    <span class="at">hjust =</span> <span class="fl">0.5</span>, </span>
+<span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a>    <span class="at">vjust =</span> <span class="dv">1</span>, </span>
+<span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a>    <span class="at">size =</span> <span class="fl">2.8</span>, </span>
+<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a>    <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">position =</span> <span class="fu">position_dodge</span>(<span class="at">width =</span> <span class="fl">0.2</span>), <span class="at">family =</span> <span class="st">"Raleway"</span>)</span>
+<span id="cb6-96"><a href="#cb6-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-97"><a href="#cb6-97" aria-hidden="true" tabindex="-1"></a>figura</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><a href="index_files/figure-html/unnamed-chunk-6-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></a></p>
+<figure class="figure">
+<p><a href="index_files/figure-html/unnamed-chunk-6-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></a></p>
 </figure>
 </div>
 </div>
 </div>
 
 
-</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -855,7 +885,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>Powered by <a href="https://quarto.org">Quarto</a>.</p>
 </div>   
@@ -866,7 +897,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p>License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY NC SA 4.0</a>.</p>
 </div>
   </div>
-</footer><script type="text/javascript">
+</footer>
+<script type="text/javascript">
 const dateElements = document.querySelectorAll("p.date, div.listing-date, div.listing-file-modified");
 dateElements.forEach((el) => {
   el.innerHTML = el.innerHTML.replace(
@@ -874,7 +906,8 @@ dateElements.forEach((el) => {
     "$1<sup style='font-size:0.5em;font-style:italic;'>$2</sup>"
   );
 });
-</script><script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","descPosition":"bottom"});
+</script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
@@ -899,6 +932,8 @@ window.onload = () => {
 
 };
           </script>
+
+
 
 
 </body></html>

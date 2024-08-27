@@ -2,7 +2,7 @@
 title: "[Bianca Muniz]{style='color: #853D5E; font-weight: bold; -webkit-text-stroke: 0.1px black;'}"
 pagetitle: "Bianca Muniz"
 subtitle: "Jornalista de Dados"
-image: assets/bianca.png
+image: assets/bianca.jpeg
 
 about:
   template: trestles
